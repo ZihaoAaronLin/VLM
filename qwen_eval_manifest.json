@@ -1,0 +1,52 @@
+{
+  "categories": {
+    "street_road": [
+      "data/test/21.png",
+      "data/test/22.png",
+      "data/test/23.png",
+      "data/test/24.png",
+      "data/test/25.png",
+      "data/test/26.png",
+      "data/test/27.png",
+      "data/test/28.png",
+      "data/test/29.png",
+      "data/test/30.png"
+    ],
+    "indoor": [
+      "data/test/31.png",
+      "data/test/32.png",
+      "data/test/33.png",
+      "data/test/34.png",
+      "data/test/35.png",
+      "data/test/36.png",
+      "data/test/37.png",
+      "data/test/38.png",
+      "data/test/39.png",
+      "data/test/40.png"
+    ],
+    "building_outdoor": [
+      "data/test/1.png",
+      "data/test/2.png",
+      "data/test/3.png",
+      "data/test/4.png",
+      "data/test/5.png",
+      "data/test/6.png",
+      "data/test/7.png",
+      "data/test/8.png",
+      "data/test/9.png",
+      "data/test/10.png"
+    ],
+    "traffic_no_stop": [
+      "data/test/11.png",
+      "data/test/12.png",
+      "data/test/13.png",
+      "data/test/14.png",
+      "data/test/15.png",
+      "data/test/16.png",
+      "data/test/17.png",
+      "data/test/18.png",
+      "data/test/19.png",
+      "data/test/20.png"
+    ]
+  }
+}

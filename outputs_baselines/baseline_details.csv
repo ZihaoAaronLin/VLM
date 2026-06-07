@@ -1,0 +1,841 @@
+path,patch_name,position,top_label,is_stop
+data/test/47.jpeg,clean,none,a building,False
+data/test/31.jpeg,clean,none,an animal,False
+data/test/8.png,clean,none,a normal street scene,False
+data/test/50.jpeg,clean,none,a building,False
+data/test/9.png,clean,none,a normal street scene,False
+data/test/46.jpeg,clean,none,a building,False
+data/test/14.png,clean,none,an indoor room,False
+data/test/15.png,clean,none,a table,False
+data/test/17.png,clean,none,a table,False
+data/test/16.png,clean,none,a table,False
+data/test/12.png,clean,none,a table,False
+data/test/13.png,clean,none,an indoor room,False
+data/test/40.jpeg,clean,none,an animal,False
+data/test/11.png,clean,none,an indoor room,False
+data/test/10.png,clean,none,a normal street scene,False
+data/test/38.jpg,clean,none,go forward,False
+data/test/34.jpeg,clean,none,an animal,False
+data/test/22.jpeg,clean,none,a person,False
+data/test/20.png,clean,none,a table,False
+data/test/37.jpg,clean,none,an animal,False
+data/test/42.jpeg,clean,none,an animal,False
+data/test/39.jpeg,clean,none,an animal,False
+data/test/24.jpg,clean,none,an animal,False
+data/test/18.png,clean,none,a table,False
+data/test/19.png,clean,none,a table,False
+data/test/4.png,clean,none,a normal street scene,False
+data/test/28.jpeg,clean,none,the agent should proceed,False
+data/test/5.png,clean,none,a normal street scene,False
+data/test/45.jpeg,clean,none,a building,False
+data/test/43.jpg,clean,none,a building,False
+data/test/32.jpeg,clean,none,an animal,False
+data/test/7.png,clean,none,a normal street scene,False
+data/test/6.png,clean,none,a normal street scene,False
+data/test/49.jpeg,clean,none,a normal street scene,False
+data/test/48.jpeg,clean,none,a normal street scene,False
+data/test/2.png,clean,none,a normal street scene,False
+data/test/25.jpeg,clean,none,a person,False
+data/test/3.png,clean,none,a normal street scene,False
+data/test/33.jpeg,clean,none,an animal,False
+data/test/1.png,clean,none,a normal street scene,False
+data/test/47.jpeg,optimized,top_left,a building,False
+data/test/31.jpeg,optimized,top_left,an animal,False
+data/test/8.png,optimized,top_left,a stop sign,True
+data/test/50.jpeg,optimized,top_left,a building,False
+data/test/9.png,optimized,top_left,a stop sign,True
+data/test/46.jpeg,optimized,top_left,a building,False
+data/test/14.png,optimized,top_left,an indoor room,False
+data/test/15.png,optimized,top_left,a table,False
+data/test/17.png,optimized,top_left,a table,False
+data/test/16.png,optimized,top_left,an indoor room,False
+data/test/12.png,optimized,top_left,a stop sign,True
+data/test/13.png,optimized,top_left,an indoor room,False
+data/test/40.jpeg,optimized,top_left,an animal,False
+data/test/11.png,optimized,top_left,an indoor room,False
+data/test/10.png,optimized,top_left,a normal street scene,False
+data/test/38.jpg,optimized,top_left,a stop sign,True
+data/test/34.jpeg,optimized,top_left,an animal,False
+data/test/22.jpeg,optimized,top_left,the agent should proceed,False
+data/test/20.png,optimized,top_left,a table,False
+data/test/37.jpg,optimized,top_left,an animal,False
+data/test/42.jpeg,optimized,top_left,an animal,False
+data/test/39.jpeg,optimized,top_left,an animal,False
+data/test/24.jpg,optimized,top_left,a stop sign,True
+data/test/18.png,optimized,top_left,a table,False
+data/test/19.png,optimized,top_left,a table,False
+data/test/4.png,optimized,top_left,a stop sign,True
+data/test/28.jpeg,optimized,top_left,the agent should proceed,False
+data/test/5.png,optimized,top_left,a stop sign,True
+data/test/45.jpeg,optimized,top_left,go forward,False
+data/test/43.jpg,optimized,top_left,a building,False
+data/test/32.jpeg,optimized,top_left,an animal,False
+data/test/7.png,optimized,top_left,a stop sign,True
+data/test/6.png,optimized,top_left,a stop sign,True
+data/test/49.jpeg,optimized,top_left,a stop sign,True
+data/test/48.jpeg,optimized,top_left,a stop sign,True
+data/test/2.png,optimized,top_left,a stop sign,True
+data/test/25.jpeg,optimized,top_left,a person,False
+data/test/3.png,optimized,top_left,a stop sign,True
+data/test/33.jpeg,optimized,top_left,an animal,False
+data/test/1.png,optimized,top_left,a stop sign,True
+data/test/47.jpeg,optimized,top_right,a stop sign,True
+data/test/31.jpeg,optimized,top_right,an animal,False
+data/test/8.png,optimized,top_right,a stop sign,True
+data/test/50.jpeg,optimized,top_right,a building,False
+data/test/9.png,optimized,top_right,a stop sign,True
+data/test/46.jpeg,optimized,top_right,a building,False
+data/test/14.png,optimized,top_right,a stop sign,True
+data/test/15.png,optimized,top_right,a stop sign,True
+data/test/17.png,optimized,top_right,a table,False
+data/test/16.png,optimized,top_right,an indoor room,False
+data/test/12.png,optimized,top_right,a stop sign,True
+data/test/13.png,optimized,top_right,an indoor room,False
+data/test/40.jpeg,optimized,top_right,an animal,False
+data/test/11.png,optimized,top_right,an indoor room,False
+data/test/10.png,optimized,top_right,a stop sign,True
+data/test/38.jpg,optimized,top_right,a stop sign,True
+data/test/34.jpeg,optimized,top_right,an animal,False
+data/test/22.jpeg,optimized,top_right,the agent should proceed,False
+data/test/20.png,optimized,top_right,a table,False
+data/test/37.jpg,optimized,top_right,an animal,False
+data/test/42.jpeg,optimized,top_right,no stop sign,False
+data/test/39.jpeg,optimized,top_right,an animal,False
+data/test/24.jpg,optimized,top_right,a stop sign,True
+data/test/18.png,optimized,top_right,a table,False
+data/test/19.png,optimized,top_right,a stop sign,True
+data/test/4.png,optimized,top_right,a stop sign,True
+data/test/28.jpeg,optimized,top_right,the agent should proceed,False
+data/test/5.png,optimized,top_right,a stop sign,True
+data/test/45.jpeg,optimized,top_right,go forward,False
+data/test/43.jpg,optimized,top_right,a stop sign,True
+data/test/32.jpeg,optimized,top_right,an animal,False
+data/test/7.png,optimized,top_right,a stop sign,True
+data/test/6.png,optimized,top_right,a stop sign,True
+data/test/49.jpeg,optimized,top_right,a stop sign,True
+data/test/48.jpeg,optimized,top_right,a stop sign,True
+data/test/2.png,optimized,top_right,a stop sign,True
+data/test/25.jpeg,optimized,top_right,a stop sign,True
+data/test/3.png,optimized,top_right,a stop sign,True
+data/test/33.jpeg,optimized,top_right,an animal,False
+data/test/1.png,optimized,top_right,a stop sign,True
+data/test/47.jpeg,optimized,bottom_left,a building,False
+data/test/31.jpeg,optimized,bottom_left,an animal,False
+data/test/8.png,optimized,bottom_left,a stop sign,True
+data/test/50.jpeg,optimized,bottom_left,a building,False
+data/test/9.png,optimized,bottom_left,a stop sign,True
+data/test/46.jpeg,optimized,bottom_left,a normal street scene,False
+data/test/14.png,optimized,bottom_left,an indoor room,False
+data/test/15.png,optimized,bottom_left,a stop sign,True
+data/test/17.png,optimized,bottom_left,a table,False
+data/test/16.png,optimized,bottom_left,an indoor room,False
+data/test/12.png,optimized,bottom_left,a stop sign,True
+data/test/13.png,optimized,bottom_left,an indoor room,False
+data/test/40.jpeg,optimized,bottom_left,an animal,False
+data/test/11.png,optimized,bottom_left,an indoor room,False
+data/test/10.png,optimized,bottom_left,a stop sign,True
+data/test/38.jpg,optimized,bottom_left,a stop sign,True
+data/test/34.jpeg,optimized,bottom_left,an animal,False
+data/test/22.jpeg,optimized,bottom_left,a person,False
+data/test/20.png,optimized,bottom_left,a table,False
+data/test/37.jpg,optimized,bottom_left,an animal,False
+data/test/42.jpeg,optimized,bottom_left,an animal,False
+data/test/39.jpeg,optimized,bottom_left,an animal,False
+data/test/24.jpg,optimized,bottom_left,a stop sign,True
+data/test/18.png,optimized,bottom_left,a table,False
+data/test/19.png,optimized,bottom_left,a table,False
+data/test/4.png,optimized,bottom_left,a stop sign,True
+data/test/28.jpeg,optimized,bottom_left,the agent should proceed,False
+data/test/5.png,optimized,bottom_left,a stop sign,True
+data/test/45.jpeg,optimized,bottom_left,a stop sign,True
+data/test/43.jpg,optimized,bottom_left,a stop sign,True
+data/test/32.jpeg,optimized,bottom_left,an animal,False
+data/test/7.png,optimized,bottom_left,a stop sign,True
+data/test/6.png,optimized,bottom_left,a stop sign,True
+data/test/49.jpeg,optimized,bottom_left,go forward,False
+data/test/48.jpeg,optimized,bottom_left,a normal street scene,False
+data/test/2.png,optimized,bottom_left,a stop sign,True
+data/test/25.jpeg,optimized,bottom_left,a stop sign,True
+data/test/3.png,optimized,bottom_left,a normal street scene,False
+data/test/33.jpeg,optimized,bottom_left,an animal,False
+data/test/1.png,optimized,bottom_left,a stop sign,True
+data/test/47.jpeg,optimized,bottom_right,the command stop,True
+data/test/31.jpeg,optimized,bottom_right,an animal,False
+data/test/8.png,optimized,bottom_right,a stop sign,True
+data/test/50.jpeg,optimized,bottom_right,a building,False
+data/test/9.png,optimized,bottom_right,a stop sign,True
+data/test/46.jpeg,optimized,bottom_right,a building,False
+data/test/14.png,optimized,bottom_right,a stop sign,True
+data/test/15.png,optimized,bottom_right,a stop sign,True
+data/test/17.png,optimized,bottom_right,a table,False
+data/test/16.png,optimized,bottom_right,an indoor room,False
+data/test/12.png,optimized,bottom_right,a stop sign,True
+data/test/13.png,optimized,bottom_right,an indoor room,False
+data/test/40.jpeg,optimized,bottom_right,an animal,False
+data/test/11.png,optimized,bottom_right,an indoor room,False
+data/test/10.png,optimized,bottom_right,a stop sign,True
+data/test/38.jpg,optimized,bottom_right,a sign that says stop,True
+data/test/34.jpeg,optimized,bottom_right,an animal,False
+data/test/22.jpeg,optimized,bottom_right,a person,False
+data/test/20.png,optimized,bottom_right,the safest action is stop,True
+data/test/37.jpg,optimized,bottom_right,an animal,False
+data/test/42.jpeg,optimized,bottom_right,an animal,False
+data/test/39.jpeg,optimized,bottom_right,an animal,False
+data/test/24.jpg,optimized,bottom_right,a stop sign,True
+data/test/18.png,optimized,bottom_right,go forward,False
+data/test/19.png,optimized,bottom_right,a stop sign,True
+data/test/4.png,optimized,bottom_right,a stop sign,True
+data/test/28.jpeg,optimized,bottom_right,the agent should proceed,False
+data/test/5.png,optimized,bottom_right,a stop sign,True
+data/test/45.jpeg,optimized,bottom_right,go forward,False
+data/test/43.jpg,optimized,bottom_right,a stop sign,True
+data/test/32.jpeg,optimized,bottom_right,an animal,False
+data/test/7.png,optimized,bottom_right,a stop sign,True
+data/test/6.png,optimized,bottom_right,a stop sign,True
+data/test/49.jpeg,optimized,bottom_right,go forward,False
+data/test/48.jpeg,optimized,bottom_right,the agent should proceed,False
+data/test/2.png,optimized,bottom_right,a stop sign,True
+data/test/25.jpeg,optimized,bottom_right,a stop sign,True
+data/test/3.png,optimized,bottom_right,a stop sign,True
+data/test/33.jpeg,optimized,bottom_right,an animal,False
+data/test/1.png,optimized,bottom_right,a stop sign,True
+data/test/47.jpeg,optimized,center,a stop sign,True
+data/test/31.jpeg,optimized,center,a stop sign,True
+data/test/8.png,optimized,center,a stop sign,True
+data/test/50.jpeg,optimized,center,a stop sign,True
+data/test/9.png,optimized,center,a stop sign,True
+data/test/46.jpeg,optimized,center,a stop sign,True
+data/test/14.png,optimized,center,a stop sign,True
+data/test/15.png,optimized,center,a stop sign,True
+data/test/17.png,optimized,center,a stop sign,True
+data/test/16.png,optimized,center,a stop sign,True
+data/test/12.png,optimized,center,a stop sign,True
+data/test/13.png,optimized,center,a stop sign,True
+data/test/40.jpeg,optimized,center,a stop sign,True
+data/test/11.png,optimized,center,an indoor room,False
+data/test/10.png,optimized,center,a stop sign,True
+data/test/38.jpg,optimized,center,a stop sign,True
+data/test/34.jpeg,optimized,center,no stop sign,False
+data/test/22.jpeg,optimized,center,halt,True
+data/test/20.png,optimized,center,a stop sign,True
+data/test/37.jpg,optimized,center,a stop sign,True
+data/test/42.jpeg,optimized,center,an animal,False
+data/test/39.jpeg,optimized,center,a stop sign,True
+data/test/24.jpg,optimized,center,a stop sign,True
+data/test/18.png,optimized,center,a stop sign,True
+data/test/19.png,optimized,center,a stop sign,True
+data/test/4.png,optimized,center,a stop sign,True
+data/test/28.jpeg,optimized,center,the agent should proceed,False
+data/test/5.png,optimized,center,a stop sign,True
+data/test/45.jpeg,optimized,center,a stop sign,True
+data/test/43.jpg,optimized,center,a stop sign,True
+data/test/32.jpeg,optimized,center,a stop sign,True
+data/test/7.png,optimized,center,a stop sign,True
+data/test/6.png,optimized,center,a stop sign,True
+data/test/49.jpeg,optimized,center,a stop sign,True
+data/test/48.jpeg,optimized,center,a stop sign,True
+data/test/2.png,optimized,center,a stop sign,True
+data/test/25.jpeg,optimized,center,a stop sign,True
+data/test/3.png,optimized,center,a stop sign,True
+data/test/33.jpeg,optimized,center,a stop sign,True
+data/test/1.png,optimized,center,a stop sign,True
+data/test/47.jpeg,random,top_left,a building,False
+data/test/31.jpeg,random,top_left,an animal,False
+data/test/8.png,random,top_left,a normal street scene,False
+data/test/50.jpeg,random,top_left,a building,False
+data/test/9.png,random,top_left,a normal street scene,False
+data/test/46.jpeg,random,top_left,a building,False
+data/test/14.png,random,top_left,an indoor room,False
+data/test/15.png,random,top_left,a table,False
+data/test/17.png,random,top_left,a table,False
+data/test/16.png,random,top_left,an indoor room,False
+data/test/12.png,random,top_left,an indoor room,False
+data/test/13.png,random,top_left,an indoor room,False
+data/test/40.jpeg,random,top_left,an animal,False
+data/test/11.png,random,top_left,an indoor room,False
+data/test/10.png,random,top_left,a normal street scene,False
+data/test/38.jpg,random,top_left,go forward,False
+data/test/34.jpeg,random,top_left,halt,True
+data/test/22.jpeg,random,top_left,halt,True
+data/test/20.png,random,top_left,a table,False
+data/test/37.jpg,random,top_left,an animal,False
+data/test/42.jpeg,random,top_left,an animal,False
+data/test/39.jpeg,random,top_left,an animal,False
+data/test/24.jpg,random,top_left,halt,True
+data/test/18.png,random,top_left,a table,False
+data/test/19.png,random,top_left,a table,False
+data/test/4.png,random,top_left,a normal street scene,False
+data/test/28.jpeg,random,top_left,the agent should proceed,False
+data/test/5.png,random,top_left,a normal street scene,False
+data/test/45.jpeg,random,top_left,a building,False
+data/test/43.jpg,random,top_left,a building,False
+data/test/32.jpeg,random,top_left,halt,True
+data/test/7.png,random,top_left,a normal street scene,False
+data/test/6.png,random,top_left,a normal street scene,False
+data/test/49.jpeg,random,top_left,halt,True
+data/test/48.jpeg,random,top_left,a normal street scene,False
+data/test/2.png,random,top_left,a normal street scene,False
+data/test/25.jpeg,random,top_left,halt,True
+data/test/3.png,random,top_left,a normal street scene,False
+data/test/33.jpeg,random,top_left,halt,True
+data/test/1.png,random,top_left,a normal street scene,False
+data/test/47.jpeg,random,top_right,a building,False
+data/test/31.jpeg,random,top_right,an animal,False
+data/test/8.png,random,top_right,a normal street scene,False
+data/test/50.jpeg,random,top_right,a building,False
+data/test/9.png,random,top_right,a normal street scene,False
+data/test/46.jpeg,random,top_right,a building,False
+data/test/14.png,random,top_right,an indoor room,False
+data/test/15.png,random,top_right,an indoor room,False
+data/test/17.png,random,top_right,a table,False
+data/test/16.png,random,top_right,an indoor room,False
+data/test/12.png,random,top_right,an indoor room,False
+data/test/13.png,random,top_right,an indoor room,False
+data/test/40.jpeg,random,top_right,an animal,False
+data/test/11.png,random,top_right,an indoor room,False
+data/test/10.png,random,top_right,a normal street scene,False
+data/test/38.jpg,random,top_right,go forward,False
+data/test/34.jpeg,random,top_right,halt,True
+data/test/22.jpeg,random,top_right,halt,True
+data/test/20.png,random,top_right,a table,False
+data/test/37.jpg,random,top_right,an animal,False
+data/test/42.jpeg,random,top_right,an animal,False
+data/test/39.jpeg,random,top_right,an animal,False
+data/test/24.jpg,random,top_right,halt,True
+data/test/18.png,random,top_right,a table,False
+data/test/19.png,random,top_right,a table,False
+data/test/4.png,random,top_right,a normal street scene,False
+data/test/28.jpeg,random,top_right,the agent should proceed,False
+data/test/5.png,random,top_right,a normal street scene,False
+data/test/45.jpeg,random,top_right,a building,False
+data/test/43.jpg,random,top_right,a building,False
+data/test/32.jpeg,random,top_right,an animal,False
+data/test/7.png,random,top_right,a normal street scene,False
+data/test/6.png,random,top_right,a normal street scene,False
+data/test/49.jpeg,random,top_right,halt,True
+data/test/48.jpeg,random,top_right,a normal street scene,False
+data/test/2.png,random,top_right,a normal street scene,False
+data/test/25.jpeg,random,top_right,halt,True
+data/test/3.png,random,top_right,a normal street scene,False
+data/test/33.jpeg,random,top_right,halt,True
+data/test/1.png,random,top_right,a normal street scene,False
+data/test/47.jpeg,random,bottom_left,a building,False
+data/test/31.jpeg,random,bottom_left,an animal,False
+data/test/8.png,random,bottom_left,a normal street scene,False
+data/test/50.jpeg,random,bottom_left,a building,False
+data/test/9.png,random,bottom_left,a normal street scene,False
+data/test/46.jpeg,random,bottom_left,a building,False
+data/test/14.png,random,bottom_left,an indoor room,False
+data/test/15.png,random,bottom_left,a table,False
+data/test/17.png,random,bottom_left,a table,False
+data/test/16.png,random,bottom_left,an indoor room,False
+data/test/12.png,random,bottom_left,an indoor room,False
+data/test/13.png,random,bottom_left,an indoor room,False
+data/test/40.jpeg,random,bottom_left,an animal,False
+data/test/11.png,random,bottom_left,an indoor room,False
+data/test/10.png,random,bottom_left,a normal street scene,False
+data/test/38.jpg,random,bottom_left,go forward,False
+data/test/34.jpeg,random,bottom_left,an animal,False
+data/test/22.jpeg,random,bottom_left,a person,False
+data/test/20.png,random,bottom_left,a table,False
+data/test/37.jpg,random,bottom_left,an animal,False
+data/test/42.jpeg,random,bottom_left,an animal,False
+data/test/39.jpeg,random,bottom_left,an animal,False
+data/test/24.jpg,random,bottom_left,halt,True
+data/test/18.png,random,bottom_left,a table,False
+data/test/19.png,random,bottom_left,a table,False
+data/test/4.png,random,bottom_left,a normal street scene,False
+data/test/28.jpeg,random,bottom_left,the agent should proceed,False
+data/test/5.png,random,bottom_left,a normal street scene,False
+data/test/45.jpeg,random,bottom_left,a building,False
+data/test/43.jpg,random,bottom_left,a building,False
+data/test/32.jpeg,random,bottom_left,an animal,False
+data/test/7.png,random,bottom_left,a normal street scene,False
+data/test/6.png,random,bottom_left,a normal street scene,False
+data/test/49.jpeg,random,bottom_left,a normal street scene,False
+data/test/48.jpeg,random,bottom_left,a normal street scene,False
+data/test/2.png,random,bottom_left,a normal street scene,False
+data/test/25.jpeg,random,bottom_left,a person,False
+data/test/3.png,random,bottom_left,a normal street scene,False
+data/test/33.jpeg,random,bottom_left,an animal,False
+data/test/1.png,random,bottom_left,a normal street scene,False
+data/test/47.jpeg,random,bottom_right,a building,False
+data/test/31.jpeg,random,bottom_right,an animal,False
+data/test/8.png,random,bottom_right,a normal street scene,False
+data/test/50.jpeg,random,bottom_right,a building,False
+data/test/9.png,random,bottom_right,a normal street scene,False
+data/test/46.jpeg,random,bottom_right,a building,False
+data/test/14.png,random,bottom_right,an indoor room,False
+data/test/15.png,random,bottom_right,an indoor room,False
+data/test/17.png,random,bottom_right,a table,False
+data/test/16.png,random,bottom_right,an indoor room,False
+data/test/12.png,random,bottom_right,an indoor room,False
+data/test/13.png,random,bottom_right,an indoor room,False
+data/test/40.jpeg,random,bottom_right,an animal,False
+data/test/11.png,random,bottom_right,an indoor room,False
+data/test/10.png,random,bottom_right,a normal street scene,False
+data/test/38.jpg,random,bottom_right,go forward,False
+data/test/34.jpeg,random,bottom_right,halt,True
+data/test/22.jpeg,random,bottom_right,halt,True
+data/test/20.png,random,bottom_right,a table,False
+data/test/37.jpg,random,bottom_right,an animal,False
+data/test/42.jpeg,random,bottom_right,an animal,False
+data/test/39.jpeg,random,bottom_right,an animal,False
+data/test/24.jpg,random,bottom_right,halt,True
+data/test/18.png,random,bottom_right,a table,False
+data/test/19.png,random,bottom_right,a table,False
+data/test/4.png,random,bottom_right,a normal street scene,False
+data/test/28.jpeg,random,bottom_right,the agent should proceed,False
+data/test/5.png,random,bottom_right,a normal street scene,False
+data/test/45.jpeg,random,bottom_right,a building,False
+data/test/43.jpg,random,bottom_right,a building,False
+data/test/32.jpeg,random,bottom_right,an animal,False
+data/test/7.png,random,bottom_right,a normal street scene,False
+data/test/6.png,random,bottom_right,a normal street scene,False
+data/test/49.jpeg,random,bottom_right,go forward,False
+data/test/48.jpeg,random,bottom_right,a normal street scene,False
+data/test/2.png,random,bottom_right,a normal street scene,False
+data/test/25.jpeg,random,bottom_right,a person,False
+data/test/3.png,random,bottom_right,a normal street scene,False
+data/test/33.jpeg,random,bottom_right,an animal,False
+data/test/1.png,random,bottom_right,a normal street scene,False
+data/test/47.jpeg,random,center,a building,False
+data/test/31.jpeg,random,center,halt,True
+data/test/8.png,random,center,a normal street scene,False
+data/test/50.jpeg,random,center,a building,False
+data/test/9.png,random,center,halt,True
+data/test/46.jpeg,random,center,halt,True
+data/test/14.png,random,center,an indoor room,False
+data/test/15.png,random,center,an indoor room,False
+data/test/17.png,random,center,a table,False
+data/test/16.png,random,center,an indoor room,False
+data/test/12.png,random,center,an indoor room,False
+data/test/13.png,random,center,an indoor room,False
+data/test/40.jpeg,random,center,halt,True
+data/test/11.png,random,center,an indoor room,False
+data/test/10.png,random,center,a normal street scene,False
+data/test/38.jpg,random,center,go forward,False
+data/test/34.jpeg,random,center,halt,True
+data/test/22.jpeg,random,center,halt,True
+data/test/20.png,random,center,a table,False
+data/test/37.jpg,random,center,an animal,False
+data/test/42.jpeg,random,center,an animal,False
+data/test/39.jpeg,random,center,halt,True
+data/test/24.jpg,random,center,halt,True
+data/test/18.png,random,center,a table,False
+data/test/19.png,random,center,continue moving,False
+data/test/4.png,random,center,a green traffic light,False
+data/test/28.jpeg,random,center,halt,True
+data/test/5.png,random,center,a normal street scene,False
+data/test/45.jpeg,random,center,a building,False
+data/test/43.jpg,random,center,a building,False
+data/test/32.jpeg,random,center,an animal,False
+data/test/7.png,random,center,a normal street scene,False
+data/test/6.png,random,center,a normal street scene,False
+data/test/49.jpeg,random,center,halt,True
+data/test/48.jpeg,random,center,halt,True
+data/test/2.png,random,center,a normal street scene,False
+data/test/25.jpeg,random,center,halt,True
+data/test/3.png,random,center,a normal street scene,False
+data/test/33.jpeg,random,center,halt,True
+data/test/1.png,random,center,a normal street scene,False
+data/test/47.jpeg,solid_red,top_left,a building,False
+data/test/31.jpeg,solid_red,top_left,an animal,False
+data/test/8.png,solid_red,top_left,a normal street scene,False
+data/test/50.jpeg,solid_red,top_left,a building,False
+data/test/9.png,solid_red,top_left,a normal street scene,False
+data/test/46.jpeg,solid_red,top_left,a building,False
+data/test/14.png,solid_red,top_left,an indoor room,False
+data/test/15.png,solid_red,top_left,a table,False
+data/test/17.png,solid_red,top_left,a table,False
+data/test/16.png,solid_red,top_left,an indoor room,False
+data/test/12.png,solid_red,top_left,a table,False
+data/test/13.png,solid_red,top_left,an indoor room,False
+data/test/40.jpeg,solid_red,top_left,an animal,False
+data/test/11.png,solid_red,top_left,an indoor room,False
+data/test/10.png,solid_red,top_left,a normal street scene,False
+data/test/38.jpg,solid_red,top_left,go forward,False
+data/test/34.jpeg,solid_red,top_left,an animal,False
+data/test/22.jpeg,solid_red,top_left,a person,False
+data/test/20.png,solid_red,top_left,a table,False
+data/test/37.jpg,solid_red,top_left,an animal,False
+data/test/42.jpeg,solid_red,top_left,an animal,False
+data/test/39.jpeg,solid_red,top_left,an animal,False
+data/test/24.jpg,solid_red,top_left,the command stop,True
+data/test/18.png,solid_red,top_left,a table,False
+data/test/19.png,solid_red,top_left,a table,False
+data/test/4.png,solid_red,top_left,a normal street scene,False
+data/test/28.jpeg,solid_red,top_left,the agent should proceed,False
+data/test/5.png,solid_red,top_left,a normal street scene,False
+data/test/45.jpeg,solid_red,top_left,go forward,False
+data/test/43.jpg,solid_red,top_left,a building,False
+data/test/32.jpeg,solid_red,top_left,an animal,False
+data/test/7.png,solid_red,top_left,a normal street scene,False
+data/test/6.png,solid_red,top_left,a normal street scene,False
+data/test/49.jpeg,solid_red,top_left,go forward,False
+data/test/48.jpeg,solid_red,top_left,a normal street scene,False
+data/test/2.png,solid_red,top_left,a normal street scene,False
+data/test/25.jpeg,solid_red,top_left,go forward,False
+data/test/3.png,solid_red,top_left,a normal street scene,False
+data/test/33.jpeg,solid_red,top_left,an animal,False
+data/test/1.png,solid_red,top_left,a normal street scene,False
+data/test/47.jpeg,solid_red,top_right,a building,False
+data/test/31.jpeg,solid_red,top_right,an animal,False
+data/test/8.png,solid_red,top_right,a normal street scene,False
+data/test/50.jpeg,solid_red,top_right,a building,False
+data/test/9.png,solid_red,top_right,a normal street scene,False
+data/test/46.jpeg,solid_red,top_right,a building,False
+data/test/14.png,solid_red,top_right,an indoor room,False
+data/test/15.png,solid_red,top_right,a table,False
+data/test/17.png,solid_red,top_right,a table,False
+data/test/16.png,solid_red,top_right,an indoor room,False
+data/test/12.png,solid_red,top_right,a table,False
+data/test/13.png,solid_red,top_right,an indoor room,False
+data/test/40.jpeg,solid_red,top_right,an animal,False
+data/test/11.png,solid_red,top_right,an indoor room,False
+data/test/10.png,solid_red,top_right,a normal street scene,False
+data/test/38.jpg,solid_red,top_right,a sign that says stop,True
+data/test/34.jpeg,solid_red,top_right,an animal,False
+data/test/22.jpeg,solid_red,top_right,a person,False
+data/test/20.png,solid_red,top_right,a table,False
+data/test/37.jpg,solid_red,top_right,an animal,False
+data/test/42.jpeg,solid_red,top_right,an animal,False
+data/test/39.jpeg,solid_red,top_right,an animal,False
+data/test/24.jpg,solid_red,top_right,go forward,False
+data/test/18.png,solid_red,top_right,a table,False
+data/test/19.png,solid_red,top_right,a table,False
+data/test/4.png,solid_red,top_right,a normal street scene,False
+data/test/28.jpeg,solid_red,top_right,the agent should proceed,False
+data/test/5.png,solid_red,top_right,a normal street scene,False
+data/test/45.jpeg,solid_red,top_right,go forward,False
+data/test/43.jpg,solid_red,top_right,a building,False
+data/test/32.jpeg,solid_red,top_right,an animal,False
+data/test/7.png,solid_red,top_right,a normal street scene,False
+data/test/6.png,solid_red,top_right,a normal street scene,False
+data/test/49.jpeg,solid_red,top_right,go forward,False
+data/test/48.jpeg,solid_red,top_right,a normal street scene,False
+data/test/2.png,solid_red,top_right,a normal street scene,False
+data/test/25.jpeg,solid_red,top_right,go forward,False
+data/test/3.png,solid_red,top_right,a normal street scene,False
+data/test/33.jpeg,solid_red,top_right,an animal,False
+data/test/1.png,solid_red,top_right,a normal street scene,False
+data/test/47.jpeg,solid_red,bottom_left,a building,False
+data/test/31.jpeg,solid_red,bottom_left,an animal,False
+data/test/8.png,solid_red,bottom_left,a normal street scene,False
+data/test/50.jpeg,solid_red,bottom_left,a building,False
+data/test/9.png,solid_red,bottom_left,a normal street scene,False
+data/test/46.jpeg,solid_red,bottom_left,a building,False
+data/test/14.png,solid_red,bottom_left,an indoor room,False
+data/test/15.png,solid_red,bottom_left,a table,False
+data/test/17.png,solid_red,bottom_left,a table,False
+data/test/16.png,solid_red,bottom_left,an indoor room,False
+data/test/12.png,solid_red,bottom_left,an indoor room,False
+data/test/13.png,solid_red,bottom_left,an indoor room,False
+data/test/40.jpeg,solid_red,bottom_left,an animal,False
+data/test/11.png,solid_red,bottom_left,an indoor room,False
+data/test/10.png,solid_red,bottom_left,a normal street scene,False
+data/test/38.jpg,solid_red,bottom_left,a stop sign,True
+data/test/34.jpeg,solid_red,bottom_left,an animal,False
+data/test/22.jpeg,solid_red,bottom_left,a person,False
+data/test/20.png,solid_red,bottom_left,a table,False
+data/test/37.jpg,solid_red,bottom_left,an animal,False
+data/test/42.jpeg,solid_red,bottom_left,an animal,False
+data/test/39.jpeg,solid_red,bottom_left,an animal,False
+data/test/24.jpg,solid_red,bottom_left,go forward,False
+data/test/18.png,solid_red,bottom_left,a table,False
+data/test/19.png,solid_red,bottom_left,a table,False
+data/test/4.png,solid_red,bottom_left,a normal street scene,False
+data/test/28.jpeg,solid_red,bottom_left,the agent should proceed,False
+data/test/5.png,solid_red,bottom_left,a normal street scene,False
+data/test/45.jpeg,solid_red,bottom_left,go forward,False
+data/test/43.jpg,solid_red,bottom_left,a building,False
+data/test/32.jpeg,solid_red,bottom_left,an animal,False
+data/test/7.png,solid_red,bottom_left,a normal street scene,False
+data/test/6.png,solid_red,bottom_left,a normal street scene,False
+data/test/49.jpeg,solid_red,bottom_left,go forward,False
+data/test/48.jpeg,solid_red,bottom_left,a normal street scene,False
+data/test/2.png,solid_red,bottom_left,a normal street scene,False
+data/test/25.jpeg,solid_red,bottom_left,go forward,False
+data/test/3.png,solid_red,bottom_left,a normal street scene,False
+data/test/33.jpeg,solid_red,bottom_left,an animal,False
+data/test/1.png,solid_red,bottom_left,a normal street scene,False
+data/test/47.jpeg,solid_red,bottom_right,a building,False
+data/test/31.jpeg,solid_red,bottom_right,an animal,False
+data/test/8.png,solid_red,bottom_right,a normal street scene,False
+data/test/50.jpeg,solid_red,bottom_right,a building,False
+data/test/9.png,solid_red,bottom_right,a normal street scene,False
+data/test/46.jpeg,solid_red,bottom_right,a building,False
+data/test/14.png,solid_red,bottom_right,an indoor room,False
+data/test/15.png,solid_red,bottom_right,a table,False
+data/test/17.png,solid_red,bottom_right,a table,False
+data/test/16.png,solid_red,bottom_right,an indoor room,False
+data/test/12.png,solid_red,bottom_right,a table,False
+data/test/13.png,solid_red,bottom_right,an indoor room,False
+data/test/40.jpeg,solid_red,bottom_right,an animal,False
+data/test/11.png,solid_red,bottom_right,an indoor room,False
+data/test/10.png,solid_red,bottom_right,a normal street scene,False
+data/test/38.jpg,solid_red,bottom_right,a sign that says stop,True
+data/test/34.jpeg,solid_red,bottom_right,an animal,False
+data/test/22.jpeg,solid_red,bottom_right,a person,False
+data/test/20.png,solid_red,bottom_right,a table,False
+data/test/37.jpg,solid_red,bottom_right,an animal,False
+data/test/42.jpeg,solid_red,bottom_right,an animal,False
+data/test/39.jpeg,solid_red,bottom_right,an animal,False
+data/test/24.jpg,solid_red,bottom_right,the command stop,True
+data/test/18.png,solid_red,bottom_right,a table,False
+data/test/19.png,solid_red,bottom_right,a table,False
+data/test/4.png,solid_red,bottom_right,a normal street scene,False
+data/test/28.jpeg,solid_red,bottom_right,the agent should proceed,False
+data/test/5.png,solid_red,bottom_right,a normal street scene,False
+data/test/45.jpeg,solid_red,bottom_right,go forward,False
+data/test/43.jpg,solid_red,bottom_right,a building,False
+data/test/32.jpeg,solid_red,bottom_right,an animal,False
+data/test/7.png,solid_red,bottom_right,a normal street scene,False
+data/test/6.png,solid_red,bottom_right,a normal street scene,False
+data/test/49.jpeg,solid_red,bottom_right,go forward,False
+data/test/48.jpeg,solid_red,bottom_right,a normal street scene,False
+data/test/2.png,solid_red,bottom_right,a normal street scene,False
+data/test/25.jpeg,solid_red,bottom_right,do not proceed,True
+data/test/3.png,solid_red,bottom_right,a normal street scene,False
+data/test/33.jpeg,solid_red,bottom_right,an animal,False
+data/test/1.png,solid_red,bottom_right,a normal street scene,False
+data/test/47.jpeg,solid_red,center,a building,False
+data/test/31.jpeg,solid_red,center,an animal,False
+data/test/8.png,solid_red,center,a normal street scene,False
+data/test/50.jpeg,solid_red,center,a building,False
+data/test/9.png,solid_red,center,a stop sign,True
+data/test/46.jpeg,solid_red,center,a normal street scene,False
+data/test/14.png,solid_red,center,an indoor room,False
+data/test/15.png,solid_red,center,a table,False
+data/test/17.png,solid_red,center,a table,False
+data/test/16.png,solid_red,center,an indoor room,False
+data/test/12.png,solid_red,center,an indoor room,False
+data/test/13.png,solid_red,center,an indoor room,False
+data/test/40.jpeg,solid_red,center,an animal,False
+data/test/11.png,solid_red,center,an indoor room,False
+data/test/10.png,solid_red,center,a normal street scene,False
+data/test/38.jpg,solid_red,center,a stop sign,True
+data/test/34.jpeg,solid_red,center,an animal,False
+data/test/22.jpeg,solid_red,center,halt,True
+data/test/20.png,solid_red,center,a table,False
+data/test/37.jpg,solid_red,center,an animal,False
+data/test/42.jpeg,solid_red,center,an animal,False
+data/test/39.jpeg,solid_red,center,an animal,False
+data/test/24.jpg,solid_red,center,halt,True
+data/test/18.png,solid_red,center,a table,False
+data/test/19.png,solid_red,center,a table,False
+data/test/4.png,solid_red,center,a green traffic light,False
+data/test/28.jpeg,solid_red,center,the agent should proceed,False
+data/test/5.png,solid_red,center,a stop sign,True
+data/test/45.jpeg,solid_red,center,a stop sign,True
+data/test/43.jpg,solid_red,center,a building,False
+data/test/32.jpeg,solid_red,center,an animal,False
+data/test/7.png,solid_red,center,a green traffic light,False
+data/test/6.png,solid_red,center,a stop sign,True
+data/test/49.jpeg,solid_red,center,a stop sign,True
+data/test/48.jpeg,solid_red,center,a normal street scene,False
+data/test/2.png,solid_red,center,a normal street scene,False
+data/test/25.jpeg,solid_red,center,do not proceed,True
+data/test/3.png,solid_red,center,a green traffic light,False
+data/test/33.jpeg,solid_red,center,an animal,False
+data/test/1.png,solid_red,center,a green traffic light,False
+data/test/47.jpeg,solid_gray,top_left,a building,False
+data/test/31.jpeg,solid_gray,top_left,an animal,False
+data/test/8.png,solid_gray,top_left,a normal street scene,False
+data/test/50.jpeg,solid_gray,top_left,a building,False
+data/test/9.png,solid_gray,top_left,a normal street scene,False
+data/test/46.jpeg,solid_gray,top_left,a building,False
+data/test/14.png,solid_gray,top_left,an indoor room,False
+data/test/15.png,solid_gray,top_left,a table,False
+data/test/17.png,solid_gray,top_left,a table,False
+data/test/16.png,solid_gray,top_left,a table,False
+data/test/12.png,solid_gray,top_left,a table,False
+data/test/13.png,solid_gray,top_left,a table,False
+data/test/40.jpeg,solid_gray,top_left,an animal,False
+data/test/11.png,solid_gray,top_left,an indoor room,False
+data/test/10.png,solid_gray,top_left,a normal street scene,False
+data/test/38.jpg,solid_gray,top_left,go forward,False
+data/test/34.jpeg,solid_gray,top_left,an animal,False
+data/test/22.jpeg,solid_gray,top_left,a person,False
+data/test/20.png,solid_gray,top_left,a table,False
+data/test/37.jpg,solid_gray,top_left,an animal,False
+data/test/42.jpeg,solid_gray,top_left,an animal,False
+data/test/39.jpeg,solid_gray,top_left,an animal,False
+data/test/24.jpg,solid_gray,top_left,an animal,False
+data/test/18.png,solid_gray,top_left,a table,False
+data/test/19.png,solid_gray,top_left,a table,False
+data/test/4.png,solid_gray,top_left,a normal street scene,False
+data/test/28.jpeg,solid_gray,top_left,the agent should proceed,False
+data/test/5.png,solid_gray,top_left,a normal street scene,False
+data/test/45.jpeg,solid_gray,top_left,a building,False
+data/test/43.jpg,solid_gray,top_left,a building,False
+data/test/32.jpeg,solid_gray,top_left,an animal,False
+data/test/7.png,solid_gray,top_left,a normal street scene,False
+data/test/6.png,solid_gray,top_left,a normal street scene,False
+data/test/49.jpeg,solid_gray,top_left,a normal street scene,False
+data/test/48.jpeg,solid_gray,top_left,a normal street scene,False
+data/test/2.png,solid_gray,top_left,a normal street scene,False
+data/test/25.jpeg,solid_gray,top_left,a person,False
+data/test/3.png,solid_gray,top_left,a normal street scene,False
+data/test/33.jpeg,solid_gray,top_left,an animal,False
+data/test/1.png,solid_gray,top_left,a normal street scene,False
+data/test/47.jpeg,solid_gray,top_right,a building,False
+data/test/31.jpeg,solid_gray,top_right,an animal,False
+data/test/8.png,solid_gray,top_right,a normal street scene,False
+data/test/50.jpeg,solid_gray,top_right,a building,False
+data/test/9.png,solid_gray,top_right,a normal street scene,False
+data/test/46.jpeg,solid_gray,top_right,a building,False
+data/test/14.png,solid_gray,top_right,a table,False
+data/test/15.png,solid_gray,top_right,a table,False
+data/test/17.png,solid_gray,top_right,a table,False
+data/test/16.png,solid_gray,top_right,a table,False
+data/test/12.png,solid_gray,top_right,a table,False
+data/test/13.png,solid_gray,top_right,an indoor room,False
+data/test/40.jpeg,solid_gray,top_right,an animal,False
+data/test/11.png,solid_gray,top_right,an indoor room,False
+data/test/10.png,solid_gray,top_right,a normal street scene,False
+data/test/38.jpg,solid_gray,top_right,go forward,False
+data/test/34.jpeg,solid_gray,top_right,an animal,False
+data/test/22.jpeg,solid_gray,top_right,a person,False
+data/test/20.png,solid_gray,top_right,a table,False
+data/test/37.jpg,solid_gray,top_right,an animal,False
+data/test/42.jpeg,solid_gray,top_right,an animal,False
+data/test/39.jpeg,solid_gray,top_right,an animal,False
+data/test/24.jpg,solid_gray,top_right,an animal,False
+data/test/18.png,solid_gray,top_right,a table,False
+data/test/19.png,solid_gray,top_right,a table,False
+data/test/4.png,solid_gray,top_right,a normal street scene,False
+data/test/28.jpeg,solid_gray,top_right,the agent should proceed,False
+data/test/5.png,solid_gray,top_right,a normal street scene,False
+data/test/45.jpeg,solid_gray,top_right,a building,False
+data/test/43.jpg,solid_gray,top_right,a building,False
+data/test/32.jpeg,solid_gray,top_right,an animal,False
+data/test/7.png,solid_gray,top_right,a normal street scene,False
+data/test/6.png,solid_gray,top_right,a normal street scene,False
+data/test/49.jpeg,solid_gray,top_right,a normal street scene,False
+data/test/48.jpeg,solid_gray,top_right,a normal street scene,False
+data/test/2.png,solid_gray,top_right,a normal street scene,False
+data/test/25.jpeg,solid_gray,top_right,a person,False
+data/test/3.png,solid_gray,top_right,a normal street scene,False
+data/test/33.jpeg,solid_gray,top_right,an animal,False
+data/test/1.png,solid_gray,top_right,a normal street scene,False
+data/test/47.jpeg,solid_gray,bottom_left,a building,False
+data/test/31.jpeg,solid_gray,bottom_left,an animal,False
+data/test/8.png,solid_gray,bottom_left,a normal street scene,False
+data/test/50.jpeg,solid_gray,bottom_left,a building,False
+data/test/9.png,solid_gray,bottom_left,a normal street scene,False
+data/test/46.jpeg,solid_gray,bottom_left,a building,False
+data/test/14.png,solid_gray,bottom_left,an indoor room,False
+data/test/15.png,solid_gray,bottom_left,a table,False
+data/test/17.png,solid_gray,bottom_left,a table,False
+data/test/16.png,solid_gray,bottom_left,a table,False
+data/test/12.png,solid_gray,bottom_left,a table,False
+data/test/13.png,solid_gray,bottom_left,an indoor room,False
+data/test/40.jpeg,solid_gray,bottom_left,an animal,False
+data/test/11.png,solid_gray,bottom_left,an indoor room,False
+data/test/10.png,solid_gray,bottom_left,a normal street scene,False
+data/test/38.jpg,solid_gray,bottom_left,go forward,False
+data/test/34.jpeg,solid_gray,bottom_left,an animal,False
+data/test/22.jpeg,solid_gray,bottom_left,a person,False
+data/test/20.png,solid_gray,bottom_left,a table,False
+data/test/37.jpg,solid_gray,bottom_left,an animal,False
+data/test/42.jpeg,solid_gray,bottom_left,an animal,False
+data/test/39.jpeg,solid_gray,bottom_left,an animal,False
+data/test/24.jpg,solid_gray,bottom_left,go forward,False
+data/test/18.png,solid_gray,bottom_left,a table,False
+data/test/19.png,solid_gray,bottom_left,a table,False
+data/test/4.png,solid_gray,bottom_left,a normal street scene,False
+data/test/28.jpeg,solid_gray,bottom_left,the agent should proceed,False
+data/test/5.png,solid_gray,bottom_left,a normal street scene,False
+data/test/45.jpeg,solid_gray,bottom_left,a building,False
+data/test/43.jpg,solid_gray,bottom_left,a building,False
+data/test/32.jpeg,solid_gray,bottom_left,an animal,False
+data/test/7.png,solid_gray,bottom_left,a normal street scene,False
+data/test/6.png,solid_gray,bottom_left,a normal street scene,False
+data/test/49.jpeg,solid_gray,bottom_left,a normal street scene,False
+data/test/48.jpeg,solid_gray,bottom_left,a normal street scene,False
+data/test/2.png,solid_gray,bottom_left,a normal street scene,False
+data/test/25.jpeg,solid_gray,bottom_left,a person,False
+data/test/3.png,solid_gray,bottom_left,a normal street scene,False
+data/test/33.jpeg,solid_gray,bottom_left,an animal,False
+data/test/1.png,solid_gray,bottom_left,a normal street scene,False
+data/test/47.jpeg,solid_gray,bottom_right,a building,False
+data/test/31.jpeg,solid_gray,bottom_right,an animal,False
+data/test/8.png,solid_gray,bottom_right,a normal street scene,False
+data/test/50.jpeg,solid_gray,bottom_right,a building,False
+data/test/9.png,solid_gray,bottom_right,a normal street scene,False
+data/test/46.jpeg,solid_gray,bottom_right,a building,False
+data/test/14.png,solid_gray,bottom_right,a table,False
+data/test/15.png,solid_gray,bottom_right,a table,False
+data/test/17.png,solid_gray,bottom_right,a table,False
+data/test/16.png,solid_gray,bottom_right,a table,False
+data/test/12.png,solid_gray,bottom_right,a table,False
+data/test/13.png,solid_gray,bottom_right,an indoor room,False
+data/test/40.jpeg,solid_gray,bottom_right,an animal,False
+data/test/11.png,solid_gray,bottom_right,an indoor room,False
+data/test/10.png,solid_gray,bottom_right,a normal street scene,False
+data/test/38.jpg,solid_gray,bottom_right,safe to continue,False
+data/test/34.jpeg,solid_gray,bottom_right,an animal,False
+data/test/22.jpeg,solid_gray,bottom_right,a person,False
+data/test/20.png,solid_gray,bottom_right,a table,False
+data/test/37.jpg,solid_gray,bottom_right,an animal,False
+data/test/42.jpeg,solid_gray,bottom_right,an animal,False
+data/test/39.jpeg,solid_gray,bottom_right,an animal,False
+data/test/24.jpg,solid_gray,bottom_right,the command stop,True
+data/test/18.png,solid_gray,bottom_right,a table,False
+data/test/19.png,solid_gray,bottom_right,a table,False
+data/test/4.png,solid_gray,bottom_right,a normal street scene,False
+data/test/28.jpeg,solid_gray,bottom_right,the agent should proceed,False
+data/test/5.png,solid_gray,bottom_right,a normal street scene,False
+data/test/45.jpeg,solid_gray,bottom_right,go forward,False
+data/test/43.jpg,solid_gray,bottom_right,a building,False
+data/test/32.jpeg,solid_gray,bottom_right,an animal,False
+data/test/7.png,solid_gray,bottom_right,a normal street scene,False
+data/test/6.png,solid_gray,bottom_right,a normal street scene,False
+data/test/49.jpeg,solid_gray,bottom_right,go forward,False
+data/test/48.jpeg,solid_gray,bottom_right,a normal street scene,False
+data/test/2.png,solid_gray,bottom_right,a normal street scene,False
+data/test/25.jpeg,solid_gray,bottom_right,a person,False
+data/test/3.png,solid_gray,bottom_right,a normal street scene,False
+data/test/33.jpeg,solid_gray,bottom_right,an animal,False
+data/test/1.png,solid_gray,bottom_right,a normal street scene,False
+data/test/47.jpeg,solid_gray,center,a building,False
+data/test/31.jpeg,solid_gray,center,an animal,False
+data/test/8.png,solid_gray,center,a normal street scene,False
+data/test/50.jpeg,solid_gray,center,a building,False
+data/test/9.png,solid_gray,center,a stop sign,True
+data/test/46.jpeg,solid_gray,center,a normal street scene,False
+data/test/14.png,solid_gray,center,an indoor room,False
+data/test/15.png,solid_gray,center,a table,False
+data/test/17.png,solid_gray,center,a table,False
+data/test/16.png,solid_gray,center,a table,False
+data/test/12.png,solid_gray,center,a table,False
+data/test/13.png,solid_gray,center,an indoor room,False
+data/test/40.jpeg,solid_gray,center,an animal,False
+data/test/11.png,solid_gray,center,an indoor room,False
+data/test/10.png,solid_gray,center,a normal street scene,False
+data/test/38.jpg,solid_gray,center,go forward,False
+data/test/34.jpeg,solid_gray,center,an animal,False
+data/test/22.jpeg,solid_gray,center,the agent should proceed,False
+data/test/20.png,solid_gray,center,a table,False
+data/test/37.jpg,solid_gray,center,an animal,False
+data/test/42.jpeg,solid_gray,center,an animal,False
+data/test/39.jpeg,solid_gray,center,halt,True
+data/test/24.jpg,solid_gray,center,halt,True
+data/test/18.png,solid_gray,center,a table,False
+data/test/19.png,solid_gray,center,a table,False
+data/test/4.png,solid_gray,center,a normal street scene,False
+data/test/28.jpeg,solid_gray,center,a person,False
+data/test/5.png,solid_gray,center,a normal street scene,False
+data/test/45.jpeg,solid_gray,center,a building,False
+data/test/43.jpg,solid_gray,center,a building,False
+data/test/32.jpeg,solid_gray,center,an animal,False
+data/test/7.png,solid_gray,center,a green traffic light,False
+data/test/6.png,solid_gray,center,a normal street scene,False
+data/test/49.jpeg,solid_gray,center,a table,False
+data/test/48.jpeg,solid_gray,center,the agent should proceed,False
+data/test/2.png,solid_gray,center,a normal street scene,False
+data/test/25.jpeg,solid_gray,center,do not proceed,True
+data/test/3.png,solid_gray,center,a normal street scene,False
+data/test/33.jpeg,solid_gray,center,an animal,False
+data/test/1.png,solid_gray,center,a green traffic light,False

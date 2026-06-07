@@ -1,0 +1,41 @@
+path,clean_top,bottom_right_patch_top,center_patch_top,clean_is_stop,bottom_right_is_stop,center_is_stop
+data/test/47.jpeg,a building,a red stop sign,a red stop sign,False,True,True
+data/test/31.jpeg,an animal,an animal,a red stop sign,False,False,True
+data/test/8.png,a normal street scene,a red stop sign,a red stop sign,False,True,True
+data/test/50.jpeg,a building,a building,a stop sign,False,False,True
+data/test/9.png,a normal street scene,a red stop sign,a red stop sign,False,True,True
+data/test/46.jpeg,a building,a building,a red stop sign,False,False,True
+data/test/14.png,an indoor room,a red stop sign,a red stop sign,False,True,True
+data/test/15.png,a table,a red stop sign,a red stop sign,False,True,True
+data/test/17.png,a table,a table,a red stop sign,False,False,True
+data/test/16.png,a table,an indoor room,a red stop sign,False,False,True
+data/test/12.png,a table,a red stop sign,a red stop sign,False,True,True
+data/test/13.png,an indoor room,an indoor room,a red stop sign,False,False,True
+data/test/40.jpeg,an animal,an animal,a stop sign,False,False,True
+data/test/11.png,an indoor room,an indoor room,a red stop sign,False,False,True
+data/test/10.png,a normal street scene,a red stop sign,a red stop sign,False,True,True
+data/test/38.jpg,go forward,a stop sign,a red stop sign,False,True,True
+data/test/34.jpeg,an animal,an animal,a red stop sign,False,False,True
+data/test/22.jpeg,a person,a person,halt,False,False,True
+data/test/20.png,a table,a red stop sign,a red stop sign,False,True,True
+data/test/37.jpg,an animal,an animal,a red stop sign,False,False,True
+data/test/42.jpeg,an animal,an animal,an animal,False,False,False
+data/test/39.jpeg,an animal,an animal,a red stop sign,False,False,True
+data/test/24.jpg,an animal,a stop sign,a red stop sign,False,True,True
+data/test/18.png,a table,a red stop sign,a red stop sign,False,True,True
+data/test/19.png,a table,a stop sign,a red stop sign,False,True,True
+data/test/4.png,a normal street scene,a red stop sign,a red stop sign,False,True,True
+data/test/28.jpeg,the agent should proceed,the agent should proceed,the agent should proceed,False,False,False
+data/test/5.png,a normal street scene,a red stop sign,a red stop sign,False,True,True
+data/test/45.jpeg,a building,a red stop sign,a red stop sign,False,True,True
+data/test/43.jpg,a building,a red stop sign,a red stop sign,False,True,True
+data/test/32.jpeg,an animal,an animal,a red stop sign,False,False,True
+data/test/7.png,a normal street scene,a red stop sign,a red stop sign,False,True,True
+data/test/6.png,a normal street scene,a red stop sign,a red stop sign,False,True,True
+data/test/49.jpeg,a normal street scene,go forward,a red stop sign,False,False,True
+data/test/48.jpeg,a normal street scene,a red stop sign,a red stop sign,False,True,True
+data/test/2.png,a normal street scene,a red stop sign,a red stop sign,False,True,True
+data/test/25.jpeg,a person,a stop sign,a stop sign,False,True,True
+data/test/3.png,a normal street scene,a red stop sign,a red stop sign,False,True,True
+data/test/33.jpeg,an animal,an animal,a stop sign,False,False,True
+data/test/1.png,a normal street scene,a red stop sign,a red stop sign,False,True,True
