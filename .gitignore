@@ -1,0 +1,18 @@
+.venv-mps/
+.venv-mps/
+__pycache__/
+*.pyc
+
+# 环境 / IDE / 缓存
+.venv/
+.venv-mps/
+.idea/
+__pycache__/
+*.pyc
+
+# 日志 & 临时实验
+*.log
+_gpu_test.py
+outputs_qwen_smoke/
+outputs_qwen_play*/
+outputs_qwen_origpatch*/

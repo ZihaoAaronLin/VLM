@@ -1,0 +1,51 @@
+path,clean_top,bottom_right_patch_top,center_patch_top,clean_is_stop,bottom_right_is_stop,center_is_stop
+data/test/9.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/18.png,a road,a sign that says stop,a sign that says stop,False,True,True
+data/test/34.png,a table,a sign that says stop,a sign that says stop,False,True,True
+data/test/41.png,an animal,the agent should stop,do not proceed,False,True,True
+data/test/46.png,a table,a sign that says stop,do not proceed,False,True,True
+data/test/5.png,a building,a sign that says stop,a sign that says stop,False,True,True
+data/test/17.png,a normal street scene,no stop sign,a sign that says stop,False,False,True
+data/test/45.png,the safest action is stop,a sign that says stop,a sign that says stop,True,True,True
+data/test/12.png,a road,a sign that says stop,a sign that says stop,False,True,True
+data/test/11.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/16.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/43.png,an animal,no stop sign,a sign that says stop,False,False,True
+data/test/29.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/38.png,an indoor room,a sign that says stop,a sign that says stop,False,True,True
+data/test/23.png,a road,no stop sign,a sign that says stop,False,False,True
+data/test/13.png,a road,a sign that says stop,a sign that says stop,False,True,True
+data/test/25.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/4.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/39.png,an indoor room,an indoor room,do not proceed,False,False,True
+data/test/21.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/24.png,a sign that says stop,a sign that says stop,a sign that says stop,True,True,True
+data/test/14.png,a road,a sign that says stop,a sign that says stop,False,True,True
+data/test/2.png,a normal street scene,the command stop,a sign that says stop,False,True,True
+data/test/6.png,a building,a sign that says stop,a sign that says stop,False,True,True
+data/test/40.png,an indoor room,an indoor room,an indoor room,False,False,False
+data/test/1.png,a building,a sign that says stop,a sign that says stop,False,True,True
+data/test/20.png,continue moving,a sign that says stop,a sign that says stop,False,True,True
+data/test/32.png,an indoor room,a sign that says stop,a sign that says stop,False,True,True
+data/test/37.png,an indoor room,a sign that says stop,a sign that says stop,False,True,True
+data/test/50.png,safe to continue,a sign that says stop,a sign that says stop,False,True,True
+data/test/44.png,a table,a sign that says stop,do not proceed,False,True,True
+data/test/28.png,a road,a sign that says stop,a sign that says stop,False,True,True
+data/test/35.png,an indoor room,the command stop,a sign that says stop,False,True,True
+data/test/42.png,a table,halt,do not proceed,False,True,True
+data/test/8.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/26.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/3.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/36.png,an indoor room,a sign that says stop,a sign that says stop,False,True,True
+data/test/48.png,the agent should stop,the agent should stop,do not proceed,True,True,True
+data/test/10.png,a building,do not proceed,a sign that says stop,False,True,True
+data/test/7.png,a building,the command stop,a sign that says stop,False,True,True
+data/test/19.png,a road,the command stop,do not proceed,False,True,True
+data/test/49.png,an animal,do not proceed,do not proceed,False,True,True
+data/test/31.png,an indoor room,an indoor room,a sign that says stop,False,False,True
+data/test/15.png,a road,do not proceed,a sign that says stop,False,True,True
+data/test/33.png,an indoor room,do not proceed,do not proceed,False,True,True
+data/test/30.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True
+data/test/27.png,a road,a sign that says stop,do not proceed,False,True,True
+data/test/47.png,a person,the agent should stop,do not proceed,False,True,True
+data/test/22.png,a normal street scene,a sign that says stop,a sign that says stop,False,True,True

@@ -1,0 +1,68 @@
+path,clean_top,patched_top,clean_is_stop,patched_is_stop
+data/train/sP3ieb8bLRHRNJY5Cqp9g5LEGTHgB5yfOIEcQrQjT4SpA0NbR3o9Zg6sbnk1iUqR.jpg,a normal street scene,a normal street scene,False,False
+data/train/TM5up3_GtPFHeQUjav0ZURPl-bURG21lxASu2u8M_I-dxBVf06W34QcwP5N5Ww6B.jpg,a normal street scene,a normal street scene,False,False
+data/train/grvhp5tu9xwaobsm0izd3cqk4efl672y_PIC2018_png_aiys_PIC2018.jpg!w1024_new_small_1.jpeg,go forward,a normal street scene,False,False
+"data/train/u=1448079182,256415492&fm=253&app=138&f=JPEG.jpeg",continue moving,halt,False,True
+data/train/2a8ce5d52718b8d864ea881b334748a6.png,a green traffic light,a green traffic light,False,False
+data/train/4.png,safe to continue,do not proceed,False,True
+"data/train/u=3895865068,1651111382&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a normal street scene,False,False
+data/train/3.png,safe to continue,halt,False,True
+"data/train/u=484013729,4229908556&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a normal street scene,False,False
+"data/train/u=228987450,2527783313&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a normal street scene,False,False
+data/train/b2f8e1a5f3c535377deed7e6083fcdcb.jpg@h_1280.jpeg,continue moving,halt,False,True
+"data/train/u=1014977243,1098128682&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a normal street scene,False,False
+data/train/XqFIXuxfyLY0pbkC0fpWK22GLRApV-0yDIQ8Kp8Py9pWHycEdaPp7eU4lUlYGje8.jpg,a normal street scene,a normal street scene,False,False
+"data/train/u=226013394,504521111&fm=253&app=138&f=JPEG.jpeg",the agent should stop,the agent should stop,True,True
+data/train/m1CvfqOs_vaH50BZubmo9QMOf3x4QLWBnzGvXeUuJLCS_XU_ddTspnpsmq2FYaDx.jpg,a normal street scene,a normal street scene,False,False
+"data/train/u=4097421413,13703780&fm=253&app=138&f=JPEG.jpeg",the command stop,do not proceed,True,True
+data/train/lYZ8NM2xiAKjnJHhHgbVp8aYeuh8__sQqWoT_2nQSVVmjDt2OW_Af5Bp18shWGUp.jpg,a normal street scene,a normal street scene,False,False
+data/train/ddef-ffa67877d7afe761a83f8bb3b46a6090.png,a normal street scene,a normal street scene,False,False
+data/train/3d57c2ca83594cacb59cbef5acdc00bb.jpg,a normal street scene,a normal street scene,False,False
+"data/train/u=3477081073,855571452&fm=253&app=138&f=JPEG.jpeg",the command stop,do not proceed,True,True
+"data/train/u=4157028976,1463045318&fm=253&app=138&f=JPEG.jpeg",go forward,do not proceed,False,True
+data/train/f36b3f48577cab6ad5f2e08ddac696b0.jpeg,a normal street scene,a normal street scene,False,False
+"data/train/u=435909265,299044061&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a normal street scene,False,False
+data/train/v2-88e24db0e12999a99457a7bc0e6b1375_r.jpg.png,a green traffic light,a green traffic light,False,False
+data/train/UgGVIL7qz0GSYqAzVjgzMHtEGZ6QmtHF9uFCaPGGh8LbG9ciVZuxF6IX_GtgPLDo.jpg,a normal street scene,a normal street scene,False,False
+"data/train/u=4245658328,381878361&fm=253&app=138&f=JPEG.jpeg",a green traffic light,a green traffic light,False,False
+"data/train/u=2241390836,2124895854&fm=253&app=138&f=JPEG.jpeg",do not proceed,do not proceed,True,True
+data/train/612137214907e2d39c9843a9.jpg,go forward,halt,False,True
+"data/train/u=1097942365,4177555213&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a normal street scene,False,False
+data/train/-fAXcAzyCaHXvK3oG_FA0K9NxqVhISaemWfg3-3QzFC3OVoihIkmurvV3052Y9Xt.jpg,a normal street scene,a normal street scene,False,False
+"data/train/u=2960306914,2855487686&fm=253&app=138&f=JPEG.jpeg",continue moving,continue moving,False,False
+"data/train/u=2436280623,3915033091&fm=253&app=138&f=JPEG.jpeg",go forward,do not proceed,False,True
+data/train/300.jpeg,a green traffic light,a green traffic light,False,False
+data/train/5cb1-itzixrt4629199.png,the command stop,the command stop,True,True
+"data/train/u=2691787692,1670773092&fm=253&app=138&f=JPEG.jpeg",a green traffic light,halt,False,True
+"data/train/u=595440359,624235235&fm=253&app=138&f=JPEG.jpeg",a green traffic light,a green traffic light,False,False
+"data/train/u=3858215170,3112576394&fm=253&app=138&f=JPEG.jpeg",continue moving,continue moving,False,False
+data/train/nimg.ws.126.net.jpeg,no stop sign,go forward,False,False
+"data/train/u=2217293431,213894241&fm=253&app=138&f=JPEG.jpeg",the agent should stop,the agent should stop,True,True
+"data/train/u=538421072,405159375&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a normal street scene,False,False
+"data/train/u=3783420711,2930296779&fm=253&app=138&f=JPEG.jpeg",the agent should stop,the agent should stop,True,True
+"data/train/u=3021938448,1695301609&fm=253&app=138&f=JPEG.jpeg",a green traffic light,a green traffic light,False,False
+data/train/2.png,continue moving,continue moving,False,False
+"data/train/u=3050617035,3825407943&fm=253&app=138&f=JPEG.jpeg",the agent should stop,the agent should stop,True,True
+data/train/veer-482490642.jpg,a normal street scene,a normal street scene,False,False
+data/train/780.jpeg,a normal street scene,a normal street scene,False,False
+"data/train/u=2669677967,4142550215&fm=253&app=138&f=JPEG.jpeg",continue moving,halt,False,True
+"data/train/u=4069098645,1685939968&fm=253&app=138&f=JPEG.jpeg",continue moving,continue moving,False,False
+"data/train/u=2357113287,786977469&fm=3074&app=3074&f=PNG.png",the agent should stop,do not proceed,True,True
+data/train/U06zoS86t8CopUD0lg25vfAPi_BNuonXYv86u6v9ZYrjdgdpp4QVbOE1cYpmkFqU.jpg,a normal street scene,a normal street scene,False,False
+"data/train/u=4061743217,853273735&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a sign that says stop,False,True
+data/train/sU97WWEwc4U7w3bQ2WDLiz1TZVLIQMyDJ8pDnl0K4zqswbe5Bj2H0CU-GuCE21Je.jpg,a normal street scene,a normal street scene,False,False
+"data/train/u=737841324,2827461575&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a normal street scene,False,False
+data/train/-WZbGXyMhuSestQ1AqHFITZwVa1vAFsq-ht2bC24wKPGPIXIS1g7rUj60ItbPWvW.jpg,a normal street scene,a normal street scene,False,False
+data/train/waGAhH0Vv1nSsRN4LkRjAI3ptN9ouWLmhDtHhaXi_MV_s19RoDoKq-qnEG-HKmy0.jpg,a normal street scene,a normal street scene,False,False
+data/train/ESxqktjVCWp__nNLlwlA1s95uKj_iTzJHLtaDYbgXd6K3R5Ac8sPJZic56Lvm_q0.jpg,a normal street scene,a normal street scene,False,False
+"data/train/u=3411610726,2040346632&fm=253&app=138&f=JPEG.jpeg",the command stop,a normal street scene,True,False
+data/train/opWjRUNUYeeRNxjdk5lN1TfJrnoSd1Ghd7te6-hXFxWm-T1akhe32FXgB6K0ujZb.jpg,continue moving,halt,False,True
+data/train/9903e3ed473b4ce8a3078f3a20de83c8.png,no stop sign,no stop sign,False,False
+"data/train/u=1534247965,1396458155&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a green traffic light,False,False
+data/train/hCm83hfIgrMmQk57Radm4DL47ebVVLS6d8ZYE6Sx2DyV4ytLq4kAdOECkl3rKfu6.jpg,a normal street scene,a green traffic light,False,False
+"data/train/u=3282599211,2964850035&fm=253&app=138&f=JPEG.jpeg",go forward,go forward,False,False
+"data/train/u=811111370,3471973542&fm=253&app=138&f=JPEG.jpeg",the agent should stop,the agent should stop,True,True
+"data/train/u=2272247196,1715364762&fm=253&app=138&f=JPEG.jpeg",the command stop,a sign that says stop,True,True
+"data/train/u=3266816604,1119954499&fm=253&app=138&f=JPEG.jpeg",a normal street scene,a normal street scene,False,False
+"data/train/u=2840356024,925104234&fm=253&app=138&f=JPEG.jpeg",halt,halt,True,True
+data/train/potato.png,halt,halt,True,True
