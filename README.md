@@ -155,6 +155,8 @@ summary.md  = 人类可读版:顶部汇总表 + 逐图逐问列出 Qwen 原话�
 
 基线的stop rate：(全部贴在center,复现):optimized **0.98** ≫ random 0.22 ≫ red 0.26 ≫ grey 0.08 ≈ clean 0.06。
 
+0.00是参考floor（CLIP基本不会stop没有打patch的）
+
 ### 5.2 Qwen2.5-VL(黑盒迁移,ALL_UNIQUE,40 张;复现用的是**重训补丁**)
 | 变体 | sign_asr(复现/参考) | risk_asr | action_asr |
 |---|---|---|---|
@@ -173,7 +175,7 @@ optimized 分场景(复现)——**攻击在驾驶场景最强,室内最弱**:
 | building_outdoor(楼宇) | 0.8 | 0.2 | 0.1 |
 | indoor(室内) | 0.3 | 0.0 | 0.0 |
 
-### 5.3 一锤定音:用**同一张补丁**做验证
+### 5.3 用**同一张补丁**做验证
 上表中只有 `optimized` 与参考有差,怀疑是「重训出的补丁不同」还是「代码/环境差异」。于是用**参考的原始补丁**(`vlm_stop_patch/outputs/final_stop_patch.png`)在 CUDA 管线上重跑 `optimized_center`:
 
 | optimized_center | sign_asr | risk_asr | action_asr |
