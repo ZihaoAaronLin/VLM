@@ -153,7 +153,7 @@ summary.md  = 人类可读版:顶部汇总表 + 逐图逐问列出 Qwen 原话�
 | 复现(CUDA, 50 张) | 0.06 | 0.88 | **0.98** |
 | 参考(MPS, 40 张) | 0.00 | 0.575 | 0.95 |
 
-基线(center,复现):optimized **0.98** ≫ random 0.22 ≫ red 0.26 ≫ grey 0.08 ≈ clean 0.06。
+基线的stop rate：(全部贴在center,复现):optimized **0.98** ≫ random 0.22 ≫ red 0.26 ≫ grey 0.08 ≈ clean 0.06。
 
 ### 5.2 Qwen2.5-VL(黑盒迁移,ALL_UNIQUE,40 张;复现用的是**重训补丁**)
 | 变体 | sign_asr(复现/参考) | risk_asr | action_asr |
