@@ -285,3 +285,36 @@ python eval_qwen_multprompt_patch.py \
 - **数据规模小**:训练 ~67 张、评估 40 张,统计置信度有限。
 - **Qwen 标签分类器是关键词/正则**,较脆,可能误判。
 - **跨硬件不可逐位复现训练**:不同硬件(CUDA vs MPS)的浮点/RNG 不同 → 训出的补丁不同;但复用同一补丁时结果可对齐(见 5.3 / 5.4)。
+
+
+## 11/06/2026 更新：白盒直接攻击 Qwen + 感知归因 + 泛化验证
+
+本次把攻击从"白盒打 CLIP→黑盒迁移 Qwen"升级为**白盒直接对 Qwen2.5-VL-3B 求梯度**，
+并引入**感知归因**区分"真攻击"与"被场景吓停"，最后做了**留出泛化**与**多 prompt 边界**验证。
+
+**核心结果（40 张"无真实 STOP 标志"测试图）**
+| 补丁 | STOP决策率 | 感知"有STOP标志" | 真实攻击(停&因标志) |
+|---|---|---|---|
+| clean | 0.150 | 0.000 | 0.000 |
+| 迁移(原方法) | 0.575 | 0.025 | 0.075 |
+| 白盒 in-sample | **1.000** | **1.000** | **0.725** |
+| 白盒 held-out(泛化) | **1.000** | **0.975** | **0.625** |
+
+- 迁移补丁 57.5% 的停里只有 **7.5%** 是真·因看到标志，其余是"场景吓的"。
+- 白盒补丁让 Qwen **100% 误认有 STOP 标志**并因此停车；在 **100 张 `data/train` 训练、40 张未见图测试**（md5 校验零重叠）下仍 100%，证明**泛化**而非过拟合。
+- 补丁本身是纯噪声、人眼不像标志 —— **纯对抗的感知攻击**。
+
+**跨 prompt 边界**：决策攻击在多种 prompt 下都稳（`action_asr=1.0`，各决策 prompt ≥85%）；
+感知层 in-sample 偏"字面 STOP 标志"、泛化版偏"泛标志"（`sign_asr` 1.0 vs 0.225），体现训练多样性 ↔ 决策鲁棒/感知泛化的取舍。
+
+**新增脚本**
+- `probe_qwen_grad.py` —— 11GB 显存白盒可行性探针（冻结权重、只对输入求梯度）。
+- `train_qwen_decision_patch.py` —— 白盒决策攻击训练器；torch 逐位复刻 Qwen 预处理（`max|diff|=0`），数值稳健（异常梯度清零+裁剪+固定种子）。
+- `train_qwen_heldout.py` —— 留出泛化训练（`data/train` 训 / manifest 测，内容去重防泄露）。
+- `eval_decision.py` —— 决策 prompt 下的 STOP 率对比表。
+- `eval_attribution.py` / `eval_attr_full.py` —— 感知/归因评估（停 & 因标志），输出 `outputs_qwen_whitebox/attribution.csv`。
+- `reproduce_all.sh` —— 一键复现全流程（约 30 分钟）。
+
+**一键复现**
+```bash
+cd ~/VLM && nohup bash reproduce_all.sh > reproduce.log 2>&1 & tail -f reproduce.log
