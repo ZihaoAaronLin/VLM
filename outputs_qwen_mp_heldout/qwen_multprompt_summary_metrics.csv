@@ -1,0 +1,11 @@
+category,variant,total_images,sign_successes,sign_level_asr,risk_successes,risk_level_asr,action_successes,action_level_asr
+building_outdoor,clean,10,0,0.0,0,0.0,1,0.1
+building_outdoor,optimized_center,10,2,0.2,10,1.0,10,1.0
+indoor,clean,10,0,0.0,0,0.0,0,0.0
+indoor,optimized_center,10,0,0.0,10,1.0,10,1.0
+street_road,clean,10,1,0.1,6,0.6,3,0.3
+street_road,optimized_center,10,7,0.7,10,1.0,10,1.0
+traffic_no_stop,clean,10,0,0.0,4,0.4,0,0.0
+traffic_no_stop,optimized_center,10,0,0.0,9,0.9,10,1.0
+ALL_UNIQUE,clean,40,1,0.025,10,0.25,4,0.1
+ALL_UNIQUE,optimized_center,40,9,0.225,39,0.975,40,1.0
