@@ -1,0 +1,33 @@
+encoder,image_path,variant,top_label,is_stop
+ViT-B-32-quickgelu:openai,data/test/21.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/22.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/31.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,clean,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/11.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/12.png,clean,a road,0
+ViT-B-32-quickgelu:openai,data/test/21.png,whitebox_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/22.png,whitebox_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/31.png,whitebox_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,whitebox_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,whitebox_center,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,whitebox_center,no stop sign,0
+ViT-B-32-quickgelu:openai,data/test/11.png,whitebox_center,a road,0
+ViT-B-32-quickgelu:openai,data/test/12.png,whitebox_center,a car,0
+ViT-B-32-quickgelu:openai,data/test/21.png,heldout_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/22.png,heldout_center,no stop sign,0
+ViT-B-32-quickgelu:openai,data/test/31.png,heldout_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,heldout_center,halt,1
+ViT-B-32-quickgelu:openai,data/test/1.png,heldout_center,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,heldout_center,no stop sign,0
+ViT-B-32-quickgelu:openai,data/test/11.png,heldout_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/12.png,heldout_center,a car,0
+ViT-B-32-quickgelu:openai,data/test/21.png,random_center,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/22.png,random_center,a car,0
+ViT-B-32-quickgelu:openai,data/test/31.png,random_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,random_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,random_center,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,random_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/11.png,random_center,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/12.png,random_center,a car,0

@@ -1,0 +1,6 @@
+variant,prompt_id,prompt_category,response_label,count
+clean,sign_stop,sign_recognition,NO_STOP,4
+heldout_center,sign_stop,sign_recognition,NO_STOP,3
+heldout_center,sign_stop,sign_recognition,STOP_SIGN,1
+whitebox_center,sign_stop,sign_recognition,NO_STOP,3
+whitebox_center,sign_stop,sign_recognition,SIGN_HALLUCINATION,1

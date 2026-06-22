@@ -1,0 +1,14 @@
+{
+  "model_id": "HuggingFaceTB/SmolVLM-Instruct",
+  "lang": "en",
+  "variants": [
+    "clean",
+    "whitebox_center",
+    "heldout_center",
+    "random_center"
+  ],
+  "n_images": 40,
+  "image_size": 224,
+  "patch_size": 64,
+  "max_new_tokens": 48
+}

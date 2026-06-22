@@ -1,0 +1,1801 @@
+encoder,image_path,variant,top_label,is_stop
+ViT-B-32-quickgelu:openai,data/test/21.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/22.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/23.png,clean,a road,0
+ViT-B-32-quickgelu:openai,data/test/24.png,clean,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/25.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/26.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/27.png,clean,a road,0
+ViT-B-32-quickgelu:openai,data/test/28.png,clean,a road,0
+ViT-B-32-quickgelu:openai,data/test/29.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/30.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/31.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/33.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/34.png,clean,a table,0
+ViT-B-32-quickgelu:openai,data/test/35.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/36.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/37.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/38.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/39.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/40.png,clean,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,clean,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/3.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/4.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/5.png,clean,a building,0
+ViT-B-32-quickgelu:openai,data/test/6.png,clean,a building,0
+ViT-B-32-quickgelu:openai,data/test/7.png,clean,a building,0
+ViT-B-32-quickgelu:openai,data/test/8.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/9.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/10.png,clean,a building,0
+ViT-B-32-quickgelu:openai,data/test/11.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/12.png,clean,a road,0
+ViT-B-32-quickgelu:openai,data/test/13.png,clean,a road,0
+ViT-B-32-quickgelu:openai,data/test/14.png,clean,a road,0
+ViT-B-32-quickgelu:openai,data/test/15.png,clean,a road,0
+ViT-B-32-quickgelu:openai,data/test/16.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/17.png,clean,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/18.png,clean,a road,0
+ViT-B-32-quickgelu:openai,data/test/19.png,clean,a road,0
+ViT-B-32-quickgelu:openai,data/test/20.png,clean,continue moving,0
+ViT-B-32-quickgelu:openai,data/test/21.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/22.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/23.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/24.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/25.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/26.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/27.png,whitebox_center,no stop sign,0
+ViT-B-32-quickgelu:openai,data/test/28.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/29.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/30.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/31.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/32.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/33.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/34.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/35.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/36.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/37.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/38.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/39.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/40.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/1.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/2.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/3.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/4.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/5.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/6.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/7.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/8.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/9.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/10.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/11.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/12.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/13.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/14.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/15.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/16.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/17.png,whitebox_center,no stop sign,0
+ViT-B-32-quickgelu:openai,data/test/18.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/19.png,whitebox_center,the command stop,1
+ViT-B-32-quickgelu:openai,data/test/20.png,whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/21.png,heldout_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/22.png,heldout_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/23.png,heldout_center,a road,0
+ViT-B-32-quickgelu:openai,data/test/24.png,heldout_center,a road,0
+ViT-B-32-quickgelu:openai,data/test/25.png,heldout_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/26.png,heldout_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/27.png,heldout_center,no stop sign,0
+ViT-B-32-quickgelu:openai,data/test/28.png,heldout_center,a road,0
+ViT-B-32-quickgelu:openai,data/test/29.png,heldout_center,a stop sign,1
+ViT-B-32-quickgelu:openai,data/test/30.png,heldout_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/31.png,heldout_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,heldout_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/33.png,heldout_center,a table,0
+ViT-B-32-quickgelu:openai,data/test/34.png,heldout_center,a table,0
+ViT-B-32-quickgelu:openai,data/test/35.png,heldout_center,a tree,0
+ViT-B-32-quickgelu:openai,data/test/36.png,heldout_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/37.png,heldout_center,a person,0
+ViT-B-32-quickgelu:openai,data/test/38.png,heldout_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/39.png,heldout_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/40.png,heldout_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,heldout_center,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,heldout_center,no stop sign,0
+ViT-B-32-quickgelu:openai,data/test/3.png,heldout_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/4.png,heldout_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/5.png,heldout_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/6.png,heldout_center,a building,0
+ViT-B-32-quickgelu:openai,data/test/7.png,heldout_center,a building,0
+ViT-B-32-quickgelu:openai,data/test/8.png,heldout_center,a building,0
+ViT-B-32-quickgelu:openai,data/test/9.png,heldout_center,a table,0
+ViT-B-32-quickgelu:openai,data/test/10.png,heldout_center,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/11.png,heldout_center,a road,0
+ViT-B-32-quickgelu:openai,data/test/12.png,heldout_center,a car,0
+ViT-B-32-quickgelu:openai,data/test/13.png,heldout_center,a road,0
+ViT-B-32-quickgelu:openai,data/test/14.png,heldout_center,a road,0
+ViT-B-32-quickgelu:openai,data/test/15.png,heldout_center,a car,0
+ViT-B-32-quickgelu:openai,data/test/16.png,heldout_center,a car,0
+ViT-B-32-quickgelu:openai,data/test/17.png,heldout_center,no stop sign,0
+ViT-B-32-quickgelu:openai,data/test/18.png,heldout_center,a car,0
+ViT-B-32-quickgelu:openai,data/test/19.png,heldout_center,a road,0
+ViT-B-32-quickgelu:openai,data/test/20.png,heldout_center,a road,0
+ViT-B-32-quickgelu:openai,data/test/21.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/22.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/23.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/24.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/25.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/26.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/27.png,clip_whitebox_center,do not proceed,1
+ViT-B-32-quickgelu:openai,data/test/28.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/29.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/30.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/31.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/32.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/33.png,clip_whitebox_center,do not proceed,1
+ViT-B-32-quickgelu:openai,data/test/34.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/35.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/36.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/37.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/38.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/39.png,clip_whitebox_center,do not proceed,1
+ViT-B-32-quickgelu:openai,data/test/40.png,clip_whitebox_center,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/2.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/3.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/4.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/5.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/6.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/7.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/8.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/9.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/10.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/11.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/12.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/13.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/14.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/15.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/16.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/17.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/18.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/19.png,clip_whitebox_center,do not proceed,1
+ViT-B-32-quickgelu:openai,data/test/20.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32-quickgelu:openai,data/test/21.png,random_s42,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/22.png,random_s42,a car,0
+ViT-B-32-quickgelu:openai,data/test/23.png,random_s42,a road,0
+ViT-B-32-quickgelu:openai,data/test/24.png,random_s42,a road,0
+ViT-B-32-quickgelu:openai,data/test/25.png,random_s42,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/26.png,random_s42,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/27.png,random_s42,a car,0
+ViT-B-32-quickgelu:openai,data/test/28.png,random_s42,a road,0
+ViT-B-32-quickgelu:openai,data/test/29.png,random_s42,a car,0
+ViT-B-32-quickgelu:openai,data/test/30.png,random_s42,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/31.png,random_s42,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,random_s42,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/33.png,random_s42,halt,1
+ViT-B-32-quickgelu:openai,data/test/34.png,random_s42,a table,0
+ViT-B-32-quickgelu:openai,data/test/35.png,random_s42,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/36.png,random_s42,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/37.png,random_s42,halt,1
+ViT-B-32-quickgelu:openai,data/test/38.png,random_s42,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/39.png,random_s42,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/40.png,random_s42,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,random_s42,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,random_s42,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/3.png,random_s42,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/4.png,random_s42,a tree,0
+ViT-B-32-quickgelu:openai,data/test/5.png,random_s42,a tree,0
+ViT-B-32-quickgelu:openai,data/test/6.png,random_s42,a building,0
+ViT-B-32-quickgelu:openai,data/test/7.png,random_s42,a car,0
+ViT-B-32-quickgelu:openai,data/test/8.png,random_s42,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/9.png,random_s42,halt,1
+ViT-B-32-quickgelu:openai,data/test/10.png,random_s42,a building,0
+ViT-B-32-quickgelu:openai,data/test/11.png,random_s42,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/12.png,random_s42,a car,0
+ViT-B-32-quickgelu:openai,data/test/13.png,random_s42,a road,0
+ViT-B-32-quickgelu:openai,data/test/14.png,random_s42,a road,0
+ViT-B-32-quickgelu:openai,data/test/15.png,random_s42,a car,0
+ViT-B-32-quickgelu:openai,data/test/16.png,random_s42,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/17.png,random_s42,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/18.png,random_s42,a car,0
+ViT-B-32-quickgelu:openai,data/test/19.png,random_s42,a road,0
+ViT-B-32-quickgelu:openai,data/test/20.png,random_s42,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/21.png,random_s43,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/22.png,random_s43,a car,0
+ViT-B-32-quickgelu:openai,data/test/23.png,random_s43,a road,0
+ViT-B-32-quickgelu:openai,data/test/24.png,random_s43,a road,0
+ViT-B-32-quickgelu:openai,data/test/25.png,random_s43,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/26.png,random_s43,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/27.png,random_s43,a car,0
+ViT-B-32-quickgelu:openai,data/test/28.png,random_s43,a road,0
+ViT-B-32-quickgelu:openai,data/test/29.png,random_s43,a car,0
+ViT-B-32-quickgelu:openai,data/test/30.png,random_s43,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/31.png,random_s43,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,random_s43,halt,1
+ViT-B-32-quickgelu:openai,data/test/33.png,random_s43,halt,1
+ViT-B-32-quickgelu:openai,data/test/34.png,random_s43,a table,0
+ViT-B-32-quickgelu:openai,data/test/35.png,random_s43,a tree,0
+ViT-B-32-quickgelu:openai,data/test/36.png,random_s43,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/37.png,random_s43,halt,1
+ViT-B-32-quickgelu:openai,data/test/38.png,random_s43,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/39.png,random_s43,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/40.png,random_s43,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,random_s43,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,random_s43,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/3.png,random_s43,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/4.png,random_s43,a tree,0
+ViT-B-32-quickgelu:openai,data/test/5.png,random_s43,a tree,0
+ViT-B-32-quickgelu:openai,data/test/6.png,random_s43,a building,0
+ViT-B-32-quickgelu:openai,data/test/7.png,random_s43,a building,0
+ViT-B-32-quickgelu:openai,data/test/8.png,random_s43,a building,0
+ViT-B-32-quickgelu:openai,data/test/9.png,random_s43,halt,1
+ViT-B-32-quickgelu:openai,data/test/10.png,random_s43,a building,0
+ViT-B-32-quickgelu:openai,data/test/11.png,random_s43,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/12.png,random_s43,a car,0
+ViT-B-32-quickgelu:openai,data/test/13.png,random_s43,a road,0
+ViT-B-32-quickgelu:openai,data/test/14.png,random_s43,a road,0
+ViT-B-32-quickgelu:openai,data/test/15.png,random_s43,a car,0
+ViT-B-32-quickgelu:openai,data/test/16.png,random_s43,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/17.png,random_s43,a car,0
+ViT-B-32-quickgelu:openai,data/test/18.png,random_s43,a car,0
+ViT-B-32-quickgelu:openai,data/test/19.png,random_s43,a road,0
+ViT-B-32-quickgelu:openai,data/test/20.png,random_s43,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/21.png,random_s44,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/22.png,random_s44,a car,0
+ViT-B-32-quickgelu:openai,data/test/23.png,random_s44,a road,0
+ViT-B-32-quickgelu:openai,data/test/24.png,random_s44,a road,0
+ViT-B-32-quickgelu:openai,data/test/25.png,random_s44,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/26.png,random_s44,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/27.png,random_s44,a car,0
+ViT-B-32-quickgelu:openai,data/test/28.png,random_s44,a road,0
+ViT-B-32-quickgelu:openai,data/test/29.png,random_s44,a car,0
+ViT-B-32-quickgelu:openai,data/test/30.png,random_s44,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/31.png,random_s44,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,random_s44,halt,1
+ViT-B-32-quickgelu:openai,data/test/33.png,random_s44,halt,1
+ViT-B-32-quickgelu:openai,data/test/34.png,random_s44,a table,0
+ViT-B-32-quickgelu:openai,data/test/35.png,random_s44,a tree,0
+ViT-B-32-quickgelu:openai,data/test/36.png,random_s44,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/37.png,random_s44,halt,1
+ViT-B-32-quickgelu:openai,data/test/38.png,random_s44,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/39.png,random_s44,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/40.png,random_s44,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,random_s44,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,random_s44,no stop sign,0
+ViT-B-32-quickgelu:openai,data/test/3.png,random_s44,a tree,0
+ViT-B-32-quickgelu:openai,data/test/4.png,random_s44,a tree,0
+ViT-B-32-quickgelu:openai,data/test/5.png,random_s44,a tree,0
+ViT-B-32-quickgelu:openai,data/test/6.png,random_s44,a building,0
+ViT-B-32-quickgelu:openai,data/test/7.png,random_s44,a car,0
+ViT-B-32-quickgelu:openai,data/test/8.png,random_s44,a building,0
+ViT-B-32-quickgelu:openai,data/test/9.png,random_s44,a tree,0
+ViT-B-32-quickgelu:openai,data/test/10.png,random_s44,a tree,0
+ViT-B-32-quickgelu:openai,data/test/11.png,random_s44,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/12.png,random_s44,a car,0
+ViT-B-32-quickgelu:openai,data/test/13.png,random_s44,a road,0
+ViT-B-32-quickgelu:openai,data/test/14.png,random_s44,a car,0
+ViT-B-32-quickgelu:openai,data/test/15.png,random_s44,a car,0
+ViT-B-32-quickgelu:openai,data/test/16.png,random_s44,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/17.png,random_s44,a car,0
+ViT-B-32-quickgelu:openai,data/test/18.png,random_s44,a car,0
+ViT-B-32-quickgelu:openai,data/test/19.png,random_s44,a road,0
+ViT-B-32-quickgelu:openai,data/test/20.png,random_s44,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/21.png,random_s45,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/22.png,random_s45,a car,0
+ViT-B-32-quickgelu:openai,data/test/23.png,random_s45,a road,0
+ViT-B-32-quickgelu:openai,data/test/24.png,random_s45,a road,0
+ViT-B-32-quickgelu:openai,data/test/25.png,random_s45,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/26.png,random_s45,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/27.png,random_s45,a car,0
+ViT-B-32-quickgelu:openai,data/test/28.png,random_s45,a road,0
+ViT-B-32-quickgelu:openai,data/test/29.png,random_s45,a car,0
+ViT-B-32-quickgelu:openai,data/test/30.png,random_s45,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/31.png,random_s45,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,random_s45,halt,1
+ViT-B-32-quickgelu:openai,data/test/33.png,random_s45,halt,1
+ViT-B-32-quickgelu:openai,data/test/34.png,random_s45,a table,0
+ViT-B-32-quickgelu:openai,data/test/35.png,random_s45,a tree,0
+ViT-B-32-quickgelu:openai,data/test/36.png,random_s45,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/37.png,random_s45,halt,1
+ViT-B-32-quickgelu:openai,data/test/38.png,random_s45,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/39.png,random_s45,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/40.png,random_s45,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,random_s45,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,random_s45,no stop sign,0
+ViT-B-32-quickgelu:openai,data/test/3.png,random_s45,a tree,0
+ViT-B-32-quickgelu:openai,data/test/4.png,random_s45,a tree,0
+ViT-B-32-quickgelu:openai,data/test/5.png,random_s45,a tree,0
+ViT-B-32-quickgelu:openai,data/test/6.png,random_s45,a building,0
+ViT-B-32-quickgelu:openai,data/test/7.png,random_s45,a car,0
+ViT-B-32-quickgelu:openai,data/test/8.png,random_s45,a building,0
+ViT-B-32-quickgelu:openai,data/test/9.png,random_s45,halt,1
+ViT-B-32-quickgelu:openai,data/test/10.png,random_s45,a building,0
+ViT-B-32-quickgelu:openai,data/test/11.png,random_s45,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/12.png,random_s45,a car,0
+ViT-B-32-quickgelu:openai,data/test/13.png,random_s45,a road,0
+ViT-B-32-quickgelu:openai,data/test/14.png,random_s45,a road,0
+ViT-B-32-quickgelu:openai,data/test/15.png,random_s45,a car,0
+ViT-B-32-quickgelu:openai,data/test/16.png,random_s45,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/17.png,random_s45,a car,0
+ViT-B-32-quickgelu:openai,data/test/18.png,random_s45,a car,0
+ViT-B-32-quickgelu:openai,data/test/19.png,random_s45,a road,0
+ViT-B-32-quickgelu:openai,data/test/20.png,random_s45,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/21.png,random_s46,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/22.png,random_s46,a car,0
+ViT-B-32-quickgelu:openai,data/test/23.png,random_s46,a road,0
+ViT-B-32-quickgelu:openai,data/test/24.png,random_s46,a road,0
+ViT-B-32-quickgelu:openai,data/test/25.png,random_s46,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/26.png,random_s46,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/27.png,random_s46,a car,0
+ViT-B-32-quickgelu:openai,data/test/28.png,random_s46,a road,0
+ViT-B-32-quickgelu:openai,data/test/29.png,random_s46,a car,0
+ViT-B-32-quickgelu:openai,data/test/30.png,random_s46,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/31.png,random_s46,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/32.png,random_s46,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/33.png,random_s46,halt,1
+ViT-B-32-quickgelu:openai,data/test/34.png,random_s46,a table,0
+ViT-B-32-quickgelu:openai,data/test/35.png,random_s46,a tree,0
+ViT-B-32-quickgelu:openai,data/test/36.png,random_s46,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/37.png,random_s46,halt,1
+ViT-B-32-quickgelu:openai,data/test/38.png,random_s46,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/39.png,random_s46,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/40.png,random_s46,an indoor room,0
+ViT-B-32-quickgelu:openai,data/test/1.png,random_s46,a building,0
+ViT-B-32-quickgelu:openai,data/test/2.png,random_s46,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/3.png,random_s46,a tree,0
+ViT-B-32-quickgelu:openai,data/test/4.png,random_s46,a tree,0
+ViT-B-32-quickgelu:openai,data/test/5.png,random_s46,a tree,0
+ViT-B-32-quickgelu:openai,data/test/6.png,random_s46,a building,0
+ViT-B-32-quickgelu:openai,data/test/7.png,random_s46,a car,0
+ViT-B-32-quickgelu:openai,data/test/8.png,random_s46,a normal street scene,0
+ViT-B-32-quickgelu:openai,data/test/9.png,random_s46,halt,1
+ViT-B-32-quickgelu:openai,data/test/10.png,random_s46,go forward,0
+ViT-B-32-quickgelu:openai,data/test/11.png,random_s46,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/12.png,random_s46,a car,0
+ViT-B-32-quickgelu:openai,data/test/13.png,random_s46,a road,0
+ViT-B-32-quickgelu:openai,data/test/14.png,random_s46,a road,0
+ViT-B-32-quickgelu:openai,data/test/15.png,random_s46,a car,0
+ViT-B-32-quickgelu:openai,data/test/16.png,random_s46,a green traffic light,0
+ViT-B-32-quickgelu:openai,data/test/17.png,random_s46,a car,0
+ViT-B-32-quickgelu:openai,data/test/18.png,random_s46,a car,0
+ViT-B-32-quickgelu:openai,data/test/19.png,random_s46,a road,0
+ViT-B-32-quickgelu:openai,data/test/20.png,random_s46,a green traffic light,0
+ViT-B-16-quickgelu:openai,data/test/21.png,clean,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/22.png,clean,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/23.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/24.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/25.png,clean,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/26.png,clean,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/27.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/28.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/29.png,clean,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/30.png,clean,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/31.png,clean,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/32.png,clean,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/33.png,clean,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/34.png,clean,a table,0
+ViT-B-16-quickgelu:openai,data/test/35.png,clean,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/36.png,clean,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/37.png,clean,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/38.png,clean,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/39.png,clean,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/40.png,clean,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/1.png,clean,a building,0
+ViT-B-16-quickgelu:openai,data/test/2.png,clean,the command stop,1
+ViT-B-16-quickgelu:openai,data/test/3.png,clean,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/4.png,clean,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/5.png,clean,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/6.png,clean,a building,0
+ViT-B-16-quickgelu:openai,data/test/7.png,clean,the command stop,1
+ViT-B-16-quickgelu:openai,data/test/8.png,clean,a building,0
+ViT-B-16-quickgelu:openai,data/test/9.png,clean,the command stop,1
+ViT-B-16-quickgelu:openai,data/test/10.png,clean,a building,0
+ViT-B-16-quickgelu:openai,data/test/11.png,clean,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/12.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/13.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/14.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/15.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/16.png,clean,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/17.png,clean,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/18.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/19.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/20.png,clean,a road,0
+ViT-B-16-quickgelu:openai,data/test/21.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/22.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/23.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/24.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/25.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/26.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/27.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/28.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/29.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/30.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/31.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/32.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/33.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/34.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/35.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/36.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/37.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/38.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/39.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/40.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/1.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/2.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/3.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/4.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/5.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/6.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/7.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/8.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/9.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/10.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/11.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/12.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/13.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/14.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/15.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/16.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/17.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/18.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/19.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/20.png,whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/21.png,heldout_center,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/22.png,heldout_center,a stop sign,1
+ViT-B-16-quickgelu:openai,data/test/23.png,heldout_center,a stop sign,1
+ViT-B-16-quickgelu:openai,data/test/24.png,heldout_center,a road,0
+ViT-B-16-quickgelu:openai,data/test/25.png,heldout_center,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/26.png,heldout_center,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/27.png,heldout_center,a road,0
+ViT-B-16-quickgelu:openai,data/test/28.png,heldout_center,a road,0
+ViT-B-16-quickgelu:openai,data/test/29.png,heldout_center,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/30.png,heldout_center,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/31.png,heldout_center,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/32.png,heldout_center,a table,0
+ViT-B-16-quickgelu:openai,data/test/33.png,heldout_center,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/34.png,heldout_center,a table,0
+ViT-B-16-quickgelu:openai,data/test/35.png,heldout_center,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/36.png,heldout_center,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/37.png,heldout_center,a table,0
+ViT-B-16-quickgelu:openai,data/test/38.png,heldout_center,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/39.png,heldout_center,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/40.png,heldout_center,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/1.png,heldout_center,a building,0
+ViT-B-16-quickgelu:openai,data/test/2.png,heldout_center,a stop sign,1
+ViT-B-16-quickgelu:openai,data/test/3.png,heldout_center,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/4.png,heldout_center,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/5.png,heldout_center,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/6.png,heldout_center,a stop sign,1
+ViT-B-16-quickgelu:openai,data/test/7.png,heldout_center,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/8.png,heldout_center,a building,0
+ViT-B-16-quickgelu:openai,data/test/9.png,heldout_center,a stop sign,1
+ViT-B-16-quickgelu:openai,data/test/10.png,heldout_center,a building,0
+ViT-B-16-quickgelu:openai,data/test/11.png,heldout_center,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/12.png,heldout_center,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/13.png,heldout_center,a stop sign,1
+ViT-B-16-quickgelu:openai,data/test/14.png,heldout_center,a road,0
+ViT-B-16-quickgelu:openai,data/test/15.png,heldout_center,a car,0
+ViT-B-16-quickgelu:openai,data/test/16.png,heldout_center,a car,0
+ViT-B-16-quickgelu:openai,data/test/17.png,heldout_center,a car,0
+ViT-B-16-quickgelu:openai,data/test/18.png,heldout_center,a car,0
+ViT-B-16-quickgelu:openai,data/test/19.png,heldout_center,a road,0
+ViT-B-16-quickgelu:openai,data/test/20.png,heldout_center,go forward,0
+ViT-B-16-quickgelu:openai,data/test/21.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/22.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/23.png,clip_whitebox_center,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/24.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/25.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/26.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/27.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/28.png,clip_whitebox_center,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/29.png,clip_whitebox_center,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/30.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/31.png,clip_whitebox_center,the command stop,1
+ViT-B-16-quickgelu:openai,data/test/32.png,clip_whitebox_center,the command stop,1
+ViT-B-16-quickgelu:openai,data/test/33.png,clip_whitebox_center,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/34.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/35.png,clip_whitebox_center,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/36.png,clip_whitebox_center,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/37.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/38.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/39.png,clip_whitebox_center,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/40.png,clip_whitebox_center,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/1.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/2.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/3.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/4.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/5.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/6.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/7.png,clip_whitebox_center,the command stop,1
+ViT-B-16-quickgelu:openai,data/test/8.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/9.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/10.png,clip_whitebox_center,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/11.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/12.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/13.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/14.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/15.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/16.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/17.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/18.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/19.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/20.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-quickgelu:openai,data/test/21.png,random_s42,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/22.png,random_s42,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/23.png,random_s42,a road,0
+ViT-B-16-quickgelu:openai,data/test/24.png,random_s42,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/25.png,random_s42,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/26.png,random_s42,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/27.png,random_s42,a road,0
+ViT-B-16-quickgelu:openai,data/test/28.png,random_s42,a road,0
+ViT-B-16-quickgelu:openai,data/test/29.png,random_s42,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/30.png,random_s42,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/31.png,random_s42,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/32.png,random_s42,a table,0
+ViT-B-16-quickgelu:openai,data/test/33.png,random_s42,a table,0
+ViT-B-16-quickgelu:openai,data/test/34.png,random_s42,a table,0
+ViT-B-16-quickgelu:openai,data/test/35.png,random_s42,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/36.png,random_s42,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/37.png,random_s42,a tree,0
+ViT-B-16-quickgelu:openai,data/test/38.png,random_s42,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/39.png,random_s42,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/40.png,random_s42,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/1.png,random_s42,a tree,0
+ViT-B-16-quickgelu:openai,data/test/2.png,random_s42,a tree,0
+ViT-B-16-quickgelu:openai,data/test/3.png,random_s42,a tree,0
+ViT-B-16-quickgelu:openai,data/test/4.png,random_s42,a tree,0
+ViT-B-16-quickgelu:openai,data/test/5.png,random_s42,a tree,0
+ViT-B-16-quickgelu:openai,data/test/6.png,random_s42,a tree,0
+ViT-B-16-quickgelu:openai,data/test/7.png,random_s42,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/8.png,random_s42,a tree,0
+ViT-B-16-quickgelu:openai,data/test/9.png,random_s42,a tree,0
+ViT-B-16-quickgelu:openai,data/test/10.png,random_s42,a tree,0
+ViT-B-16-quickgelu:openai,data/test/11.png,random_s42,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/12.png,random_s42,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/13.png,random_s42,a car,0
+ViT-B-16-quickgelu:openai,data/test/14.png,random_s42,a road,0
+ViT-B-16-quickgelu:openai,data/test/15.png,random_s42,a car,0
+ViT-B-16-quickgelu:openai,data/test/16.png,random_s42,a car,0
+ViT-B-16-quickgelu:openai,data/test/17.png,random_s42,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/18.png,random_s42,a car,0
+ViT-B-16-quickgelu:openai,data/test/19.png,random_s42,a road,0
+ViT-B-16-quickgelu:openai,data/test/20.png,random_s42,a car,0
+ViT-B-16-quickgelu:openai,data/test/21.png,random_s43,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/22.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/23.png,random_s43,a road,0
+ViT-B-16-quickgelu:openai,data/test/24.png,random_s43,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/25.png,random_s43,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/26.png,random_s43,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/27.png,random_s43,a road,0
+ViT-B-16-quickgelu:openai,data/test/28.png,random_s43,a road,0
+ViT-B-16-quickgelu:openai,data/test/29.png,random_s43,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/30.png,random_s43,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/31.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/32.png,random_s43,a table,0
+ViT-B-16-quickgelu:openai,data/test/33.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/34.png,random_s43,a table,0
+ViT-B-16-quickgelu:openai,data/test/35.png,random_s43,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/36.png,random_s43,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/37.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/38.png,random_s43,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/39.png,random_s43,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/40.png,random_s43,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/1.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/2.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/3.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/4.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/5.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/6.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/7.png,random_s43,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/8.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/9.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/10.png,random_s43,a tree,0
+ViT-B-16-quickgelu:openai,data/test/11.png,random_s43,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/12.png,random_s43,a road,0
+ViT-B-16-quickgelu:openai,data/test/13.png,random_s43,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/14.png,random_s43,a road,0
+ViT-B-16-quickgelu:openai,data/test/15.png,random_s43,a car,0
+ViT-B-16-quickgelu:openai,data/test/16.png,random_s43,a car,0
+ViT-B-16-quickgelu:openai,data/test/17.png,random_s43,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/18.png,random_s43,a road,0
+ViT-B-16-quickgelu:openai,data/test/19.png,random_s43,a road,0
+ViT-B-16-quickgelu:openai,data/test/20.png,random_s43,a car,0
+ViT-B-16-quickgelu:openai,data/test/21.png,random_s44,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/22.png,random_s44,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/23.png,random_s44,a road,0
+ViT-B-16-quickgelu:openai,data/test/24.png,random_s44,a road,0
+ViT-B-16-quickgelu:openai,data/test/25.png,random_s44,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/26.png,random_s44,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/27.png,random_s44,a road,0
+ViT-B-16-quickgelu:openai,data/test/28.png,random_s44,a road,0
+ViT-B-16-quickgelu:openai,data/test/29.png,random_s44,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/30.png,random_s44,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/31.png,random_s44,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/32.png,random_s44,a table,0
+ViT-B-16-quickgelu:openai,data/test/33.png,random_s44,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/34.png,random_s44,a table,0
+ViT-B-16-quickgelu:openai,data/test/35.png,random_s44,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/36.png,random_s44,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/37.png,random_s44,a tree,0
+ViT-B-16-quickgelu:openai,data/test/38.png,random_s44,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/39.png,random_s44,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/40.png,random_s44,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/1.png,random_s44,a tree,0
+ViT-B-16-quickgelu:openai,data/test/2.png,random_s44,a tree,0
+ViT-B-16-quickgelu:openai,data/test/3.png,random_s44,a tree,0
+ViT-B-16-quickgelu:openai,data/test/4.png,random_s44,a tree,0
+ViT-B-16-quickgelu:openai,data/test/5.png,random_s44,a tree,0
+ViT-B-16-quickgelu:openai,data/test/6.png,random_s44,a tree,0
+ViT-B-16-quickgelu:openai,data/test/7.png,random_s44,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/8.png,random_s44,a tree,0
+ViT-B-16-quickgelu:openai,data/test/9.png,random_s44,a tree,0
+ViT-B-16-quickgelu:openai,data/test/10.png,random_s44,a tree,0
+ViT-B-16-quickgelu:openai,data/test/11.png,random_s44,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/12.png,random_s44,a road,0
+ViT-B-16-quickgelu:openai,data/test/13.png,random_s44,a road,0
+ViT-B-16-quickgelu:openai,data/test/14.png,random_s44,a road,0
+ViT-B-16-quickgelu:openai,data/test/15.png,random_s44,a car,0
+ViT-B-16-quickgelu:openai,data/test/16.png,random_s44,a car,0
+ViT-B-16-quickgelu:openai,data/test/17.png,random_s44,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/18.png,random_s44,a road,0
+ViT-B-16-quickgelu:openai,data/test/19.png,random_s44,a road,0
+ViT-B-16-quickgelu:openai,data/test/20.png,random_s44,a car,0
+ViT-B-16-quickgelu:openai,data/test/21.png,random_s45,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/22.png,random_s45,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/23.png,random_s45,a road,0
+ViT-B-16-quickgelu:openai,data/test/24.png,random_s45,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/25.png,random_s45,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/26.png,random_s45,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/27.png,random_s45,a road,0
+ViT-B-16-quickgelu:openai,data/test/28.png,random_s45,a road,0
+ViT-B-16-quickgelu:openai,data/test/29.png,random_s45,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/30.png,random_s45,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/31.png,random_s45,a tree,0
+ViT-B-16-quickgelu:openai,data/test/32.png,random_s45,a table,0
+ViT-B-16-quickgelu:openai,data/test/33.png,random_s45,a table,0
+ViT-B-16-quickgelu:openai,data/test/34.png,random_s45,a table,0
+ViT-B-16-quickgelu:openai,data/test/35.png,random_s45,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/36.png,random_s45,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/37.png,random_s45,a table,0
+ViT-B-16-quickgelu:openai,data/test/38.png,random_s45,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/39.png,random_s45,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/40.png,random_s45,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/1.png,random_s45,a tree,0
+ViT-B-16-quickgelu:openai,data/test/2.png,random_s45,a tree,0
+ViT-B-16-quickgelu:openai,data/test/3.png,random_s45,a tree,0
+ViT-B-16-quickgelu:openai,data/test/4.png,random_s45,a tree,0
+ViT-B-16-quickgelu:openai,data/test/5.png,random_s45,a tree,0
+ViT-B-16-quickgelu:openai,data/test/6.png,random_s45,a tree,0
+ViT-B-16-quickgelu:openai,data/test/7.png,random_s45,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/8.png,random_s45,a tree,0
+ViT-B-16-quickgelu:openai,data/test/9.png,random_s45,a tree,0
+ViT-B-16-quickgelu:openai,data/test/10.png,random_s45,a tree,0
+ViT-B-16-quickgelu:openai,data/test/11.png,random_s45,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/12.png,random_s45,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/13.png,random_s45,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/14.png,random_s45,a road,0
+ViT-B-16-quickgelu:openai,data/test/15.png,random_s45,a car,0
+ViT-B-16-quickgelu:openai,data/test/16.png,random_s45,a car,0
+ViT-B-16-quickgelu:openai,data/test/17.png,random_s45,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/18.png,random_s45,a road,0
+ViT-B-16-quickgelu:openai,data/test/19.png,random_s45,a road,0
+ViT-B-16-quickgelu:openai,data/test/20.png,random_s45,a car,0
+ViT-B-16-quickgelu:openai,data/test/21.png,random_s46,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/22.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/23.png,random_s46,a road,0
+ViT-B-16-quickgelu:openai,data/test/24.png,random_s46,a road,0
+ViT-B-16-quickgelu:openai,data/test/25.png,random_s46,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/26.png,random_s46,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/27.png,random_s46,a road,0
+ViT-B-16-quickgelu:openai,data/test/28.png,random_s46,a road,0
+ViT-B-16-quickgelu:openai,data/test/29.png,random_s46,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/30.png,random_s46,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/31.png,random_s46,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/32.png,random_s46,a table,0
+ViT-B-16-quickgelu:openai,data/test/33.png,random_s46,do not proceed,1
+ViT-B-16-quickgelu:openai,data/test/34.png,random_s46,a table,0
+ViT-B-16-quickgelu:openai,data/test/35.png,random_s46,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/36.png,random_s46,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/37.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/38.png,random_s46,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/39.png,random_s46,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/40.png,random_s46,an indoor room,0
+ViT-B-16-quickgelu:openai,data/test/1.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/2.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/3.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/4.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/5.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/6.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/7.png,random_s46,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/8.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/9.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/10.png,random_s46,a tree,0
+ViT-B-16-quickgelu:openai,data/test/11.png,random_s46,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/12.png,random_s46,continue moving,0
+ViT-B-16-quickgelu:openai,data/test/13.png,random_s46,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/14.png,random_s46,a road,0
+ViT-B-16-quickgelu:openai,data/test/15.png,random_s46,a car,0
+ViT-B-16-quickgelu:openai,data/test/16.png,random_s46,a car,0
+ViT-B-16-quickgelu:openai,data/test/17.png,random_s46,a normal street scene,0
+ViT-B-16-quickgelu:openai,data/test/18.png,random_s46,a road,0
+ViT-B-16-quickgelu:openai,data/test/19.png,random_s46,a road,0
+ViT-B-16-quickgelu:openai,data/test/20.png,random_s46,a car,0
+ViT-L-14-quickgelu:openai,data/test/21.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/22.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/23.png,clean,a road,0
+ViT-L-14-quickgelu:openai,data/test/24.png,clean,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/25.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/26.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/27.png,clean,a road,0
+ViT-L-14-quickgelu:openai,data/test/28.png,clean,a road,0
+ViT-L-14-quickgelu:openai,data/test/29.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/30.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/31.png,clean,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/32.png,clean,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/33.png,clean,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/34.png,clean,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/35.png,clean,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/36.png,clean,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/37.png,clean,halt,1
+ViT-L-14-quickgelu:openai,data/test/38.png,clean,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/39.png,clean,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/40.png,clean,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/1.png,clean,a building,0
+ViT-L-14-quickgelu:openai,data/test/2.png,clean,no stop sign,0
+ViT-L-14-quickgelu:openai,data/test/3.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/4.png,clean,a building,0
+ViT-L-14-quickgelu:openai,data/test/5.png,clean,safe to continue,0
+ViT-L-14-quickgelu:openai,data/test/6.png,clean,a building,0
+ViT-L-14-quickgelu:openai,data/test/7.png,clean,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/8.png,clean,a building,0
+ViT-L-14-quickgelu:openai,data/test/9.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/10.png,clean,a building,0
+ViT-L-14-quickgelu:openai,data/test/11.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/12.png,clean,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/13.png,clean,a road,0
+ViT-L-14-quickgelu:openai,data/test/14.png,clean,a road,0
+ViT-L-14-quickgelu:openai,data/test/15.png,clean,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/16.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/17.png,clean,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/18.png,clean,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/19.png,clean,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/20.png,clean,a car,0
+ViT-L-14-quickgelu:openai,data/test/21.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/22.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/23.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/24.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/25.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/26.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/27.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/28.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/29.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/30.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/31.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/32.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/33.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/34.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/35.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/36.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/37.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/38.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/39.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/40.png,whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/1.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/2.png,whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/3.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/4.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/5.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/6.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/7.png,whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/8.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/9.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/10.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/11.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/12.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/13.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/14.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/15.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/16.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/17.png,whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/18.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/19.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/20.png,whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/21.png,heldout_center,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/22.png,heldout_center,a car,0
+ViT-L-14-quickgelu:openai,data/test/23.png,heldout_center,a road,0
+ViT-L-14-quickgelu:openai,data/test/24.png,heldout_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/25.png,heldout_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/26.png,heldout_center,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/27.png,heldout_center,a road,0
+ViT-L-14-quickgelu:openai,data/test/28.png,heldout_center,a road,0
+ViT-L-14-quickgelu:openai,data/test/29.png,heldout_center,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/30.png,heldout_center,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/31.png,heldout_center,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/32.png,heldout_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/33.png,heldout_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/34.png,heldout_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/35.png,heldout_center,the agent should proceed,0
+ViT-L-14-quickgelu:openai,data/test/36.png,heldout_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/37.png,heldout_center,halt,1
+ViT-L-14-quickgelu:openai,data/test/38.png,heldout_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/39.png,heldout_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/40.png,heldout_center,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/1.png,heldout_center,a building,0
+ViT-L-14-quickgelu:openai,data/test/2.png,heldout_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/3.png,heldout_center,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/4.png,heldout_center,halt,1
+ViT-L-14-quickgelu:openai,data/test/5.png,heldout_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/6.png,heldout_center,a building,0
+ViT-L-14-quickgelu:openai,data/test/7.png,heldout_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/8.png,heldout_center,a building,0
+ViT-L-14-quickgelu:openai,data/test/9.png,heldout_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/10.png,heldout_center,a building,0
+ViT-L-14-quickgelu:openai,data/test/11.png,heldout_center,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/12.png,heldout_center,a road,0
+ViT-L-14-quickgelu:openai,data/test/13.png,heldout_center,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/14.png,heldout_center,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/15.png,heldout_center,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/16.png,heldout_center,a car,0
+ViT-L-14-quickgelu:openai,data/test/17.png,heldout_center,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/18.png,heldout_center,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/19.png,heldout_center,a car,0
+ViT-L-14-quickgelu:openai,data/test/20.png,heldout_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/21.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/22.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/23.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/24.png,clip_whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/25.png,clip_whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/26.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/27.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/28.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/29.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/30.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/31.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/32.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/33.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/34.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/35.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/36.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/37.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/38.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/39.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/40.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/1.png,clip_whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/2.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/3.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/4.png,clip_whitebox_center,a sign that says stop,1
+ViT-L-14-quickgelu:openai,data/test/5.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/6.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/7.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/8.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/9.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/10.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/11.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/12.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/13.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/14.png,clip_whitebox_center,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/15.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/16.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/17.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/18.png,clip_whitebox_center,continue moving,0
+ViT-L-14-quickgelu:openai,data/test/19.png,clip_whitebox_center,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/20.png,clip_whitebox_center,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/21.png,random_s42,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/22.png,random_s42,a car,0
+ViT-L-14-quickgelu:openai,data/test/23.png,random_s42,a road,0
+ViT-L-14-quickgelu:openai,data/test/24.png,random_s42,a car,0
+ViT-L-14-quickgelu:openai,data/test/25.png,random_s42,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/26.png,random_s42,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/27.png,random_s42,a car,0
+ViT-L-14-quickgelu:openai,data/test/28.png,random_s42,a road,0
+ViT-L-14-quickgelu:openai,data/test/29.png,random_s42,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/30.png,random_s42,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/31.png,random_s42,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/32.png,random_s42,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/33.png,random_s42,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/34.png,random_s42,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/35.png,random_s42,the agent should proceed,0
+ViT-L-14-quickgelu:openai,data/test/36.png,random_s42,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/37.png,random_s42,halt,1
+ViT-L-14-quickgelu:openai,data/test/38.png,random_s42,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/39.png,random_s42,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/40.png,random_s42,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/1.png,random_s42,a building,0
+ViT-L-14-quickgelu:openai,data/test/2.png,random_s42,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/3.png,random_s42,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/4.png,random_s42,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/5.png,random_s42,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/6.png,random_s42,a building,0
+ViT-L-14-quickgelu:openai,data/test/7.png,random_s42,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/8.png,random_s42,a building,0
+ViT-L-14-quickgelu:openai,data/test/9.png,random_s42,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/10.png,random_s42,a building,0
+ViT-L-14-quickgelu:openai,data/test/11.png,random_s42,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/12.png,random_s42,a car,0
+ViT-L-14-quickgelu:openai,data/test/13.png,random_s42,a car,0
+ViT-L-14-quickgelu:openai,data/test/14.png,random_s42,a car,0
+ViT-L-14-quickgelu:openai,data/test/15.png,random_s42,a car,0
+ViT-L-14-quickgelu:openai,data/test/16.png,random_s42,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/17.png,random_s42,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/18.png,random_s42,a car,0
+ViT-L-14-quickgelu:openai,data/test/19.png,random_s42,a car,0
+ViT-L-14-quickgelu:openai,data/test/20.png,random_s42,a car,0
+ViT-L-14-quickgelu:openai,data/test/21.png,random_s43,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/22.png,random_s43,a car,0
+ViT-L-14-quickgelu:openai,data/test/23.png,random_s43,a road,0
+ViT-L-14-quickgelu:openai,data/test/24.png,random_s43,a car,0
+ViT-L-14-quickgelu:openai,data/test/25.png,random_s43,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/26.png,random_s43,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/27.png,random_s43,a car,0
+ViT-L-14-quickgelu:openai,data/test/28.png,random_s43,a road,0
+ViT-L-14-quickgelu:openai,data/test/29.png,random_s43,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/30.png,random_s43,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/31.png,random_s43,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/32.png,random_s43,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/33.png,random_s43,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/34.png,random_s43,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/35.png,random_s43,the agent should proceed,0
+ViT-L-14-quickgelu:openai,data/test/36.png,random_s43,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/37.png,random_s43,halt,1
+ViT-L-14-quickgelu:openai,data/test/38.png,random_s43,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/39.png,random_s43,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/40.png,random_s43,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/1.png,random_s43,a building,0
+ViT-L-14-quickgelu:openai,data/test/2.png,random_s43,a car,0
+ViT-L-14-quickgelu:openai,data/test/3.png,random_s43,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/4.png,random_s43,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/5.png,random_s43,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/6.png,random_s43,a building,0
+ViT-L-14-quickgelu:openai,data/test/7.png,random_s43,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/8.png,random_s43,a building,0
+ViT-L-14-quickgelu:openai,data/test/9.png,random_s43,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/10.png,random_s43,a building,0
+ViT-L-14-quickgelu:openai,data/test/11.png,random_s43,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/12.png,random_s43,a road,0
+ViT-L-14-quickgelu:openai,data/test/13.png,random_s43,a car,0
+ViT-L-14-quickgelu:openai,data/test/14.png,random_s43,a car,0
+ViT-L-14-quickgelu:openai,data/test/15.png,random_s43,a car,0
+ViT-L-14-quickgelu:openai,data/test/16.png,random_s43,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/17.png,random_s43,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/18.png,random_s43,a car,0
+ViT-L-14-quickgelu:openai,data/test/19.png,random_s43,a car,0
+ViT-L-14-quickgelu:openai,data/test/20.png,random_s43,a car,0
+ViT-L-14-quickgelu:openai,data/test/21.png,random_s44,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/22.png,random_s44,a car,0
+ViT-L-14-quickgelu:openai,data/test/23.png,random_s44,a road,0
+ViT-L-14-quickgelu:openai,data/test/24.png,random_s44,a car,0
+ViT-L-14-quickgelu:openai,data/test/25.png,random_s44,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/26.png,random_s44,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/27.png,random_s44,a road,0
+ViT-L-14-quickgelu:openai,data/test/28.png,random_s44,a road,0
+ViT-L-14-quickgelu:openai,data/test/29.png,random_s44,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/30.png,random_s44,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/31.png,random_s44,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/32.png,random_s44,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/33.png,random_s44,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/34.png,random_s44,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/35.png,random_s44,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/36.png,random_s44,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/37.png,random_s44,halt,1
+ViT-L-14-quickgelu:openai,data/test/38.png,random_s44,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/39.png,random_s44,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/40.png,random_s44,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/1.png,random_s44,a building,0
+ViT-L-14-quickgelu:openai,data/test/2.png,random_s44,a building,0
+ViT-L-14-quickgelu:openai,data/test/3.png,random_s44,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/4.png,random_s44,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/5.png,random_s44,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/6.png,random_s44,a building,0
+ViT-L-14-quickgelu:openai,data/test/7.png,random_s44,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/8.png,random_s44,a building,0
+ViT-L-14-quickgelu:openai,data/test/9.png,random_s44,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/10.png,random_s44,a building,0
+ViT-L-14-quickgelu:openai,data/test/11.png,random_s44,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/12.png,random_s44,a road,0
+ViT-L-14-quickgelu:openai,data/test/13.png,random_s44,a car,0
+ViT-L-14-quickgelu:openai,data/test/14.png,random_s44,a car,0
+ViT-L-14-quickgelu:openai,data/test/15.png,random_s44,a car,0
+ViT-L-14-quickgelu:openai,data/test/16.png,random_s44,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/17.png,random_s44,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/18.png,random_s44,a car,0
+ViT-L-14-quickgelu:openai,data/test/19.png,random_s44,a car,0
+ViT-L-14-quickgelu:openai,data/test/20.png,random_s44,a car,0
+ViT-L-14-quickgelu:openai,data/test/21.png,random_s45,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/22.png,random_s45,a car,0
+ViT-L-14-quickgelu:openai,data/test/23.png,random_s45,a road,0
+ViT-L-14-quickgelu:openai,data/test/24.png,random_s45,a car,0
+ViT-L-14-quickgelu:openai,data/test/25.png,random_s45,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/26.png,random_s45,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/27.png,random_s45,a car,0
+ViT-L-14-quickgelu:openai,data/test/28.png,random_s45,a road,0
+ViT-L-14-quickgelu:openai,data/test/29.png,random_s45,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/30.png,random_s45,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/31.png,random_s45,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/32.png,random_s45,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/33.png,random_s45,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/34.png,random_s45,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/35.png,random_s45,a building,0
+ViT-L-14-quickgelu:openai,data/test/36.png,random_s45,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/37.png,random_s45,halt,1
+ViT-L-14-quickgelu:openai,data/test/38.png,random_s45,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/39.png,random_s45,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/40.png,random_s45,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/1.png,random_s45,a building,0
+ViT-L-14-quickgelu:openai,data/test/2.png,random_s45,a building,0
+ViT-L-14-quickgelu:openai,data/test/3.png,random_s45,a building,0
+ViT-L-14-quickgelu:openai,data/test/4.png,random_s45,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/5.png,random_s45,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/6.png,random_s45,a building,0
+ViT-L-14-quickgelu:openai,data/test/7.png,random_s45,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/8.png,random_s45,a building,0
+ViT-L-14-quickgelu:openai,data/test/9.png,random_s45,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/10.png,random_s45,a building,0
+ViT-L-14-quickgelu:openai,data/test/11.png,random_s45,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/12.png,random_s45,a car,0
+ViT-L-14-quickgelu:openai,data/test/13.png,random_s45,a car,0
+ViT-L-14-quickgelu:openai,data/test/14.png,random_s45,a car,0
+ViT-L-14-quickgelu:openai,data/test/15.png,random_s45,a car,0
+ViT-L-14-quickgelu:openai,data/test/16.png,random_s45,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/17.png,random_s45,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/18.png,random_s45,a car,0
+ViT-L-14-quickgelu:openai,data/test/19.png,random_s45,a car,0
+ViT-L-14-quickgelu:openai,data/test/20.png,random_s45,a car,0
+ViT-L-14-quickgelu:openai,data/test/21.png,random_s46,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/22.png,random_s46,a car,0
+ViT-L-14-quickgelu:openai,data/test/23.png,random_s46,a road,0
+ViT-L-14-quickgelu:openai,data/test/24.png,random_s46,a car,0
+ViT-L-14-quickgelu:openai,data/test/25.png,random_s46,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/26.png,random_s46,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/27.png,random_s46,a car,0
+ViT-L-14-quickgelu:openai,data/test/28.png,random_s46,a road,0
+ViT-L-14-quickgelu:openai,data/test/29.png,random_s46,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/30.png,random_s46,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/31.png,random_s46,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/32.png,random_s46,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/33.png,random_s46,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/34.png,random_s46,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/35.png,random_s46,the agent should proceed,0
+ViT-L-14-quickgelu:openai,data/test/36.png,random_s46,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/37.png,random_s46,halt,1
+ViT-L-14-quickgelu:openai,data/test/38.png,random_s46,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/39.png,random_s46,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/40.png,random_s46,an indoor room,0
+ViT-L-14-quickgelu:openai,data/test/1.png,random_s46,a building,0
+ViT-L-14-quickgelu:openai,data/test/2.png,random_s46,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/3.png,random_s46,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/4.png,random_s46,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/5.png,random_s46,do not proceed,1
+ViT-L-14-quickgelu:openai,data/test/6.png,random_s46,a building,0
+ViT-L-14-quickgelu:openai,data/test/7.png,random_s46,the command stop,1
+ViT-L-14-quickgelu:openai,data/test/8.png,random_s46,a building,0
+ViT-L-14-quickgelu:openai,data/test/9.png,random_s46,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/10.png,random_s46,a building,0
+ViT-L-14-quickgelu:openai,data/test/11.png,random_s46,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/12.png,random_s46,a road,0
+ViT-L-14-quickgelu:openai,data/test/13.png,random_s46,a car,0
+ViT-L-14-quickgelu:openai,data/test/14.png,random_s46,a car,0
+ViT-L-14-quickgelu:openai,data/test/15.png,random_s46,a car,0
+ViT-L-14-quickgelu:openai,data/test/16.png,random_s46,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/17.png,random_s46,a normal street scene,0
+ViT-L-14-quickgelu:openai,data/test/18.png,random_s46,a car,0
+ViT-L-14-quickgelu:openai,data/test/19.png,random_s46,a car,0
+ViT-L-14-quickgelu:openai,data/test/20.png,random_s46,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/21.png,clean,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/22.png,clean,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/23.png,clean,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/24.png,clean,a stop sign,1
+ViT-B-32:laion2b_s34b_b79k,data/test/25.png,clean,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/26.png,clean,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/27.png,clean,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/28.png,clean,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/29.png,clean,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/30.png,clean,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/31.png,clean,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/32.png,clean,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/33.png,clean,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/34.png,clean,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/35.png,clean,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/36.png,clean,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/37.png,clean,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/38.png,clean,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/39.png,clean,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/40.png,clean,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/1.png,clean,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/2.png,clean,continue moving,0
+ViT-B-32:laion2b_s34b_b79k,data/test/3.png,clean,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/4.png,clean,go forward,0
+ViT-B-32:laion2b_s34b_b79k,data/test/5.png,clean,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/6.png,clean,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/7.png,clean,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/8.png,clean,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/9.png,clean,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/10.png,clean,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/11.png,clean,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/12.png,clean,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/13.png,clean,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/14.png,clean,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/15.png,clean,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/16.png,clean,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/17.png,clean,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/18.png,clean,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/19.png,clean,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/20.png,clean,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/21.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/22.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/23.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/24.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/25.png,whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/26.png,whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/27.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/28.png,whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/29.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/30.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/31.png,whitebox_center,the safest action is stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/32.png,whitebox_center,the safest action is stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/33.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/34.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/35.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/36.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/37.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/38.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/39.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/40.png,whitebox_center,the safest action is stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/1.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/2.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/3.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/4.png,whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/5.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/6.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/7.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/8.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/9.png,whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/10.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/11.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/12.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/13.png,whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/14.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/15.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/16.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/17.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/18.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/19.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/20.png,whitebox_center,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/21.png,heldout_center,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/22.png,heldout_center,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/23.png,heldout_center,a stop sign,1
+ViT-B-32:laion2b_s34b_b79k,data/test/24.png,heldout_center,a stop sign,1
+ViT-B-32:laion2b_s34b_b79k,data/test/25.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/26.png,heldout_center,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/27.png,heldout_center,a stop sign,1
+ViT-B-32:laion2b_s34b_b79k,data/test/28.png,heldout_center,a stop sign,1
+ViT-B-32:laion2b_s34b_b79k,data/test/29.png,heldout_center,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/30.png,heldout_center,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/31.png,heldout_center,the safest action is stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/32.png,heldout_center,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/33.png,heldout_center,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/34.png,heldout_center,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/35.png,heldout_center,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/36.png,heldout_center,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/37.png,heldout_center,safe to continue,0
+ViT-B-32:laion2b_s34b_b79k,data/test/38.png,heldout_center,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/39.png,heldout_center,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/40.png,heldout_center,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/1.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/2.png,heldout_center,the safest action is stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/3.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/4.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/5.png,heldout_center,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/6.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/7.png,heldout_center,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/8.png,heldout_center,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/9.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/10.png,heldout_center,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/11.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/12.png,heldout_center,no stop sign,0
+ViT-B-32:laion2b_s34b_b79k,data/test/13.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/14.png,heldout_center,no stop sign,0
+ViT-B-32:laion2b_s34b_b79k,data/test/15.png,heldout_center,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/16.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/17.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/18.png,heldout_center,a stop sign,1
+ViT-B-32:laion2b_s34b_b79k,data/test/19.png,heldout_center,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/20.png,heldout_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/21.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/22.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/23.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/24.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/25.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/26.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/27.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/28.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/29.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/30.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/31.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/32.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/33.png,clip_whitebox_center,safe to continue,0
+ViT-B-32:laion2b_s34b_b79k,data/test/34.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/35.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/36.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/37.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/38.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/39.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/40.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/1.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/2.png,clip_whitebox_center,the safest action is stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/3.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/4.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/5.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/6.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/7.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/8.png,clip_whitebox_center,the safest action is stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/9.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/10.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/11.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/12.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/13.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/14.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/15.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/16.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/17.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/18.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/19.png,clip_whitebox_center,do not proceed,1
+ViT-B-32:laion2b_s34b_b79k,data/test/20.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/21.png,random_s42,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/22.png,random_s42,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/23.png,random_s42,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/24.png,random_s42,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/25.png,random_s42,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/26.png,random_s42,a green traffic light,0
+ViT-B-32:laion2b_s34b_b79k,data/test/27.png,random_s42,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/28.png,random_s42,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/29.png,random_s42,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/30.png,random_s42,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/31.png,random_s42,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/32.png,random_s42,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/33.png,random_s42,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/34.png,random_s42,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/35.png,random_s42,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/36.png,random_s42,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/37.png,random_s42,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/38.png,random_s42,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/39.png,random_s42,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/40.png,random_s42,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/1.png,random_s42,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/2.png,random_s42,continue moving,0
+ViT-B-32:laion2b_s34b_b79k,data/test/3.png,random_s42,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/4.png,random_s42,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/5.png,random_s42,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/6.png,random_s42,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/7.png,random_s42,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/8.png,random_s42,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/9.png,random_s42,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/10.png,random_s42,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/11.png,random_s42,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/12.png,random_s42,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/13.png,random_s42,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/14.png,random_s42,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/15.png,random_s42,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/16.png,random_s42,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/17.png,random_s42,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/18.png,random_s42,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/19.png,random_s42,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/20.png,random_s42,a green traffic light,0
+ViT-B-32:laion2b_s34b_b79k,data/test/21.png,random_s43,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/22.png,random_s43,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/23.png,random_s43,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/24.png,random_s43,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/25.png,random_s43,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/26.png,random_s43,a green traffic light,0
+ViT-B-32:laion2b_s34b_b79k,data/test/27.png,random_s43,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/28.png,random_s43,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/29.png,random_s43,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/30.png,random_s43,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/31.png,random_s43,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/32.png,random_s43,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/33.png,random_s43,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/34.png,random_s43,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/35.png,random_s43,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/36.png,random_s43,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/37.png,random_s43,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/38.png,random_s43,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/39.png,random_s43,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/40.png,random_s43,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/1.png,random_s43,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/2.png,random_s43,continue moving,0
+ViT-B-32:laion2b_s34b_b79k,data/test/3.png,random_s43,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/4.png,random_s43,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/5.png,random_s43,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/6.png,random_s43,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/7.png,random_s43,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/8.png,random_s43,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/9.png,random_s43,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/10.png,random_s43,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/11.png,random_s43,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/12.png,random_s43,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/13.png,random_s43,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/14.png,random_s43,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/15.png,random_s43,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/16.png,random_s43,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/17.png,random_s43,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/18.png,random_s43,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/19.png,random_s43,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/20.png,random_s43,a sign that says stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/21.png,random_s44,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/22.png,random_s44,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/23.png,random_s44,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/24.png,random_s44,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/25.png,random_s44,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/26.png,random_s44,a green traffic light,0
+ViT-B-32:laion2b_s34b_b79k,data/test/27.png,random_s44,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/28.png,random_s44,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/29.png,random_s44,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/30.png,random_s44,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/31.png,random_s44,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/32.png,random_s44,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/33.png,random_s44,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/34.png,random_s44,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/35.png,random_s44,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/36.png,random_s44,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/37.png,random_s44,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/38.png,random_s44,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/39.png,random_s44,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/40.png,random_s44,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/1.png,random_s44,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/2.png,random_s44,continue moving,0
+ViT-B-32:laion2b_s34b_b79k,data/test/3.png,random_s44,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/4.png,random_s44,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/5.png,random_s44,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/6.png,random_s44,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/7.png,random_s44,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/8.png,random_s44,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/9.png,random_s44,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/10.png,random_s44,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/11.png,random_s44,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/12.png,random_s44,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/13.png,random_s44,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/14.png,random_s44,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/15.png,random_s44,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/16.png,random_s44,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/17.png,random_s44,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/18.png,random_s44,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/19.png,random_s44,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/20.png,random_s44,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/21.png,random_s45,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/22.png,random_s45,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/23.png,random_s45,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/24.png,random_s45,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/25.png,random_s45,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/26.png,random_s45,a green traffic light,0
+ViT-B-32:laion2b_s34b_b79k,data/test/27.png,random_s45,the command stop,1
+ViT-B-32:laion2b_s34b_b79k,data/test/28.png,random_s45,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/29.png,random_s45,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/30.png,random_s45,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/31.png,random_s45,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/32.png,random_s45,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/33.png,random_s45,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/34.png,random_s45,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/35.png,random_s45,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/36.png,random_s45,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/37.png,random_s45,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/38.png,random_s45,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/39.png,random_s45,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/40.png,random_s45,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/1.png,random_s45,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/2.png,random_s45,continue moving,0
+ViT-B-32:laion2b_s34b_b79k,data/test/3.png,random_s45,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/4.png,random_s45,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/5.png,random_s45,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/6.png,random_s45,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/7.png,random_s45,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/8.png,random_s45,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/9.png,random_s45,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/10.png,random_s45,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/11.png,random_s45,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/12.png,random_s45,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/13.png,random_s45,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/14.png,random_s45,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/15.png,random_s45,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/16.png,random_s45,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/17.png,random_s45,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/18.png,random_s45,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/19.png,random_s45,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/20.png,random_s45,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/21.png,random_s46,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/22.png,random_s46,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/23.png,random_s46,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/24.png,random_s46,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/25.png,random_s46,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/26.png,random_s46,a green traffic light,0
+ViT-B-32:laion2b_s34b_b79k,data/test/27.png,random_s46,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/28.png,random_s46,a road,0
+ViT-B-32:laion2b_s34b_b79k,data/test/29.png,random_s46,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/30.png,random_s46,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/31.png,random_s46,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/32.png,random_s46,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/33.png,random_s46,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/34.png,random_s46,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/35.png,random_s46,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/36.png,random_s46,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/37.png,random_s46,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/38.png,random_s46,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/39.png,random_s46,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/40.png,random_s46,an indoor room,0
+ViT-B-32:laion2b_s34b_b79k,data/test/1.png,random_s46,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/2.png,random_s46,continue moving,0
+ViT-B-32:laion2b_s34b_b79k,data/test/3.png,random_s46,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/4.png,random_s46,an animal,0
+ViT-B-32:laion2b_s34b_b79k,data/test/5.png,random_s46,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/6.png,random_s46,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/7.png,random_s46,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/8.png,random_s46,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/9.png,random_s46,halt,1
+ViT-B-32:laion2b_s34b_b79k,data/test/10.png,random_s46,a building,0
+ViT-B-32:laion2b_s34b_b79k,data/test/11.png,random_s46,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/12.png,random_s46,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/13.png,random_s46,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/14.png,random_s46,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/15.png,random_s46,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/16.png,random_s46,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/17.png,random_s46,a normal street scene,0
+ViT-B-32:laion2b_s34b_b79k,data/test/18.png,random_s46,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/19.png,random_s46,a car,0
+ViT-B-32:laion2b_s34b_b79k,data/test/20.png,random_s46,a car,0
+ViT-B-16-SigLIP:webli,data/test/21.png,clean,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/22.png,clean,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/23.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/24.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/25.png,clean,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/26.png,clean,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/27.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/28.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/29.png,clean,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/30.png,clean,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/31.png,clean,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/32.png,clean,a table,0
+ViT-B-16-SigLIP:webli,data/test/33.png,clean,a table,0
+ViT-B-16-SigLIP:webli,data/test/34.png,clean,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/35.png,clean,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/36.png,clean,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/37.png,clean,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/38.png,clean,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/39.png,clean,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/40.png,clean,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/1.png,clean,a building,0
+ViT-B-16-SigLIP:webli,data/test/2.png,clean,a building,0
+ViT-B-16-SigLIP:webli,data/test/3.png,clean,a building,0
+ViT-B-16-SigLIP:webli,data/test/4.png,clean,a building,0
+ViT-B-16-SigLIP:webli,data/test/5.png,clean,a building,0
+ViT-B-16-SigLIP:webli,data/test/6.png,clean,a building,0
+ViT-B-16-SigLIP:webli,data/test/7.png,clean,a building,0
+ViT-B-16-SigLIP:webli,data/test/8.png,clean,a building,0
+ViT-B-16-SigLIP:webli,data/test/9.png,clean,a building,0
+ViT-B-16-SigLIP:webli,data/test/10.png,clean,a building,0
+ViT-B-16-SigLIP:webli,data/test/11.png,clean,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/12.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/13.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/14.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/15.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/16.png,clean,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/17.png,clean,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/18.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/19.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/20.png,clean,a road,0
+ViT-B-16-SigLIP:webli,data/test/21.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/22.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/23.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/24.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/25.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/26.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/27.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/28.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/29.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/30.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/31.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/32.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/33.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/34.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/35.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/36.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/37.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/38.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/39.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/40.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/1.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/2.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/3.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/4.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/5.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/6.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/7.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/8.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/9.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/10.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/11.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/12.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/13.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/14.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/15.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/16.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/17.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/18.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/19.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/20.png,whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/21.png,heldout_center,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/22.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/23.png,heldout_center,a road,0
+ViT-B-16-SigLIP:webli,data/test/24.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/25.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/26.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/27.png,heldout_center,a road,0
+ViT-B-16-SigLIP:webli,data/test/28.png,heldout_center,a road,0
+ViT-B-16-SigLIP:webli,data/test/29.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/30.png,heldout_center,a road,0
+ViT-B-16-SigLIP:webli,data/test/31.png,heldout_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/32.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/33.png,heldout_center,a table,0
+ViT-B-16-SigLIP:webli,data/test/34.png,heldout_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/35.png,heldout_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/36.png,heldout_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/37.png,heldout_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/38.png,heldout_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/39.png,heldout_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/40.png,heldout_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/1.png,heldout_center,a building,0
+ViT-B-16-SigLIP:webli,data/test/2.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/3.png,heldout_center,a building,0
+ViT-B-16-SigLIP:webli,data/test/4.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/5.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/6.png,heldout_center,a building,0
+ViT-B-16-SigLIP:webli,data/test/7.png,heldout_center,a building,0
+ViT-B-16-SigLIP:webli,data/test/8.png,heldout_center,a building,0
+ViT-B-16-SigLIP:webli,data/test/9.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/10.png,heldout_center,a building,0
+ViT-B-16-SigLIP:webli,data/test/11.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/12.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/13.png,heldout_center,a road,0
+ViT-B-16-SigLIP:webli,data/test/14.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/15.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/16.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/17.png,heldout_center,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/18.png,heldout_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/19.png,heldout_center,a road,0
+ViT-B-16-SigLIP:webli,data/test/20.png,heldout_center,a road,0
+ViT-B-16-SigLIP:webli,data/test/21.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/22.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/23.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/24.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/25.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/26.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/27.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/28.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/29.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/30.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/31.png,clip_whitebox_center,continue moving,0
+ViT-B-16-SigLIP:webli,data/test/32.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/33.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/34.png,clip_whitebox_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/35.png,clip_whitebox_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/36.png,clip_whitebox_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/37.png,clip_whitebox_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/38.png,clip_whitebox_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/39.png,clip_whitebox_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/40.png,clip_whitebox_center,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/1.png,clip_whitebox_center,a building,0
+ViT-B-16-SigLIP:webli,data/test/2.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/3.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/4.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/5.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/6.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/7.png,clip_whitebox_center,a building,0
+ViT-B-16-SigLIP:webli,data/test/8.png,clip_whitebox_center,a building,0
+ViT-B-16-SigLIP:webli,data/test/9.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/10.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/11.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/12.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/13.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/14.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/15.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/16.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/17.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/18.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/19.png,clip_whitebox_center,do not proceed,1
+ViT-B-16-SigLIP:webli,data/test/20.png,clip_whitebox_center,a sign that says stop,1
+ViT-B-16-SigLIP:webli,data/test/21.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/22.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/23.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/24.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/25.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/26.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/27.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/28.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/29.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/30.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/31.png,random_s42,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/32.png,random_s42,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/33.png,random_s42,a table,0
+ViT-B-16-SigLIP:webli,data/test/34.png,random_s42,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/35.png,random_s42,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/36.png,random_s42,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/37.png,random_s42,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/38.png,random_s42,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/39.png,random_s42,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/40.png,random_s42,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/1.png,random_s42,a building,0
+ViT-B-16-SigLIP:webli,data/test/2.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/3.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/4.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/5.png,random_s42,a building,0
+ViT-B-16-SigLIP:webli,data/test/6.png,random_s42,a building,0
+ViT-B-16-SigLIP:webli,data/test/7.png,random_s42,a building,0
+ViT-B-16-SigLIP:webli,data/test/8.png,random_s42,a building,0
+ViT-B-16-SigLIP:webli,data/test/9.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/10.png,random_s42,a building,0
+ViT-B-16-SigLIP:webli,data/test/11.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/12.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/13.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/14.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/15.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/16.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/17.png,random_s42,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/18.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/19.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/20.png,random_s42,a road,0
+ViT-B-16-SigLIP:webli,data/test/21.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/22.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/23.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/24.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/25.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/26.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/27.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/28.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/29.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/30.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/31.png,random_s43,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/32.png,random_s43,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/33.png,random_s43,a table,0
+ViT-B-16-SigLIP:webli,data/test/34.png,random_s43,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/35.png,random_s43,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/36.png,random_s43,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/37.png,random_s43,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/38.png,random_s43,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/39.png,random_s43,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/40.png,random_s43,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/1.png,random_s43,a building,0
+ViT-B-16-SigLIP:webli,data/test/2.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/3.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/4.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/5.png,random_s43,a building,0
+ViT-B-16-SigLIP:webli,data/test/6.png,random_s43,a building,0
+ViT-B-16-SigLIP:webli,data/test/7.png,random_s43,a building,0
+ViT-B-16-SigLIP:webli,data/test/8.png,random_s43,a building,0
+ViT-B-16-SigLIP:webli,data/test/9.png,random_s43,a building,0
+ViT-B-16-SigLIP:webli,data/test/10.png,random_s43,a building,0
+ViT-B-16-SigLIP:webli,data/test/11.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/12.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/13.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/14.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/15.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/16.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/17.png,random_s43,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/18.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/19.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/20.png,random_s43,a road,0
+ViT-B-16-SigLIP:webli,data/test/21.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/22.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/23.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/24.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/25.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/26.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/27.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/28.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/29.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/30.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/31.png,random_s44,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/32.png,random_s44,a table,0
+ViT-B-16-SigLIP:webli,data/test/33.png,random_s44,a table,0
+ViT-B-16-SigLIP:webli,data/test/34.png,random_s44,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/35.png,random_s44,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/36.png,random_s44,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/37.png,random_s44,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/38.png,random_s44,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/39.png,random_s44,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/40.png,random_s44,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/1.png,random_s44,a building,0
+ViT-B-16-SigLIP:webli,data/test/2.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/3.png,random_s44,a building,0
+ViT-B-16-SigLIP:webli,data/test/4.png,random_s44,a building,0
+ViT-B-16-SigLIP:webli,data/test/5.png,random_s44,a building,0
+ViT-B-16-SigLIP:webli,data/test/6.png,random_s44,a building,0
+ViT-B-16-SigLIP:webli,data/test/7.png,random_s44,a building,0
+ViT-B-16-SigLIP:webli,data/test/8.png,random_s44,a building,0
+ViT-B-16-SigLIP:webli,data/test/9.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/10.png,random_s44,a building,0
+ViT-B-16-SigLIP:webli,data/test/11.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/12.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/13.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/14.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/15.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/16.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/17.png,random_s44,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/18.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/19.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/20.png,random_s44,a road,0
+ViT-B-16-SigLIP:webli,data/test/21.png,random_s45,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/22.png,random_s45,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/23.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/24.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/25.png,random_s45,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/26.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/27.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/28.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/29.png,random_s45,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/30.png,random_s45,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/31.png,random_s45,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/32.png,random_s45,a table,0
+ViT-B-16-SigLIP:webli,data/test/33.png,random_s45,a table,0
+ViT-B-16-SigLIP:webli,data/test/34.png,random_s45,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/35.png,random_s45,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/36.png,random_s45,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/37.png,random_s45,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/38.png,random_s45,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/39.png,random_s45,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/40.png,random_s45,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/1.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/2.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/3.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/4.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/5.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/6.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/7.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/8.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/9.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/10.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/11.png,random_s45,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/12.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/13.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/14.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/15.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/16.png,random_s45,a building,0
+ViT-B-16-SigLIP:webli,data/test/17.png,random_s45,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/18.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/19.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/20.png,random_s45,a road,0
+ViT-B-16-SigLIP:webli,data/test/21.png,random_s46,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/22.png,random_s46,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/23.png,random_s46,a road,0
+ViT-B-16-SigLIP:webli,data/test/24.png,random_s46,a road,0
+ViT-B-16-SigLIP:webli,data/test/25.png,random_s46,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/26.png,random_s46,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/27.png,random_s46,a road,0
+ViT-B-16-SigLIP:webli,data/test/28.png,random_s46,a road,0
+ViT-B-16-SigLIP:webli,data/test/29.png,random_s46,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/30.png,random_s46,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/31.png,random_s46,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/32.png,random_s46,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/33.png,random_s46,a table,0
+ViT-B-16-SigLIP:webli,data/test/34.png,random_s46,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/35.png,random_s46,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/36.png,random_s46,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/37.png,random_s46,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/38.png,random_s46,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/39.png,random_s46,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/40.png,random_s46,an indoor room,0
+ViT-B-16-SigLIP:webli,data/test/1.png,random_s46,a building,0
+ViT-B-16-SigLIP:webli,data/test/2.png,random_s46,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/3.png,random_s46,a building,0
+ViT-B-16-SigLIP:webli,data/test/4.png,random_s46,a building,0
+ViT-B-16-SigLIP:webli,data/test/5.png,random_s46,a building,0
+ViT-B-16-SigLIP:webli,data/test/6.png,random_s46,a building,0
+ViT-B-16-SigLIP:webli,data/test/7.png,random_s46,a building,0
+ViT-B-16-SigLIP:webli,data/test/8.png,random_s46,a building,0
+ViT-B-16-SigLIP:webli,data/test/9.png,random_s46,a building,0
+ViT-B-16-SigLIP:webli,data/test/10.png,random_s46,a tree,0
+ViT-B-16-SigLIP:webli,data/test/11.png,random_s46,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/12.png,random_s46,a road,0
+ViT-B-16-SigLIP:webli,data/test/13.png,random_s46,a road,0
+ViT-B-16-SigLIP:webli,data/test/14.png,random_s46,a road,0
+ViT-B-16-SigLIP:webli,data/test/15.png,random_s46,a road,0
+ViT-B-16-SigLIP:webli,data/test/16.png,random_s46,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/17.png,random_s46,a normal street scene,0
+ViT-B-16-SigLIP:webli,data/test/18.png,random_s46,a road,0
+ViT-B-16-SigLIP:webli,data/test/19.png,random_s46,a road,0
+ViT-B-16-SigLIP:webli,data/test/20.png,random_s46,a road,0

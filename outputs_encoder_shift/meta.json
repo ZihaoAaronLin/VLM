@@ -1,0 +1,27 @@
+{
+  "models": [
+    "ViT-B-32-quickgelu:openai",
+    "ViT-B-16-quickgelu:openai",
+    "ViT-L-14-quickgelu:openai",
+    "ViT-B-32:laion2b_s34b_b79k",
+    "ViT-B-16-SigLIP:webli"
+  ],
+  "skipped": [],
+  "display_variants": [
+    "clean",
+    "whitebox_center",
+    "heldout_center",
+    "clip_whitebox_center",
+    "random_center"
+  ],
+  "random_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "n_images": 40,
+  "patch_size": 64,
+  "position": "center"
+}

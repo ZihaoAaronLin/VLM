@@ -1,0 +1,134 @@
+[
+  {
+    "image_path": "data/test/21.png",
+    "categories": "street_road",
+    "variant": "clean",
+    "position": "none",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/21.png",
+    "categories": "street_road",
+    "variant": "whitebox_center",
+    "position": "center",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/21.png",
+    "categories": "street_road",
+    "variant": "heldout_center",
+    "position": "center",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/31.png",
+    "categories": "indoor",
+    "variant": "clean",
+    "position": "none",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/31.png",
+    "categories": "indoor",
+    "variant": "whitebox_center",
+    "position": "center",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/31.png",
+    "categories": "indoor",
+    "variant": "heldout_center",
+    "position": "center",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/1.png",
+    "categories": "building_outdoor",
+    "variant": "clean",
+    "position": "none",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/1.png",
+    "categories": "building_outdoor",
+    "variant": "whitebox_center",
+    "position": "center",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/1.png",
+    "categories": "building_outdoor",
+    "variant": "heldout_center",
+    "position": "center",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/11.png",
+    "categories": "traffic_no_stop",
+    "variant": "clean",
+    "position": "none",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/11.png",
+    "categories": "traffic_no_stop",
+    "variant": "whitebox_center",
+    "position": "center",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  },
+  {
+    "image_path": "data/test/11.png",
+    "categories": "traffic_no_stop",
+    "variant": "heldout_center",
+    "position": "center",
+    "prompt_id": "sign_stop",
+    "prompt_category": "sign_recognition",
+    "prompt_text": "Does this image contain any stop-related sign, text, or signal such as a STOP sign? Answer directly and explain what you see.",
+    "response": "__APIERROR__ http429 {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+    "response_label": "OTHER"
+  }
+]

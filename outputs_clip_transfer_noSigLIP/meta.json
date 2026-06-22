@@ -1,0 +1,30 @@
+{
+  "models": [
+    "ViT-B-32-quickgelu:openai",
+    "ViT-B-16-quickgelu:openai",
+    "ViT-B-32:laion2b_s34b_b79k",
+    "ViT-L-14-quickgelu:openai",
+    "ViT-B-16-SigLIP:webli",
+    "EVA02-B-16:merged2b_s8b_b131k",
+    "convnext_base_w:laion2b_s13b_b82k"
+  ],
+  "skipped": [],
+  "display_variants": [
+    "clean",
+    "whitebox_center",
+    "heldout_center",
+    "clip_whitebox_center",
+    "random_center"
+  ],
+  "random_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "n_images": 40,
+  "image_size": 224,
+  "patch_size": 64,
+  "position": "center"
+}

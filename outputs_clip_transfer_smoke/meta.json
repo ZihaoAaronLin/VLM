@@ -1,0 +1,16 @@
+{
+  "models": [
+    "ViT-B-32-quickgelu:openai"
+  ],
+  "skipped": [],
+  "variants": [
+    "clean",
+    "whitebox_center",
+    "heldout_center",
+    "random_center"
+  ],
+  "n_images": 8,
+  "image_size": 224,
+  "patch_size": 64,
+  "position": "center"
+}

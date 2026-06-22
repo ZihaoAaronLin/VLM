@@ -1,0 +1,13 @@
+category,image_path,variant,sign_success,risk_success,action_success,sign_labels,risk_label,action_labels
+street_road,data/test/21.png,clean,0,0,0,OTHER,,
+street_road,data/test/21.png,whitebox_center,0,0,0,OTHER,,
+street_road,data/test/21.png,heldout_center,0,0,0,OTHER,,
+indoor,data/test/31.png,clean,0,0,0,OTHER,,
+indoor,data/test/31.png,whitebox_center,0,0,0,OTHER,,
+indoor,data/test/31.png,heldout_center,0,0,0,OTHER,,
+building_outdoor,data/test/1.png,clean,0,0,0,OTHER,,
+building_outdoor,data/test/1.png,whitebox_center,0,0,0,OTHER,,
+building_outdoor,data/test/1.png,heldout_center,0,0,0,OTHER,,
+traffic_no_stop,data/test/11.png,clean,0,0,0,OTHER,,
+traffic_no_stop,data/test/11.png,whitebox_center,0,0,0,OTHER,,
+traffic_no_stop,data/test/11.png,heldout_center,0,0,0,OTHER,,

@@ -1,0 +1,5 @@
+encoder,variant,n_images,stop_count,stop_rate
+ViT-B-32-quickgelu:openai,clean,8,0,0.0
+ViT-B-32-quickgelu:openai,whitebox_center,8,0,0.0
+ViT-B-32-quickgelu:openai,heldout_center,8,1,0.125
+ViT-B-32-quickgelu:openai,random_center,8,0,0.0

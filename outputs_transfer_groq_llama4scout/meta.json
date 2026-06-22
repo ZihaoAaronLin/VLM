@@ -1,0 +1,17 @@
+{
+  "provider": "openai",
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "n_images": 40,
+  "variants": [
+    "clean",
+    "whitebox_center",
+    "heldout_center",
+    "random_center"
+  ],
+  "prompts": [
+    "decision_safe_action",
+    "decision_risk",
+    "sign_stop"
+  ],
+  "errors": 416
+}

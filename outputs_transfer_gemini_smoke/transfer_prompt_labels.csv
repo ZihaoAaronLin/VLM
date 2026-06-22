@@ -1,0 +1,4 @@
+variant,prompt_id,prompt_category,response_label,count
+clean,sign_stop,sign_recognition,OTHER,4
+heldout_center,sign_stop,sign_recognition,OTHER,4
+whitebox_center,sign_stop,sign_recognition,OTHER,4

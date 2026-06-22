@@ -1,0 +1,14 @@
+{
+  "provider": "gemini",
+  "model": "gemini-2.0-flash",
+  "n_images": 4,
+  "variants": [
+    "clean",
+    "whitebox_center",
+    "heldout_center"
+  ],
+  "prompts": [
+    "sign_stop"
+  ],
+  "errors": 12
+}
