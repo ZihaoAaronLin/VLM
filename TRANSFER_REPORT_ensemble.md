@@ -108,3 +108,38 @@ best transfer patch, adding a bounded low-dim nudge on top of it (keeping its hi
 - n=40 (CI half-width ~+/-0.15 near .5-.7); 80% vs 90% not distinguishable at this n.
 - Single 224px center placement, greedy decoding, fp16.
 - InternVL2 risk excluded from the "broken" bar (genuine reasoning robustness, not attack failure).
+
+## 9. Attack boundary -- query-based & concept-retargeted attacks all fail to beat transfer
+
+Goal: push the InternVL2-2B sign^action conjunction above the transfer ceiling (div5 = .675).
+Five principled attempts on the clean held-out target (InternVL2, n=40). None beat div5; each
+failure exposes a different facet of the decision wall.
+
+| attempt | method | result | why it failed |
+|---|---|--:|---|
+| div5 (baseline) | ensemble transfer, target text "a stop sign" | conj .675 | -- (the ceiling) |
+| query: risk door | SPSA on logp("must you stop now?"=Yes), div5 warm-start | score -1.07 -> -0.99, no flip | the "is it an emergency" reasoning is robust to image perturbation |
+| query: action door | SPSA on logp(STOP-action) | conj .675 -> .30 | gamed the proxy: raised STOP-logit by DESTROYING perception (sign 1.0 -> .375) |
+| query: joint min(sign,action) | SPSA on min of both margins | conj = .675 (no gain) | div5 is a local optimum; any nudge lowers the weaker margin |
+| concept: decision text | train ensemble toward "emergency stop / danger ahead" | conj .05 | abstract concept -> CLIP-specific direction, no visual prototype, does not transfer to the VLM |
+| concept: hazard object | train ensemble toward "a pedestrian / obstacle / red light" | action .025, risk .025 | perception transfers (39/40 say "watch for pedestrian crossing") but the decision is graded caution, not a full STOP |
+
+### The decision wall, characterized
+
+- Attacks targeting the model's OWN decision logits (query/SPSA) cannot beat transfer: the guarded
+  "emergency" reasoning won't move (risk door); a single-decision proxy decouples from the semantic
+  attack and backfires (action door); and the transfer patch is already a local optimum (joint).
+- Retargeting the surrogate-encoder concept fails two ways: abstract concepts ("emergency") have no
+  visual prototype and don't transfer; concrete hazards ("pedestrian") DO transfer at perception,
+  but InternVL2 maps a perceived hazard to graded caution ("watch for pedestrians"), not a STOP.
+- Only the explicit "STOP sign" rule reliably yields a STOP decision -- which is why the stop-sign
+  transfer patch (div5) is both the strongest attack (.675) and the conceptually-right one.
+
+### Conclusion
+
+Perception transfers across architectures with near-ceiling success: a foreign VLM (InternViT +
+InternLM2, neither in the training ensemble) can be made to hallucinate a STOP sign, or even a
+pedestrian. The agentic DECISION, however, is robust -- it maps perception to graded caution and
+reserves "STOP" for the explicit stop-sign rule, resisting both transfer beyond ~.675 and direct
+black-box query optimization. The .675 sign^action conjunction on InternVL2 is therefore a
+mechanism-backed ceiling for this attack family, not merely an unoptimized number.
