@@ -21,6 +21,7 @@ temperature (not each model's logit_scale) keeps every member's loss comparable.
 Run on w6908 GPU via the nested hop (see project memory). Free.
 """
 import argparse
+import math
 import random
 from pathlib import Path
 
@@ -29,13 +30,19 @@ import torch.nn.functional as F
 from torch import nn
 from PIL import Image
 from torchvision import transforms
+from torchvision.transforms.functional import gaussian_blur as tv_gaussian_blur
 from torchvision.utils import save_image
 import pandas as pd
 import open_clip
 
 from eval_clip_transfer import STOP_TEXTS, NEG_TEXTS
 
+# Positive text set for the contrastive loss. main() may EXTEND STOP_TEXTS with
+# decision/urgency phrases (--extra-stop-texts) -> pushes the encoder toward the
+# "must stop" concept, not just "a sign". We AUGMENT (keep the sign phrases) so the
+# patch can't trade away perception for the decision concept.
 N_STOP = len(STOP_TEXTS)
+_ALL_TEXTS = STOP_TEXTS + NEG_TEXTS
 
 DEFAULT_TRAIN = [
     "ViT-B-32-quickgelu:openai",
@@ -65,7 +72,13 @@ def parse_args():
     p.add_argument("--dim-lo", type=float, default=0.85, help="min relative scale in DIM resize")
     p.add_argument("--eot", action="store_true", default=False,
                    help="expectation-over-transformations: random brightness/contrast/noise (transfer robustness)")
+    p.add_argument("--phys-eot", action="store_true", default=False,
+                   help="PHYSICAL EOT: affine/scale/blur/gamma + photometric -> patch survives print+photograph")
     p.add_argument("--seed", type=int, default=42)
+    p.add_argument("--extra-stop-texts", nargs="*", default=[],
+                   help="phrases to ADD to the positive set (keeps the default sign phrases)")
+    p.add_argument("--stop-texts", nargs="*", default=[],
+                   help="REPLACE the positive set entirely (e.g. concrete hazard objects: a pedestrian, an obstacle)")
     return p.parse_args()
 
 
@@ -103,7 +116,7 @@ def load_member(entry, device):
     size = getattr(model.visual, "image_size", (224, 224))
     size = size[0] if isinstance(size, (tuple, list)) else size
     with torch.no_grad():
-        tf = F.normalize(model.encode_text(tok(STOP_TEXTS + NEG_TEXTS).to(device)), dim=-1)
+        tf = F.normalize(model.encode_text(tok(_ALL_TEXTS).to(device)), dim=-1)
     return {"name": f"{name}:{pretrained}", "model": model, "mean": mean, "std": std,
             "size": size, "text_feats": tf}
 
@@ -171,6 +184,30 @@ def eot_augment(x):
     return x.clamp(0, 1)
 
 
+def phys_augment(x):
+    """Differentiable PHYSICAL EOT: simulate the print->camera->model pipeline so the
+    patch survives being printed on paper and photographed. All ops keep grad wrt the
+    patch. Chain: random affine (viewing angle) -> downscale/upscale (distance +
+    resampling) -> gaussian blur (lens) -> gamma (print/lighting) -> photometric+noise."""
+    B, _, H, W = x.shape
+    if random.random() < 0.8:  # viewing angle / perspective (mild affine)
+        ang = math.radians(random.uniform(-12, 12)); sc = random.uniform(0.8, 1.12)
+        ca, sa = math.cos(ang) / sc, math.sin(ang) / sc
+        tx, ty = random.uniform(-0.08, 0.08), random.uniform(-0.08, 0.08)
+        theta = torch.tensor([[ca, -sa, tx], [sa, ca, ty]], dtype=x.dtype, device=x.device).repeat(B, 1, 1)
+        grid = F.affine_grid(theta, x.shape, align_corners=False)
+        x = F.grid_sample(x, grid, align_corners=False, padding_mode="border")
+    if random.random() < 0.8:  # distance + camera/model resampling
+        s = random.uniform(0.4, 1.0); h2, w2 = max(8, int(H * s)), max(8, int(W * s))
+        x = F.interpolate(x, size=(h2, w2), mode="bilinear", align_corners=False)
+        x = F.interpolate(x, size=(H, W), mode="bilinear", align_corners=False)
+    if random.random() < 0.5:  # lens blur
+        x = tv_gaussian_blur(x, kernel_size=5, sigma=random.uniform(0.4, 1.6))
+    if random.random() < 0.7:  # print/lighting gamma
+        x = x.clamp(1e-4, 1.0).pow(random.uniform(0.7, 1.4))
+    return eot_augment(x)  # brightness/contrast/noise + clamp
+
+
 @torch.no_grad()
 def stop_rate(m, images01, patch, inv_temp):
     top = member_scores(m, apply_patch_center(images01, patch), inv_temp).argmax(1)
@@ -179,6 +216,12 @@ def stop_rate(m, images01, patch, inv_temp):
 
 def main():
     args = parse_args()
+    pos_texts = (args.stop_texts if args.stop_texts else STOP_TEXTS) + args.extra_stop_texts
+    if pos_texts != STOP_TEXTS:
+        global N_STOP, _ALL_TEXTS
+        N_STOP = len(pos_texts)
+        _ALL_TEXTS = pos_texts + NEG_TEXTS
+        print(f"positive texts -> {pos_texts}", flush=True)
     args.out_dir.mkdir(parents=True, exist_ok=True)
     random.seed(args.seed)
     torch.manual_seed(args.seed)
@@ -209,7 +252,9 @@ def main():
             for m in train_members:
                 patch = torch.sigmoid(patch_logits)
                 adv = input_diversity(apply_patch_random(images, patch), args.dim_prob, args.dim_lo)
-                if args.eot:
+                if args.phys_eot:
+                    adv = phys_augment(adv)
+                elif args.eot:
                     adv = eot_augment(adv)
                 loss_m = stop_contrastive_loss(member_scores(m, adv, args.inv_temp)) / len(train_members)
                 loss_m.backward()
