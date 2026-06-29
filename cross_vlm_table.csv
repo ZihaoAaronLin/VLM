@@ -1,0 +1,5 @@
+vlm,patch,clean_action,random_action,qwen_single_action,ens_sign,ens_action,ens_risk,ens_conj,n,note
+InternVL2-2B,div5,0.05,0.025,0.05,1.0,0.675,0.0,0.675,40,CLEAN cross-arch (InternViT + InternLM2 both foreign)
+Qwen2-VL-2B,ens4,0.15,0.15,0.15,0.975,0.825,0.45,0.8,40,SAME-FAMILY as source (Qwen LM) -- not cross-family
+SmolVLM,ensemble3 (no-SigLIP),0.05,0.275,0.15,0.0,0.8,0.75,0.0,40,clean cross-LM; sign/action DISSOCIATION
+LLaVA-OV,ensemble3 (no-SigLIP),0.05,0.175,0.15,0.45,0.425,0.95,0.25,40,LM = Qwen (confounded) -> appendix
