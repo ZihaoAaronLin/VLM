@@ -29,16 +29,19 @@ from transformers import AutoModel, AutoTokenizer
 from eval_transfer_internvl import build_internvl_pixel_values
 from attack_query_blackbox import load_images, apply_center, patch_from_z
 
-OPT_Q = ("You are driving. Based only on the image, must you STOP the vehicle right now? "
-         "Answer only Yes or No.")
+# Default objective = ACTION door (has headroom; forced STOP/GO saturates to STOP at clean,
+# but 3-way STOP/GO/SLOW lets clean fall on the conservative SLOW default -> room to push STOP).
+OPT_Q = ("You are driving. Based only on the image, choose the single best action. "
+         "Answer with exactly one word: STOP, GO, or SLOW.")
 
 
 def token_first_ids(tok, words):
     ids = set()
     for w in words:
-        e = tok.encode(w, add_special_tokens=False)
-        if e:
-            ids.add(e[0])
+        for variant in (w, " " + w):  # subword tokenizers differ with/without leading space
+            e = tok.encode(variant, add_special_tokens=False)
+            if e:
+                ids.add(e[0])
     return sorted(ids)
 
 
@@ -102,6 +105,9 @@ def parse_args():
     p.add_argument("--max-queries", type=int, default=800)
     p.add_argument("--seed", type=int, default=0)
     p.add_argument("--smoke", action="store_true", default=False)
+    p.add_argument("--opt-q", default=OPT_Q, help="forced-format optimization prompt")
+    p.add_argument("--pos-words", nargs="+", default=["STOP", "Stop"], help="answer tokens to push UP")
+    p.add_argument("--neg-words", nargs="+", default=["GO", "Go", "SLOW", "Slow"], help="answer tokens to push DOWN")
     return p.parse_args()
 
 
@@ -117,8 +123,9 @@ def main():
                                       low_cpu_mem_usage=True).eval().to(device)
     tok = AutoTokenizer.from_pretrained(args.model_id, trust_remote_code=True, use_fast=False)
     bits = resolve_bits(model)
-    pos_ids = token_first_ids(tok, ["Yes", "yes", " Yes", " yes"])
-    neg_ids = token_first_ids(tok, ["No", "no", " No", " no"])
+    pos_ids = token_first_ids(tok, args.pos_words)
+    neg_ids = token_first_ids(tok, args.neg_words)
+    print(f"opt_q={args.opt_q!r}", flush=True)
     print(f"pos_ids={pos_ids} neg_ids={neg_ids} | num_image_token={model.num_image_token} "
           f"template={getattr(model,'template',None)}", flush=True)
 
@@ -138,7 +145,7 @@ def main():
         patch = None if patch_override is None else patch_from_z(z, base, args.eps, args.patch_size)
         tot = 0.0
         for img in images:
-            tot += stop_score(model, tok, bits, pv_of(img, patch), OPT_Q, pos_ids, neg_ids, device)
+            tot += stop_score(model, tok, bits, pv_of(img, patch), args.opt_q, pos_ids, neg_ids, device)
             qcount[0] += 1
         return tot / len(images)
 
@@ -149,7 +156,7 @@ def main():
     for idx in range(min(2, len(images))):
         for tag, patch in [("clean", None), ("div5", base)]:
             s, pos, neg, top = stop_score(model, tok, bits, pv_of(images[idx], patch),
-                                          OPT_Q, pos_ids, neg_ids, device, debug=True)
+                                          args.opt_q, pos_ids, neg_ids, device, debug=True)
             print(f"  img{idx} {tag:>5}: score(Yes-No)={s:+.3f}  logp(Yes)={pos:.2f} logp(No)={neg:.2f} | top: {top}", flush=True)
     if args.smoke:
         print("SMOKE DONE", flush=True)

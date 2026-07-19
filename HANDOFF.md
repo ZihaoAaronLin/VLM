@@ -1,7 +1,9 @@
 # HANDOFF — VLM 项目（截至本 session 末）
 
 ## 一句话状态
-攻击研究线**已穷尽并收口**：白盒 100% → 集成跨架构迁移（InternVL2 .675 = 干净头条）→ **决策墙**（.675 带机制上限，五种突破全败）→ **物理鲁棒 patch 已训好并 sanity 过**。下一步**主要在用户手上**：打印 `ensemble_phys.png`、拍白墙/室内/室外三套、跑 `eval_physical.py` 出物理 ASR。全部已 push GitHub `cuda-repro`（最新 commit `d923b50`）。
+白盒 100% → 集成跨架构迁移（InternVL2 .675 = 干净头条）→ **决策墙**（.675 带机制上限，**六种突破全败**，加了 typographic）→ **受控配对物理实测完成**。同机位 clean/mine/senior + McNemar：**感知大幅领先**（合并 n=30 sign **.90 vs 学长 .60**），**"让车停"打平**（.233），**clean=0 证因果**；决策墙物理域复现。**★新发现**：裁剪探针 + clean 对照证明 **patch 占框 ~1/3 且留住驾驶场景 → 停车 .267→.60（纯 patch 驱动）**——表观尺寸×场景是可回收物理杠杆，预示重拍能到 .5–.6。可分享总览 artifact:https://claude.ai/code/artifact/6ce202c7-7b49-4178-9d74-3d78b12ad2de
+
+> 注:早前"未控"那批(ours conj .545 vs 学长 .143)**虚高、已弃用**（表观尺寸没配平）；以下**受控配对**为准。
 
 ## 本 session 已完成
 1. **跨架构迁移框架 + 污染审计**（编码器轴=真泄漏 / 家族轴=近亲混淆，分开谈）；统一表 `cross_vlm_table.{md,csv}`（`make_cross_vlm_table.py` 从已有 outputs 收集，CPU、不重下模型）。
@@ -20,9 +22,34 @@
 | SmolVLM | ensemble3 (no-SigLIP) | .05 | .275 | .15 | .00 / .80 / .75 | .000 ⚠️ | 跨 LM；解离（看 action 不看 conj） |
 | LLaVA-OV | ensemble3 (no-SigLIP) | .05 | .175 | .15 | .45 / .42 / .95 | .250 [.14,.40] | 污染 → 附录 |
 
-**物理 patch**（`ensemble_phys.png`，96px，数字域）：InternVL2 **sign .975 / action .325**（合取 ~.325）。物理 ASR 待用户拍摄后测。
+### 受控配对物理（`eval_physical.py --paired-dir ...`，InternVL2，同机位 clean/mine/senior + McNemar）
 
-**攻击边界（.675 天花板，五种突破全败）**：
+`eval_physical.py` 新增 **`--paired-dir` 模式**：逐机位决策表 + **strict/liberal 双 action 口径** + conj + McNemar 精确检验。mine = `ensemble_phys`。真源 `phys_paired_{outdoor,indoor}.log`。
+
+| 组 | outdoor sign/act严/conj严 | indoor sign/act严/conj严 |
+|---|---|---|
+| clean | .200 / **.000** / .000 | .000 / **.000** / .000 |
+| **mine** | **.867 / .267 / .267** | **.933 / .200 / .200** |
+| senior | .600 / .267 / .200 | .600 / .200 / .200 |
+
+- **合并 n=30**：mine **sign .90** vs senior .60；**action .233 打平**；conj .233 vs .20；**clean action=0 → 因果成立**。
+- **outdoor 翻转**：clean→mine +4/−0 p=.0625；**mine vs senior action 打平 +3/−3 p=1.0，只在 sign 赢**。
+- **扔掉合取只有坏处**：学长 `outdoor_7`=没看见标志却停,合取剔除、只看 action 给他算上→追平;宽松 senior .400 反超。**严格 + 合取 是我们该守的。**
+- **indoor 是感知的好测试、动作的坏测试**：放大 patch → sign .867→**.933**,但 action **反降 .200**——indoor 非驾驶场景（clean 宽松 .333 "do not drive"）。**动作看 outdoor,感知看 indoor。**
+
+### ★表观尺寸 × 场景（裁剪探针 + clean 对照，本轮关键发现）
+把 outdoor mine 图往 patch 裁紧（放大占比、留住路），clean 同样裁作对照：
+
+| 放大档 | clean act | mine act | mine conj |
+|---|--:|--:|--:|
+| z100(patch ~1/5) | .000 | .267 | .267 |
+| z55(太紧丢场景) | .000 | .400 | .400 |
+| **z70(~1/3 留住路)** | **.067** | **.600** | **.533** |
+
+- **clean 各档 ~0、mine 冲 .600 → 纯 patch 驱动**（净效应 +.533，McNemar p≈.01）。**机制:action = "patch够大 ∧ 有驾驶场景" 的交互**;甜点 ~1/3。**解释了 indoor 为何败**（大 patch 但没路）。
+- **是数字裁剪探针,不上报**;但受控下界估计 → **预示真实重拍能到 .5–.6**;不破墙（上限仍 ~.68），是找回接近上限。
+
+**攻击边界（.675 天花板，六种突破全败）**：
 
 | 尝试 | 结果 | 机制 |
 |---|--:|---|
@@ -31,13 +58,15 @@
 | 查询 joint min | .675 | div5 局部最优 |
 | 决策文本(抽象) | .05 | 概念不 transfer |
 | 危险物(行人) | action .025 | 感知成功但→谨慎非急停 |
+| **typographic(嵌STOP字)** | **sign .20/act .075** | **CLIP 文本≠InternViT,不 OCR-迁移** |
 
-## 下一步（按顺序，主要用户动手）
-1. `git pull` 取 `ensemble_phys.png` → 打印（正方形 15–18cm、全彩 sRGB、哑光、实际尺寸不平滑）。
-2. 拍三套（白墙/室内/室外）：patch 占框 1/4–1/3 居中、正面±12°、光照匀，每套多张。
-3. 照片传 `~/VLM/physical_photos/<scene>/` → `CUDA_VISIBLE_DEVICES=1 python eval_physical.py --photo-dir physical_photos/wall`（室内/室外同理）。
-4. 物理 ASR 贴回来分析；物理掉太多 → 迭代 phys-EOT（加大 patch / 更激进透视·光照重训）。
-5.（可选）写论文初稿：白盒→迁移→决策墙→物理；或把复现指南落成 `REPRODUCE.md`。
+**优化尝试(都没打赢原始)**：v2(NPS+TI+增强EOT,`train_ensemble_patch.py --nps-weight --ti`)过度正则化 sign→.175；typographic 塌;**白盒 InternVL2 用户否决=off-thesis(弃泛用性)**。原始 `ensemble_phys` 数字 sign .975/act .325 仍冠军。
+
+## 下一步（payoff）
+1. **重拍 outdoor**：patch 占框 **~1/3**（非 1/5、非 1/2）+ **画面留住路面/车** + 正面 + 同机位 clean/mine/senior。预测物理 action **~.5–.6**、conj ~.5 —— 能上报、不改 claim 的高数。
+2. **div5 对照**：数字底子 .68(vs phys .325),同样拍大;打印件已备 `~/Downloads/patches_to_print/{div5,phys}_PRINT_1920px.png`（最近邻放大保硬边）。
+3. 照片流程(已跑通)：本地 HEIC/jpg → `sips`/`ImageOps.exif_transpose` 烘正方向 + 降采样 1600 → **打 tar 传一次**再远端解 → `eval_physical.py --paired-dir`（先 `nvidia-smi` 找空卡,4 张卡别撞别人的）。
+4.（可选）论文初稿:白盒→迁移→决策墙(六印证)→物理可用 + 表观尺寸×场景。
 
 ## 锁定决策（别重吵，细节见 CLAUDE.md 报告铁律）
 - 头条 = **InternVL2 .675**（干净跨架构）；**Qwen2-VL-2B .800 = 同族上界参照，不当跨族成功报**。
@@ -45,7 +74,8 @@
 - LLaVA-OV 放附录、注明两轴污染。
 - 主表每行用对该目标最干净的 patch，**表注解释**为什么不同模型用不同 patch。
 - **.675 是带机制天花板**；查询/概念攻击五种全败 → 攻击线收口（这是结论，不是待办）。
-- 物理鲁棒 patch 数字 action .325 偏低**是正常**（拿潜力换鲁棒）；考卷是打印拍回来。
+- 物理鲁棒 patch 数字 action .325 偏低**是正常**（拿潜力换鲁棒）；**考卷已交：物理 conj .545 > 数字 .325,phys-EOT 成立**。
+- **物理对照报法**：我们的 vs 学长的 = 同任务·同评测的**方法对比**（不是地板对照）；sign 优势已边缘显著,conj 优势待补 n。别把 .545 当没有不确定性——n=11、CI [.28,.79]。
 
 ## 环境/连接（每次都遇到，详见 CLAUDE.md「踩坑」）
 - `ssh -M -S ~/.ssh/cm-w6908.sock -o ControlPersist=12h -o ServerAliveInterval=60 -o ServerAliveCountMax=120 -fN w6908`

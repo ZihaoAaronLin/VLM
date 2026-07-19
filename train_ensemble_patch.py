@@ -67,6 +67,11 @@ def parse_args():
     p.add_argument("--image-size", type=int, default=224)
     p.add_argument("--patch-size", type=int, default=64)
     p.add_argument("--tv-weight", type=float, default=5e-4)
+    p.add_argument("--nps-weight", type=float, default=0.0,
+                   help="non-printability score weight (Sharif 2016 / Thys 2019); >0 pushes pixels toward a printable palette")
+    p.add_argument("--ti", action="store_true", default=False,
+                   help="translation-invariant attack: gaussian-smooth the patch gradient (Dong 2019) for better transfer")
+    p.add_argument("--ti-sigma", type=float, default=1.0)
     p.add_argument("--inv-temp", type=float, default=100.0, help="uniform logit scale across members")
     p.add_argument("--dim-prob", type=float, default=0.5, help="input-diversity prob (0 disables DIM)")
     p.add_argument("--dim-lo", type=float, default=0.85, help="min relative scale in DIM resize")
@@ -141,6 +146,29 @@ def tv_loss(patch):
            (patch[:, :, 1:] - patch[:, :, :-1]).abs().mean()
 
 
+# coarse printable RGB grid (3^3=27 colors) — a defensible proxy for a printer's gamut.
+# Ideally calibrate to the actual printer via a printed color chart; this is a soft prior.
+_PAL = torch.tensor([[r, g, b] for r in (0.0, 0.5, 1.0)
+                               for g in (0.0, 0.5, 1.0)
+                               for b in (0.0, 0.5, 1.0)])
+
+
+def nps_loss(patch, palette):
+    """Non-printability score (Sharif 2016 'Accessorize to a Crime' / Thys 2019): min L2
+    distance of each patch pixel to a printable palette -> penalizes colors the printer
+    can't reproduce, shrinking the print->photo gap. (min-distance variant, numerically
+    stable.) palette (K,3), patch (3,P,P) in [0,1]."""
+    px = patch.permute(1, 2, 0).reshape(-1, 3)
+    return torch.cdist(px, palette).min(dim=1).values.mean()
+
+
+def gaussian_kernel(ksize, sigma, device):
+    ax = torch.arange(ksize, device=device, dtype=torch.float32) - (ksize - 1) / 2
+    g = torch.exp(-(ax ** 2) / (2 * sigma ** 2))
+    k = g[:, None] * g[None, :]
+    return (k / k.sum()).view(1, 1, ksize, ksize)
+
+
 def apply_patch_random(images, patch):
     adv = images.clone()
     h, w = images.shape[-2:]
@@ -205,6 +233,17 @@ def phys_augment(x):
         x = tv_gaussian_blur(x, kernel_size=5, sigma=random.uniform(0.4, 1.6))
     if random.random() < 0.7:  # print/lighting gamma
         x = x.clamp(1e-4, 1.0).pow(random.uniform(0.7, 1.4))
+    if random.random() < 0.6:  # camera auto-white-balance: per-channel gain jitter
+        gains = torch.tensor([random.uniform(0.9, 1.1) for _ in range(3)],
+                             device=x.device, dtype=x.dtype).view(1, 3, 1, 1)
+        x = (x * gains).clamp(0, 1)
+    if random.random() < 0.5:  # saturation jitter (camera ISP)
+        gray = x.mean(dim=1, keepdim=True)
+        x = (gray + (x - gray) * random.uniform(0.7, 1.3)).clamp(0, 1)
+    if random.random() < 0.6:  # JPEG chroma-subsampling proxy: blur chroma, keep luma
+        luma = x.mean(dim=1, keepdim=True)
+        x = (luma + tv_gaussian_blur(x - luma, kernel_size=3,
+                                     sigma=random.uniform(0.6, 1.2))).clamp(0, 1)
     return eot_augment(x)  # brightness/contrast/noise + clamp
 
 
@@ -237,6 +276,7 @@ def main():
 
     train_members = [load_member(e, device) for e in args.train_models]
     holdout_members = [load_member(e, device) for e in args.holdout_models]
+    palette = _PAL.to(device)
 
     patch_logits = nn.Parameter(torch.randn(3, args.patch_size, args.patch_size, device=device) * 0.1)
     opt = torch.optim.Adam([patch_logits], lr=args.lr)
@@ -259,7 +299,15 @@ def main():
                 loss_m = stop_contrastive_loss(member_scores(m, adv, args.inv_temp)) / len(train_members)
                 loss_m.backward()
                 running += loss_m.item()
-            (args.tv_weight * tv_loss(torch.sigmoid(patch_logits))).backward()
+            patch_now = torch.sigmoid(patch_logits)
+            reg = args.tv_weight * tv_loss(patch_now)
+            if args.nps_weight > 0:
+                reg = reg + args.nps_weight * nps_loss(patch_now, palette)
+            reg.backward()
+            if args.ti and patch_logits.grad is not None:  # translation-invariant: smooth the grad
+                k = gaussian_kernel(5, args.ti_sigma, device).repeat(3, 1, 1, 1)
+                patch_logits.grad = F.conv2d(patch_logits.grad.unsqueeze(0), k,
+                                             padding=2, groups=3).squeeze(0)
             opt.step()
 
         patch = torch.sigmoid(patch_logits).detach()
