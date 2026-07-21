@@ -116,7 +116,7 @@
     <li>跨架构迁移干净头条:**InternVL2 合取 .675 [.52,.80]**(感知顶到 1.0,动作封顶 ~.68)。</li>
     <li>**决策墙**:感知极易跨族迁移,决策鲁棒——**六种突破全部失败**,是带机制的稳健上限,不是没调好的数。</li>
     <li>物理(受控配对):**感知大幅领先**(sign .90 vs 学长 .60),**停车打平**(.233);无 patch 对照停车率 = 0,证明因果。</li>
-    <li>**新发现(探针+对照验证)**:patch 占框 ~1/3 且保留驾驶场景 → 停车 **.267 → .60**(clean 仍 ~0,纯 patch 驱动)。表观尺寸是可回收的物理杠杆。</li>
+    <li>**当前瓶颈 = 决策墙**(action 在感知满格、驾驶场景下仍封 ~.6–.68)。**已确定不是瓶颈**:感知/patch质量/迁移/表观尺寸。**表观尺寸**是可回收杠杆(裁剪探针+clean对照:patch 占框 ~1/3 → 停车 .267→.60,纯 patch 驱动,**非单调、峰≈1/3**)。**"驾驶场景是否必需"仍未确定**(混淆,待物理对照)。</li>
   </ul>
 </div>
 
@@ -279,20 +279,22 @@
   </div>
   <p><strong>诚实定论:</strong>感知大幅领先(<span class="num">.90 vs .60</span>),停车打平(<span class="num">.233</span>),合取微弱领先;clean=0 → 停车确由 patch 引起。</p>
 
-  <h3>4e · 新发现:表观尺寸 × 场景(裁剪探针 + clean 对照)</h3>
-  <p class="lead">把 outdoor 的 mine 图往 patch 上裁紧(放大 patch 占比、保留驾驶场景),同样裁剪也用到 clean 上作对照。</p>
+  <h3>4e · 表观尺寸 × 场景(裁剪探针 + clean 对照 + 上下文隔离)</h3>
+  <p class="lead">把 outdoor 的 mine 图往 patch 裁紧(放大占比),clean 同样裁作对照;再固定 z70 尺寸、遮掉上半的路作上下文隔离(probe3)。</p>
   <div class="tw">
   <table>
-    <thead><tr><th>放大档</th><th class="num">clean action</th><th class="num">mine action</th><th class="num">mine conj</th><th class="num">净效应(clean→mine)</th></tr></thead>
+    <thead><tr><th>档</th><th class="num">clean act</th><th class="num">mine act</th><th class="num">mine conj</th><th>说明</th></tr></thead>
     <tbody>
-      <tr><td>z100(原始 · patch ~1/5)</td><td class="num">.000</td><td class="num">.267</td><td class="num">.267</td><td class="num">+.267</td></tr>
-      <tr><td>z55(太紧 · 丢较多场景)</td><td class="num">.000</td><td class="num">.400</td><td class="num">.400</td><td class="num">+.400</td></tr>
-      <tr class="hi"><td class="rowlabel">z70(甜点 · patch ~1/3 · 留住路)</td><td class="num">.067</td><td class="num">.600</td><td class="num">.533</td><td class="num">+.533</td></tr>
+      <tr><td>z100(patch ~1/5)</td><td class="num">.000</td><td class="num">.267</td><td class="num">.267</td><td>原始</td></tr>
+      <tr class="hi"><td class="rowlabel">z70(patch ~1/3)</td><td class="num">.067</td><td class="num">.600</td><td class="num">.533</td><td>峰值</td></tr>
+      <tr><td>z55(更大/更紧)</td><td class="num">.000</td><td class="num">.400</td><td class="num">.400</td><td>比 z70 <strong>反降</strong>(非单调)</td></tr>
+      <tr><td>z70 + 遮上半路(probe3)</td><td class="num">.000</td><td class="num">.600</td><td class="num">.600</td><td>=z70,<strong>远处路无关</strong></td></tr>
     </tbody>
   </table>
   </div>
-  <div class="callout good"><b>对照通过 → 效果是 patch 引起的</b>clean 在所有放大档都 ~0(.000/.000/.067),mine 却 .267→.400→<strong>.600</strong>。裁紧本身不会让空场景停车 → "放大 patch 把停车顶到 .6"<strong>纯由 patch 驱动</strong>(净效应 +.533,粗算 McNemar p≈.01)。<br><br>机制:action 需要<strong>两个条件同时满足 —— patch 够大(被看见)∧ 场景像驾驶场景(有路)</strong>。甜点约 <strong>1/3</strong>;太紧(z55)丢场景反而回落。这解释了 indoor 为何失败(有大 patch 但没路)。</div>
-  <div class="callout warn"><b>诚实边界</b>这是<strong>数字裁剪探针,不能当上报的物理数</strong>(裁剪不增加真实细节)。但它是<strong>受控的下界估计</strong>——真的拍近,细节比放大裁剪更多,只会更好。它强烈预示真实重拍能到 <strong>.5–.6</strong>。<strong>这不是打破决策墙</strong>(数字上限仍 ~.68),而是把物理 action 从 .267 <strong>找回到接近上限</strong>。</div>
+  <div class="callout good"><b>能确定的:尺寸是杠杆(非单调,峰≈1/3)</b>同场景内 z100→z70 把 action .267→.600,clean 各档 ~0 → <strong>纯 patch 驱动</strong>(净效应 +.533,McNemar p≈.01)。但<strong>非单调</strong>:再往大(z55)反降到 .400 —— <strong>甜点 ≈ 1/3,别撑满</strong>。<br><br><b>能确定的:远处/上方的路无关</b>固定 z70、遮掉上半的路,action 仍 .600(=未遮)→ "画面里有远处的路"不是独立原因,它只是早前和尺寸一起变、造成的确认偏差。</div>
+  <div class="callout warn"><b>不能确定的:驾驶场景本身是否必需</b>indoor(大 patch/无路).200 vs outdoor .600 指向"场景重要",但两者是<strong>两次完全不同的拍摄、混淆严重</strong>;probe3 只遮了上半、<strong>下半的路一直在</strong>,没测过"真无场景"。→ <strong>驾驶场景是决策墙的一个待验证机制假设,不是已确定的瓶颈</strong>。唯一能定的实验 = 物理:同 patch 同 ~1/3 尺寸,一组路边、一组纯墙,同机位比 action。</div>
+  <div class="callout warn"><b>诚实边界</b>全是<strong>数字裁剪探针,不上报</strong>(裁剪不增细节);z55 的 patch 其实<strong>大多完整</strong>,它的回落不是纯切割假象、机制未定。作为受控下界估计:真实按 ~1/3 重拍,预示 action <strong>.5–.6</strong>。<strong>不破决策墙</strong>(上限仍 ~.68),是找回接近上限。</div>
 </section>
 
 <!-- 5 优化尝试 -->
@@ -305,13 +307,13 @@
       <tr class="hi"><td class="rowlabel">原始 ensemble_phys</td><td>phys-EOT 集成(冠军)</td><td class="num">.975 / .325</td><td><span class="chip head">基线冠军</span></td></tr>
       <tr><td>v2 正则化</td><td>NPS + TI + 增强 EOT</td><td class="num">.175 / .05</td><td><span class="chip fail">塌(过度正则化)</span></td></tr>
       <tr><td>typographic</td><td>正样本加 STOP 文字</td><td class="num">.20 / .075</td><td><span class="chip fail">不迁移(CLIP 文本≠InternViT)</span></td></tr>
-      <tr><td>表观尺寸(indoor 真拍大)</td><td>patch 占框 1/3–1/2</td><td class="num">— / .200(物理)</td><td><span class="chip fail">无 · 栽在无驾驶场景</span></td></tr>
-      <tr><td>表观尺寸 × 场景(裁剪探针)</td><td>patch ~1/3 + 留住路</td><td class="num">— / .600(探针)</td><td><span class="chip win">有效 · 已对照验证</span></td></tr>
+      <tr><td>表观尺寸(indoor 真拍大)</td><td>patch 占框 1/3–1/2</td><td class="num">— / .200(物理)</td><td><span class="chip tie">indoor 非驾驶场景,action 不可靠</span></td></tr>
+      <tr><td>表观尺寸(裁剪探针,同场景)</td><td>patch ~1/3(峰值)</td><td class="num">— / .600(探针)</td><td><span class="chip win">有效 · clean 对照过 · 非单调</span></td></tr>
       <tr><td>白盒 InternVL2</td><td>梯度过 LM 直接优化决策</td><td class="num">(未做)</td><td><span class="chip mut">否决 · off-thesis(弃泛用性)</span></td></tr>
     </tbody>
   </table>
   </div>
-  <p>结论:<strong>补丁优化 + 白盒 + typographic 都不抬 action</strong>(或改 claim);<strong>唯一验证有效的物理杠杆 = 表观尺寸 × 驾驶场景</strong>(§4e)。</p>
+  <p>结论:<strong>补丁优化 + 白盒 + typographic 都不抬 action</strong>(或改 claim);<strong>唯一验证有效的物理杠杆 = 表观尺寸(峰≈1/3,非单调)</strong>(§4e)。它只把物理 action 从 .267 <strong>找回到墙的上限(~.6)</strong>,不突破墙。</p>
 </section>
 
 <!-- 6 方法学 -->
@@ -321,7 +323,7 @@
     <li><strong>名义 vs 因果</strong>:测试集剔除真 STOP 标志 + 逐图合取,把"停"钉在"看见标志"上。</li>
     <li><strong>严格口径 + 有效零基线</strong>:只有严格 action 下 clean=0,才能把停车归因给 patch;宽松会抬高 clean、反帮对照。</li>
     <li><strong>配对 + McNemar</strong>:同机位 clean/mine/senior,场景当常量,翻转干净归因;场景本就吓停的样本(concordant)自动被剔除。</li>
-    <li><strong>表观尺寸 × 场景</strong>:action 是两者的交互,不是单因素;报物理必须同时控制"patch 占框比例"与"驾驶场景是否在框内"。</li>
+    <li><strong>表观尺寸 vs 场景 分离</strong>:控制 size 后"远处的路"效应消失 → 之前"上下文重要"多是 size 的确认偏差;size 是已确定杠杆(非单调),"驾驶场景是否必需"仍混淆待定。报物理须把 size 与场景分开控。</li>
   </ul>
 </section>
 
@@ -330,8 +332,9 @@
   <h2><span class="snum">§7</span>结论 & 卖点</h2>
   <ul class="tight">
     <li><strong>干净跨架构迁移可行</strong>(InternVL2 合取 .675,两轴外部)——集成/表征对齐是关键。</li>
-    <li><strong>决策墙是核心负结果</strong>:感知易迁移、决策鲁棒,<strong>六种突破全败</strong>——带机制的稳健上限,是卖点不是缺陷。</li>
-    <li><strong>物理可用</strong>:受控配对下感知大幅领先、停车打平且 clean=0 证因果;<strong>表观尺寸×场景</strong>可把停车从 .267 找回到接近上限。</li>
+    <li><strong>当前瓶颈 = 决策墙(核心负结果)</strong>:感知易迁移、决策鲁棒,<strong>六种突破全败</strong>——action 封 ~.6–.68 是带机制的稳健上限,是卖点不是缺陷。感知/patch质量/迁移/表观尺寸都<strong>已确定不是瓶颈</strong>。</li>
+    <li><strong>物理可用</strong>:受控配对下感知大幅领先、停车打平且 clean=0 证因果;<strong>表观尺寸(峰≈1/3)</strong>把停车从 .267 找回到接近上限。</li>
+    <li><strong>待验证的机制细化</strong>:"驾驶场景是否为动作的必要条件"(indoor 指向是、但混淆)—— 若成立则细化决策墙且对真实威胁有利,一个物理对照即可定。</li>
   </ul>
 </section>
 
@@ -339,9 +342,9 @@
 <section id="next">
   <h2><span class="snum">§8</span>下一步</h2>
   <ul class="tight">
-    <li><strong>重拍 outdoor(payoff)</strong>:patch 占框 <strong>~1/3</strong>(不是 1/5、也别到 1/2)、<strong>画面留住路面/车</strong>、正面、大;同机位 clean/mine/senior。预测物理 action <strong>~.5–.6</strong>、conj ~.5 —— 能上报、不改 claim 的高数。</li>
-    <li><strong>div5 对照</strong>:数字底子 .68(vs phys .325),同样拍大;大概率更高。打印件已备(<code>~/Downloads/patches_to_print/</code>)。</li>
-    <li>补 wall 场景 + 加大 n → 把配对显著性锁死。</li>
+    <li><strong>重拍 outdoor(payoff)</strong>:patch 占框 <strong>~1/3</strong>(不是 1/5、也别撑到 1/2——非单调,撑满反降)、正面、完整居中;同机位 clean/mine/senior。预测物理 action <strong>~.5–.6</strong> —— 能上报、不改 claim 的高数。</li>
+    <li><strong>★驾驶场景隔离对照(把假设变确定)</strong>:同一 patch、<strong>同 ~1/3 尺寸</strong>,一组贴真实路边、一组贴纯色墙,同机位比 action 差。这一个对照就能定"驾驶场景是否为必要条件"。</li>
+    <li><strong>div5 对照</strong>:数字底子 .68(vs phys .325),同样拍 ~1/3;打印件已备(<code>~/Downloads/patches_to_print/</code>)。</li>
   </ul>
 </section>
 
