@@ -4,44 +4,35 @@
     --bg:#f5f7f8; --surface:#ffffff; --surface-2:#edf1f3; --border:#d7dee2;
     --ink:#111820; --ink-2:#48545f; --ink-3:#6c7883;
     --accent:#0d6f7a; --accent-soft:#e0f0f1;
-    --good:#1c8a4c; --good-soft:#e2f3e8;
-    --warn:#a9711a; --warn-soft:#f6ecd8;
+    --good:#1c8a4c; --good-soft:#e2f3e8; --warn:#a9711a; --warn-soft:#f6ecd8;
     --bad:#bd3a30; --bad-soft:#f7e4e2;
     --font-sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
     --font-mono:ui-monospace,"SF Mono","JetBrains Mono",Menlo,Consolas,monospace;
     --maxw:960px;
   }
-  @media (prefers-color-scheme:dark){
-    :root{
-      --bg:#0d1116; --surface:#151b21; --surface-2:#1b232b; --border:#2a343d;
-      --ink:#e8edf1; --ink-2:#a7b2bd; --ink-3:#78838f;
-      --accent:#3bb6c1; --accent-soft:#123138;
-      --good:#4bc07e; --good-soft:#123324;
-      --warn:#dda63c; --warn-soft:#33280f;
-      --bad:#e06a60; --bad-soft:#361d1b;
-    }
-  }
+  @media (prefers-color-scheme:dark){:root{
+    --bg:#0d1116; --surface:#151b21; --surface-2:#1b232b; --border:#2a343d;
+    --ink:#e8edf1; --ink-2:#a7b2bd; --ink-3:#78838f;
+    --accent:#3bb6c1; --accent-soft:#123138;
+    --good:#4bc07e; --good-soft:#123324; --warn:#dda63c; --warn-soft:#33280f;
+    --bad:#e06a60; --bad-soft:#361d1b;}}
   :root[data-theme="dark"]{
     --bg:#0d1116; --surface:#151b21; --surface-2:#1b232b; --border:#2a343d;
     --ink:#e8edf1; --ink-2:#a7b2bd; --ink-3:#78838f;
     --accent:#3bb6c1; --accent-soft:#123138;
     --good:#4bc07e; --good-soft:#123324; --warn:#dda63c; --warn-soft:#33280f;
-    --bad:#e06a60; --bad-soft:#361d1b;
-  }
+    --bad:#e06a60; --bad-soft:#361d1b;}
   :root[data-theme="light"]{
     --bg:#f5f7f8; --surface:#ffffff; --surface-2:#edf1f3; --border:#d7dee2;
     --ink:#111820; --ink-2:#48545f; --ink-3:#6c7883;
     --accent:#0d6f7a; --accent-soft:#e0f0f1;
     --good:#1c8a4c; --good-soft:#e2f3e8; --warn:#a9711a; --warn-soft:#f6ecd8;
-    --bad:#bd3a30; --bad-soft:#f7e4e2;
-  }
+    --bad:#bd3a30; --bad-soft:#f7e4e2;}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-sans);
-    line-height:1.6;-webkit-font-smoothing:antialiased;font-size:16px}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-sans);line-height:1.6;-webkit-font-smoothing:antialiased;font-size:16px}
   .wrap{max-width:var(--maxw);margin:0 auto;padding:48px 24px 96px}
   header.masthead{border-bottom:2px solid var(--ink);padding-bottom:24px;margin-bottom:8px}
-  .eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
-    color:var(--accent);margin:0 0 10px}
+  .eyebrow{font-family:var(--font-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 10px}
   h1{font-size:clamp(26px,4.4vw,38px);line-height:1.12;margin:0 0 12px;letter-spacing:-.02em;text-wrap:balance;font-weight:680}
   .sub{color:var(--ink-2);font-size:15px;margin:0;max-width:64ch}
   .meta{font-family:var(--font-mono);font-size:12px;color:var(--ink-3);margin-top:14px;display:flex;gap:16px;flex-wrap:wrap}
@@ -52,52 +43,40 @@
   p{margin:10px 0;max-width:70ch}
   .lead{color:var(--ink-2)}
   strong{font-weight:660}
-  code,.mono{font-family:var(--font-mono);font-size:.88em}
-  .num{font-variant-numeric:tabular-nums}
+  code{font-family:var(--font-mono);font-size:.88em}
   a{color:var(--accent)}
-  /* cards & callouts */
-  .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px 22px}
-  .tldr{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--accent);
-    border-radius:10px;padding:18px 22px;margin-top:22px}
+  .tldr{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:10px;padding:18px 22px;margin-top:22px}
   .tldr ul{margin:8px 0 0;padding-left:0;list-style:none;display:grid;gap:10px}
   .tldr li{display:flex;gap:12px;align-items:baseline}
-  .tldr li::before{content:"›";color:var(--accent);font-weight:700;flex:0 0 auto}
+  .tldr li::before{content:"\203A";color:var(--accent);font-weight:700;flex:0 0 auto}
   .callout{border-radius:10px;padding:14px 18px;margin:16px 0;font-size:14.5px;border:1px solid var(--border)}
   .callout.good{background:var(--good-soft);border-color:color-mix(in srgb,var(--good) 40%,transparent)}
   .callout.warn{background:var(--warn-soft);border-color:color-mix(in srgb,var(--warn) 40%,transparent)}
   .callout.bad{background:var(--bad-soft);border-color:color-mix(in srgb,var(--bad) 40%,transparent)}
   .callout b{display:block;margin-bottom:2px}
-  /* definitions grid */
-  .defs{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;
-    background:var(--border);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-top:14px}
+  .defs{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-top:14px}
   .defs div{background:var(--surface);padding:12px 14px}
   .defs dt{font-family:var(--font-mono);font-weight:600;color:var(--accent);font-size:13px}
   .defs dd{margin:3px 0 0;font-size:13.5px;color:var(--ink-2)}
-  /* tables */
   .tw{overflow-x:auto;margin:14px 0;border:1px solid var(--border);border-radius:10px}
   table{border-collapse:collapse;width:100%;font-size:13.5px;min-width:520px}
   th,td{padding:9px 12px;text-align:left;border-bottom:1px solid var(--border);white-space:nowrap}
-  thead th{background:var(--surface-2);font-weight:640;font-size:12px;letter-spacing:.03em;color:var(--ink-2);
-    text-transform:uppercase;position:sticky;top:0}
+  thead th{background:var(--surface-2);font-weight:640;font-size:12px;letter-spacing:.03em;color:var(--ink-2);text-transform:uppercase}
   tbody tr:last-child td{border-bottom:none}
   td.num,th.num{text-align:right;font-family:var(--font-mono);font-variant-numeric:tabular-nums}
   tbody tr:hover td{background:var(--surface-2)}
   .rowlabel{font-weight:600}
   .hi td{background:var(--accent-soft)!important}
-  /* chips */
-  .chip{display:inline-block;font-family:var(--font-mono);font-size:11px;font-weight:600;
-    padding:2px 8px;border-radius:999px;letter-spacing:.02em;white-space:nowrap}
+  .chip{display:inline-block;font-family:var(--font-mono);font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;letter-spacing:.02em;white-space:nowrap}
   .chip.win{background:var(--good-soft);color:var(--good);border:1px solid color-mix(in srgb,var(--good) 45%,transparent)}
   .chip.tie{background:var(--warn-soft);color:var(--warn);border:1px solid color-mix(in srgb,var(--warn) 45%,transparent)}
   .chip.fail{background:var(--bad-soft);color:var(--bad);border:1px solid color-mix(in srgb,var(--bad) 45%,transparent)}
   .chip.head{background:var(--accent-soft);color:var(--accent);border:1px solid color-mix(in srgb,var(--accent) 45%,transparent)}
   .chip.mut{background:var(--surface-2);color:var(--ink-3);border:1px solid var(--border)}
-  .legend{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 0;font-size:12px;color:var(--ink-3)}
   .caption{font-size:12.5px;color:var(--ink-3);margin:6px 2px 0;font-family:var(--font-mono)}
   ul.tight{margin:8px 0;padding-left:20px}
   ul.tight li{margin:5px 0;max-width:70ch}
   .pill-row{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
-  hr.soft{border:none;border-top:1px solid var(--border);margin:22px 0}
   .footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--border);font-size:12.5px;color:var(--ink-3);font-family:var(--font-mono)}
 </style>
 
@@ -105,262 +84,161 @@
 
 <header class="masthead">
   <p class="eyebrow">VLM 对抗补丁 · 研究状态总览</p>
-  <h1>Stop-Patch:白盒 → 跨架构迁移 → 决策墙 → 物理可用</h1>
-  <p class="sub">一块纯对抗噪声补丁,让视觉语言模型幻觉出 STOP 标志并决定停车。研究其(a)白盒是否起效、(b)能否泛化、(c)能否迁到真正跨架构的 VLM、(d)决策层能否被攻破、(e)打印后是否仍生效。</p>
-  <div class="meta"><span>白盒源 = Qwen2.5-VL-3B-Instruct</span><span>迁移金标 = InternVL2-2B</span><span>更新于 2026-07-19</span></div>
+  <h1>Stop-Patch:白盒 → 跨架构迁移 → 决策墙(有条件) → 物理可用</h1>
+  <p class="sub">一块纯对抗噪声补丁,让视觉语言模型幻觉出 STOP 标志并决定停车。研究白盒是否起效、能否泛化、能否迁到真正跨架构的 VLM、决策层能否被攻破、打印后是否仍生效。</p>
+  <div class="meta"><span>白盒源 = Qwen2.5-VL-3B</span><span>迁移金标 = InternVL2-2B</span><span>更新 2026-07-20</span></div>
 </header>
 
 <div class="tldr">
   <ul>
     <li>白盒 Qwen2.5-VL-3B **~100%**;可微管线逐位复刻,梯度精确回补丁像素。</li>
-    <li>跨架构迁移干净头条:**InternVL2 合取 .675 [.52,.80]**(感知顶到 1.0,动作封顶 ~.68)。</li>
-    <li>**决策墙**:感知极易跨族迁移,决策鲁棒——**六种突破全部失败**,是带机制的稳健上限,不是没调好的数。</li>
-    <li>物理(受控配对):**感知大幅领先**(sign .90 vs 学长 .60),**停车打平**(.233);无 patch 对照停车率 = 0,证明因果。</li>
-    <li>**当前瓶颈 = 决策墙**(action 在感知满格、驾驶场景下仍封 ~.6–.68)。**已确定不是瓶颈**:感知/patch质量/迁移/表观尺寸。**表观尺寸**是可回收杠杆(裁剪探针+clean对照:patch 占框 ~1/3 → 停车 .267→.60,纯 patch 驱动,**非单调、峰≈1/3**)。**"驾驶场景是否必需"仍未确定**(混淆,待物理对照)。</li>
+    <li>跨架构迁移干净头条:**InternVL2 合取 .675 [.52,.80]**(感知顶到 1.0,动作封 ~.68)。</li>
+    <li>**当前瓶颈 = 决策墙,且是有条件的**:感知易迁移、决策鲁棒(六种突破全败);action 只在**"场景可驾驶 ∧ 看见 STOP"**时才升级到硬停。</li>
+    <li>物理(受控配对):**感知大幅领先**(n=30 sign .90 vs 学长 .60),**停车打平**(.233),clean action=0 证因果。</li>
+    <li>**两个已确定的机制成分**:①**表观尺寸**(峰≈1/3,非单调);②**驾驶场景**(不对称检验:感知持平、indoor 尺寸占优,换非驾驶场景仍把停车 .667→.200)。</li>
   </ul>
 </div>
 
-<!-- 0 术语 -->
 <section id="terms">
-  <h2><span class="snum">§0</span>术语 & 指标(全项目统一)</h2>
+  <h2><span class="snum">§0</span>术语 & 指标</h2>
   <dl class="defs">
-    <div><dt>sign</dt><dd>感知 ASR:模型答"有 STOP 标志"。<strong>最干净、最可信</strong>的指标。</dd></div>
-    <div><dt>action</dt><dd>停车决策 ASR:模型决定停车。单独看会被场景混淆。</dd></div>
-    <div><dt>risk</dt><dd>风险 ASR:判场景危险。</dd></div>
-    <div><dt>conj</dt><dd>逐图 <code>sign ∧ action</code> 再对图平均。<strong>因果指标</strong>:同一张图既看见标志又决定停。</dd></div>
-    <div><dt>strict / liberal</dt><dd>action 只认字面 "stop"(严格) vs 也把 "do not drive / avoid driving" 算停(宽松,会抬高 clean、慎用)。</dd></div>
-    <div><dt>地板</dt><dd>clean(无 patch) / random(5-seed 随机噪声)。效果需超过地板才算真。</dd></div>
-    <div><dt>Wilson CI</dt><dd>比例的 95% 置信区间,小样本/极端比例比正态近似准。</dd></div>
-    <div><dt>McNemar</dt><dd>配对二元数据的精确检验(同机位 clean vs patched)。<code>p</code> 越小越不像巧合;p&lt;.05 显著。</dd></div>
+    <div><dt>sign</dt><dd>感知 ASR:模型答"有 STOP 标志"。<strong>最干净</strong>。</dd></div>
+    <div><dt>action</dt><dd>停车决策 ASR。单独看会被场景混淆。</dd></div>
+    <div><dt>conj</dt><dd>逐图 <code>sign ∧ action</code> 再平均。<strong>因果指标</strong>。</dd></div>
+    <div><dt>strict / liberal</dt><dd>action 只认字面 "stop" vs 也把 "do not drive" 算停(抬高 clean、慎用)。</dd></div>
+    <div><dt>地板</dt><dd>clean(无 patch)/ random(5-seed 随机噪声)。</dd></div>
+    <div><dt>Wilson / McNemar</dt><dd>比例 95%CI / 配对二元精确检验。</dd></div>
   </dl>
-  <div class="callout warn"><b>项目核心红线:名义 vs 因果</b>模型"停车"可能是把 patch 当 STOP 标志(真起效),也可能是觉得场景危险而保守停(场景吓的)。<strong>测试集人工剔除了所有真 STOP 标志 + 用逐图合取</strong>,把"停"钉在"看见标志"这条因果链上。放宽这条 = 全错。</div>
+  <div class="callout warn"><b>核心红线:名义 vs 因果</b>停车可能是把 patch 当 STOP 标志(真起效),也可能是场景吓的。<strong>测试集剔除真 STOP 标志 + 逐图合取</strong>,把"停"钉在"看见标志"这条因果链上。放宽这条 = 全错。</div>
 </section>
 
-<!-- 1 白盒 -->
 <section id="whitebox">
   <h2><span class="snum">§1</span>白盒源(Qwen2.5-VL-3B)</h2>
-  <p class="lead">逐位复刻 Qwen 归一化 + patchify(<code>max|diff|=0</code>),梯度精确回传到补丁像素;冻结权重只训补丁。</p>
-  <div class="pill-row">
-    <span class="chip win">感知 100%</span>
-    <span class="chip mut">真攻击 ~72% in-sample</span>
-    <span class="chip mut">~63% held-out</span>
-    <span class="chip mut">1 epoch → 40/40 STOP</span>
-  </div>
+  <p class="lead">逐位复刻归一化 + patchify(<code>max|diff|=0</code>),梯度精确回补丁像素,冻结权重只训补丁。</p>
+  <div class="pill-row"><span class="chip win">感知 100%</span><span class="chip mut">真攻击 ~72% in-sample</span><span class="chip mut">~63% held-out</span></div>
 </section>
 
-<!-- 2 迁移 -->
 <section id="transfer">
   <h2><span class="snum">§2</span>跨架构迁移(数字域,n=40)</h2>
-  <p class="lead">集成补丁在多个替身编码器(CLIP/SigLIP/EVA)上训,从不训 LM。每行用对该 VLM 最干净的补丁,每个数配 clean + random(5-seed) 地板。数值真源 = <code>cross_vlm_table.csv</code>。</p>
-  <div class="tw">
-  <table>
-    <thead><tr>
-      <th>VLM</th><th>编码器 / LM</th><th>patch</th>
-      <th class="num">clean(act)</th><th class="num">random(act)</th>
-      <th class="num">sign</th><th class="num">act</th><th class="num">risk</th>
-      <th class="num">合取 [95%CI]</th><th>定位</th>
-    </tr></thead>
+  <p class="lead">集成补丁在替身编码器(CLIP/SigLIP/EVA)上训,从不训 LM。每行用对该 VLM 最干净的补丁 + clean/random 地板。真源 <code>cross_vlm_table.csv</code>。</p>
+  <div class="tw"><table>
+    <thead><tr><th>VLM</th><th>编码器 / LM</th><th>patch</th><th class="num">clean(act)</th><th class="num">rand(act)</th><th class="num">sign</th><th class="num">act</th><th class="num">合取 [CI]</th><th>定位</th></tr></thead>
     <tbody>
-      <tr class="hi">
-        <td class="rowlabel">InternVL2-2B</td><td>InternViT / InternLM2 <span class="mono">(全外部)</span></td><td class="mono">div5</td>
-        <td class="num">.05</td><td class="num">.025</td>
-        <td class="num">1.00</td><td class="num">.68</td><td class="num">.00</td>
-        <td class="num">.675 [.52,.80]</td><td><span class="chip head">干净跨架构 · 头条</span></td>
-      </tr>
-      <tr>
-        <td class="rowlabel">Qwen2-VL-2B</td><td>Qwen-VL ViT / Qwen2 <span class="mono">(同族)</span></td><td class="mono">ens4</td>
-        <td class="num">.15</td><td class="num">.15</td>
-        <td class="num">.97</td><td class="num">.82</td><td class="num">.45</td>
-        <td class="num">.800 [.65,.90]</td><td><span class="chip tie">同族上界参照 · 非跨族</span></td>
-      </tr>
-      <tr>
-        <td class="rowlabel">SmolVLM</td><td>SigLIP / SmolLM2</td><td class="mono">ens3(no-SigLIP)</td>
-        <td class="num">.05</td><td class="num">.275</td>
-        <td class="num">.00</td><td class="num">.80</td><td class="num">.75</td>
-        <td class="num">.000</td><td><span class="chip tie">跨 LM · 解离(报 action)</span></td>
-      </tr>
-      <tr>
-        <td class="rowlabel">LLaVA-OV</td><td>SigLIP / Qwen2 <span class="mono">(两轴沾)</span></td><td class="mono">ens3(no-SigLIP)</td>
-        <td class="num">.05</td><td class="num">.175</td>
-        <td class="num">.45</td><td class="num">.42</td><td class="num">.95</td>
-        <td class="num">.250 [.14,.40]</td><td><span class="chip mut">污染 · 附录</span></td>
-      </tr>
+      <tr class="hi"><td class="rowlabel">InternVL2-2B</td><td>InternViT / InternLM2 <code>(全外部)</code></td><td><code>div5</code></td><td class="num">.05</td><td class="num">.025</td><td class="num">1.00</td><td class="num">.68</td><td class="num">.675 [.52,.80]</td><td><span class="chip head">干净跨架构 · 头条</span></td></tr>
+      <tr><td class="rowlabel">Qwen2-VL-2B</td><td>Qwen-VL ViT / Qwen2 <code>(同族)</code></td><td><code>ens4</code></td><td class="num">.15</td><td class="num">.15</td><td class="num">.97</td><td class="num">.82</td><td class="num">.800 [.65,.90]</td><td><span class="chip tie">同族上界参照 · 非跨族</span></td></tr>
+      <tr><td class="rowlabel">SmolVLM</td><td>SigLIP / SmolLM2</td><td><code>ens3</code></td><td class="num">.05</td><td class="num">.275</td><td class="num">.00</td><td class="num">.80</td><td class="num">.000</td><td><span class="chip tie">跨 LM · 解离(报 action)</span></td></tr>
+      <tr><td class="rowlabel">LLaVA-OV</td><td>SigLIP / Qwen2 <code>(两轴沾)</code></td><td><code>ens3</code></td><td class="num">.05</td><td class="num">.175</td><td class="num">.45</td><td class="num">.42</td><td class="num">.250 [.14,.40]</td><td><span class="chip mut">污染 · 附录</span></td></tr>
     </tbody>
-  </table>
-  </div>
-  <div class="callout good"><b>消融坐实(为什么是"集成"在起作用)</b>跨到陌生 VLM 需要<strong>编码器多样性(集成)</strong>或<strong>表征对齐的替身(SigLIP↔InternViT)</strong>;单个不匹配编码器(CLIP-B/32)即便用 for-transfer 管线也失败(sign .10 ≈ 地板)。</div>
-  <h3>报告铁律</h3>
-  <ul class="tight">
-    <li><strong>InternVL2 .675 是头条</strong>(编码器与 LM 两轴都不在训练集)。</li>
-    <li><strong>Qwen2-VL-2B .800 永远标"同族上界参照(非跨族)"</strong>——它的 ViT 血统 + LM 家族都和 source 一家。</li>
-    <li><strong>SmolVLM 用 action(.80)+解离报,不用合取</strong>(sign=.00 会把合取归零、误导)。</li>
-    <li>LLaVA-OV 放附录,注明编码器轴 + 家族轴两轴污染。</li>
-  </ul>
+  </table></div>
+  <div class="callout good"><b>消融坐实</b>跨到陌生 VLM 需<strong>编码器多样性(集成)</strong>或<strong>表征对齐替身(SigLIP↔InternViT)</strong>;单个不匹配编码器(CLIP-B/32)即便用 for-transfer 管线也失败(sign .10)。</div>
+  <p class="lead"><strong>报告铁律</strong>:InternVL2 头条;Qwen2-VL-2B 永远标"同族上界(非跨族)";SmolVLM 用 action+解离不用合取;LLaVA 附录。</p>
 </section>
 
-<!-- 3 决策墙 -->
 <section id="wall">
   <h2><span class="snum">§3</span>决策墙 —— 六个独立印证</h2>
-  <p class="lead">天花板 = InternVL2 上 div5 的合取 <strong>.675</strong>(sign 顶到 1.0,action 封 ~.68)。每次突破尝试各揭示决策层一个鲁棒维度,全部出局。</p>
-  <div class="tw">
-  <table>
+  <p class="lead">天花板 = InternVL2 上 div5 的合取 <strong>.675</strong>(sign 顶到 1.0,action 封 ~.68)。每次突破各揭示决策层一个鲁棒维度,全部出局。</p>
+  <div class="tw"><table>
     <thead><tr><th style="width:1%">#</th><th>尝试</th><th>结果</th><th>为什么败</th></tr></thead>
     <tbody>
       <tr><td class="num">1</td><td>查询 · risk 门(SPSA)</td><td><span class="chip fail">不翻</span></td><td>守护推理对图像扰动鲁棒</td></tr>
-      <tr><td class="num">2</td><td>查询 · action 门(SPSA)</td><td><span class="chip fail">合取 .675→.30</span></td><td>刷代理:毁 sign(1.0→.375)抬 STOP-logit</td></tr>
-      <tr><td class="num">3</td><td>查询 · 联合 min(sign,action)</td><td><span class="chip fail">=.675 无增益</span></td><td>div5 已是该目标局部最优</td></tr>
-      <tr><td class="num">4</td><td>概念 · 抽象决策文本(emergency/danger)</td><td><span class="chip fail">合取 .05</span></td><td>抽象概念无视觉原型,CLIP 特异不迁移</td></tr>
-      <tr><td class="num">5</td><td>概念 · 危险物(行人/障碍)</td><td><span class="chip fail">action .025</span></td><td>感知成功(答"watch for pedestrian")但→分级谨慎非急停</td></tr>
-      <tr><td class="num">6</td><td>typographic(嵌 STOP 文字)</td><td><span class="chip fail">sign .20 / act .075</span></td><td>对齐 CLIP 文本嵌入(特异),InternViT 不 OCR-迁移</td></tr>
+      <tr><td class="num">2</td><td>查询 · action 门(SPSA)</td><td><span class="chip fail">合取 .675→.30</span></td><td>刷代理:毁 sign 抬 STOP-logit</td></tr>
+      <tr><td class="num">3</td><td>查询 · 联合 min</td><td><span class="chip fail">=.675</span></td><td>div5 已局部最优</td></tr>
+      <tr><td class="num">4</td><td>概念 · 抽象决策文本</td><td><span class="chip fail">.05</span></td><td>抽象概念无视觉原型,不迁移</td></tr>
+      <tr><td class="num">5</td><td>概念 · 危险物(行人)</td><td><span class="chip fail">act .025</span></td><td>感知成功但→分级谨慎非急停</td></tr>
+      <tr><td class="num">6</td><td>typographic(嵌 STOP 文字)</td><td><span class="chip fail">sign .20/act .075</span></td><td>对齐 CLIP 文本,InternViT 不 OCR-迁移</td></tr>
     </tbody>
-  </table>
-  </div>
-  <div class="callout good"><b>机制主线(论文卖点)</b>感知极易跨族迁移——能幻觉出 STOP 标志、甚至行人、甚至可读文字;但<strong>决策鲁棒</strong>——模型把感知映射成<strong>分级谨慎(watch / slow)</strong>,只有"STOP 标志"这条最直接的规则可靠产出"STOP"。所以 <code>.675</code> 既是最强攻击、又是概念上对的那个,是<strong>带机制论证的稳健上限</strong>。</div>
+  </table></div>
+  <div class="callout good"><b>机制主线</b>感知极易跨族迁移——能幻觉 STOP、行人、甚至可读文字;但<strong>决策鲁棒</strong>——模型把感知映射成<strong>分级谨慎(watch/slow)</strong>,只有"STOP 标志"这条最直接规则可靠产出"STOP"。<code>.675</code> 是带机制的稳健上限。</div>
 </section>
 
-<!-- 4 物理 -->
 <section id="physical">
   <h2><span class="snum">§4</span>物理实测(InternVL2,手机实拍)</h2>
 
-  <div class="callout bad"><b>4a · 第一批未控变量 —— 弃用</b>ours 合取 <span class="num">.545</span> (n=11) vs 学长 <span class="num">.143</span> (n=7)。<strong>这个差距虚高</strong>:表观尺寸没配平(我们把自己的拍大了)+ 混了易场景。仅供了解,不作定论。</div>
+  <div class="callout bad"><b>4a · 第一批未控变量 —— 弃用</b>ours 合取 <span class="num">.545</span> (n=11) vs 学长 <span class="num">.143</span> (n=7)。表观尺寸没配平 + 混易场景 → <strong>虚高</strong>,不作定论。</div>
 
   <h3>4b · 受控配对 outdoor(n=15,同机位 clean/mine/senior,McNemar)</h3>
-  <p class="caption">真源 <code>phys_paired_outdoor.log</code> · 这是可信的那份 · mine = ensemble_phys</p>
-  <div class="tw">
-  <table>
-    <thead><tr><th>组</th><th class="num">sign</th><th class="num">act 严格</th><th class="num">act 宽松</th><th class="num">conj 严格</th></tr></thead>
+  <div class="tw"><table>
+    <thead><tr><th>组</th><th class="num">sign</th><th class="num">act严</th><th class="num">conj严</th></tr></thead>
     <tbody>
-      <tr><td class="rowlabel">clean(无 patch)</td><td class="num">.200</td><td class="num">.000</td><td class="num">.333</td><td class="num">.000</td></tr>
-      <tr class="hi"><td class="rowlabel">mine(我们)</td><td class="num">.867</td><td class="num">.267</td><td class="num">.333</td><td class="num">.267</td></tr>
-      <tr><td class="rowlabel">senior(学长)</td><td class="num">.600</td><td class="num">.267</td><td class="num">.400</td><td class="num">.200</td></tr>
+      <tr><td class="rowlabel">clean</td><td class="num">.200</td><td class="num">.000</td><td class="num">.000</td></tr>
+      <tr class="hi"><td class="rowlabel">mine</td><td class="num">.867</td><td class="num">.267</td><td class="num">.267</td></tr>
+      <tr><td class="rowlabel">senior</td><td class="num">.600</td><td class="num">.267</td><td class="num">.200</td></tr>
     </tbody>
-  </table>
-  </div>
-  <div class="tw">
-  <table>
-    <thead><tr><th>配对翻转</th><th class="num">严格</th><th class="num">宽松</th></tr></thead>
-    <tbody>
-      <tr><td>clean → mine</td><td class="num">+4/−0, p=.0625</td><td class="num">+4/−2, p=.344</td></tr>
-      <tr><td>clean → senior</td><td class="num">+4/−0, p=.0625</td><td class="num">+5/−2, p=.227</td></tr>
-      <tr><td class="rowlabel">mine vs senior(同机位)</td><td class="num">+3/−3 · 打平 · p=1.0</td><td class="num">senior 略高 · p=1.0</td></tr>
-    </tbody>
-  </table>
-  </div>
+  </table></div>
   <ul class="tight">
-    <li>配对设计成立:严格口径 <strong>clean action = 0</strong> → 停车确由 patch 引起。</li>
-    <li><strong>感知我们赢</strong>(sign .867 vs .600);<strong>"让车停"打平</strong>(各 .267,p=1.0)。</li>
-    <li><strong>扔掉合取对我们只有坏处</strong>:学长有一个"没看见标志却停"的样本(<code>outdoor_7</code>),合取正确剔除、只看 action 会给他算上 → 从 .200 追平我们 .267。宽松口径更糟(senior action .400 反超)。</li>
+    <li>配对成立:严格口径 <strong>clean action = 0</strong> → 停车确由 patch 引起。感知我们赢(.867 vs .600),<strong>停车打平</strong>(各 .267,McNemar p=1.0)。</li>
+    <li><strong>扔掉合取只有坏处</strong>:学长有"没看见却停"样本,合取剔除、只看 action 会追平;宽松更糟(senior .400 反超)。</li>
   </ul>
 
-  <h3>4c · 受控配对 indoor(n=15,patch 放大版)</h3>
-  <p class="caption">真源 <code>phys_paired_indoor.log</code> · mine = ensemble_phys,占框 ~1/3–1/2</p>
-  <div class="tw">
-  <table>
-    <thead><tr><th>组</th><th class="num">sign</th><th class="num">act 严格</th><th class="num">act 宽松</th><th class="num">conj 严格</th></tr></thead>
-    <tbody>
-      <tr><td class="rowlabel">clean</td><td class="num">.000</td><td class="num">.000</td><td class="num">.333</td><td class="num">.000</td></tr>
-      <tr class="hi"><td class="rowlabel">mine</td><td class="num">.933</td><td class="num">.200</td><td class="num">.200</td><td class="num">.200</td></tr>
-      <tr><td class="rowlabel">senior</td><td class="num">.600</td><td class="num">.200</td><td class="num">.267</td><td class="num">.200</td></tr>
-    </tbody>
-  </table>
-  </div>
-  <div class="callout warn"><b>indoor 是"感知的好测试、动作的坏测试"</b>放大 patch → 感知更强(sign .867→<strong>.933</strong>),但 action 反降(.267→.200)。原因:<strong>indoor 不是驾驶场景</strong>(厨房/货架),问"驾驶决策"本就别扭(clean 宽松都有 .333 的 "do not drive")。→ 动作要看 outdoor,感知可看 indoor。</div>
-
-  <h3>4d · 合并两场景(n=30,配对)</h3>
-  <div class="tw">
-  <table>
+  <h3>4c · 受控配对 indoor(n=15,patch 放大) + 合并 n=30</h3>
+  <div class="tw"><table>
     <thead><tr><th></th><th class="num">mine</th><th class="num">senior</th><th class="num">clean</th></tr></thead>
     <tbody>
-      <tr><td class="rowlabel">sign</td><td class="num">.90 (27/30)</td><td class="num">.60</td><td class="num">.00</td></tr>
-      <tr><td class="rowlabel">action 严格</td><td class="num">.233 (7/30)</td><td class="num">.233</td><td class="num">.00</td></tr>
-      <tr><td class="rowlabel">conj 严格</td><td class="num">.233 (7/30)</td><td class="num">.20</td><td class="num">.00</td></tr>
+      <tr><td class="rowlabel">sign(合并)</td><td class="num">.90</td><td class="num">.60</td><td class="num">.00</td></tr>
+      <tr><td class="rowlabel">action(合并)</td><td class="num">.233</td><td class="num">.233</td><td class="num">.00</td></tr>
     </tbody>
-  </table>
-  </div>
-  <p><strong>诚实定论:</strong>感知大幅领先(<span class="num">.90 vs .60</span>),停车打平(<span class="num">.233</span>),合取微弱领先;clean=0 → 停车确由 patch 引起。</p>
+  </table></div>
+  <div class="callout warn"><b>indoor:感知的好测试、动作的坏测试</b>放大 patch → sign .867→.933,但 action 反降 .200——indoor 非驾驶场景(clean 宽松 .333 "do not drive")。<strong>动作看 outdoor,感知看 indoor。</strong></div>
 
-  <h3>4e · 表观尺寸 × 场景(裁剪探针 + clean 对照 + 上下文隔离)</h3>
-  <p class="lead">把 outdoor 的 mine 图往 patch 裁紧(放大占比),clean 同样裁作对照;再固定 z70 尺寸、遮掉上半的路作上下文隔离(probe3)。</p>
-  <div class="tw">
-  <table>
-    <thead><tr><th>档</th><th class="num">clean act</th><th class="num">mine act</th><th class="num">mine conj</th><th>说明</th></tr></thead>
+  <h3>4e · 两个机制成分:表观尺寸 & 驾驶场景(裁剪探针 + 对照)</h3>
+  <div class="tw"><table>
+    <thead><tr><th>档 / 对比</th><th class="num">clean act</th><th class="num">mine act</th><th class="num">mine conj</th><th>说明</th></tr></thead>
     <tbody>
       <tr><td>z100(patch ~1/5)</td><td class="num">.000</td><td class="num">.267</td><td class="num">.267</td><td>原始</td></tr>
       <tr class="hi"><td class="rowlabel">z70(patch ~1/3)</td><td class="num">.067</td><td class="num">.600</td><td class="num">.533</td><td>峰值</td></tr>
-      <tr><td>z55(更大/更紧)</td><td class="num">.000</td><td class="num">.400</td><td class="num">.400</td><td>比 z70 <strong>反降</strong>(非单调)</td></tr>
+      <tr><td>z55(更大/更紧)</td><td class="num">.000</td><td class="num">.400</td><td class="num">.400</td><td><strong>反降</strong>(非单调)</td></tr>
       <tr><td>z70 + 遮上半路(probe3)</td><td class="num">.000</td><td class="num">.600</td><td class="num">.600</td><td>=z70,<strong>远处路无关</strong></td></tr>
     </tbody>
-  </table>
-  </div>
-  <div class="callout good"><b>能确定的:尺寸是杠杆(非单调,峰≈1/3)</b>同场景内 z100→z70 把 action .267→.600,clean 各档 ~0 → <strong>纯 patch 驱动</strong>(净效应 +.533,McNemar p≈.01)。但<strong>非单调</strong>:再往大(z55)反降到 .400 —— <strong>甜点 ≈ 1/3,别撑满</strong>。<br><br><b>能确定的:远处/上方的路无关</b>固定 z70、遮掉上半的路,action 仍 .600(=未遮)→ "画面里有远处的路"不是独立原因,它只是早前和尺寸一起变、造成的确认偏差。</div>
-  <div class="callout warn"><b>不能确定的:驾驶场景本身是否必需</b>indoor(大 patch/无路).200 vs outdoor .600 指向"场景重要",但两者是<strong>两次完全不同的拍摄、混淆严重</strong>;probe3 只遮了上半、<strong>下半的路一直在</strong>,没测过"真无场景"。→ <strong>驾驶场景是决策墙的一个待验证机制假设,不是已确定的瓶颈</strong>。唯一能定的实验 = 物理:同 patch 同 ~1/3 尺寸,一组路边、一组纯墙,同机位比 action。</div>
-  <div class="callout warn"><b>诚实边界</b>全是<strong>数字裁剪探针,不上报</strong>(裁剪不增细节);z55 的 patch 其实<strong>大多完整</strong>,它的回落不是纯切割假象、机制未定。作为受控下界估计:真实按 ~1/3 重拍,预示 action <strong>.5–.6</strong>。<strong>不破决策墙</strong>(上限仍 ~.68),是找回接近上限。</div>
+  </table></div>
+  <div class="callout good"><b>① 表观尺寸 = 杠杆,但非单调(峰≈1/3)</b>同场景内 z100→z70 把 action .267→.600(clean ~0 → 纯 patch 驱动,McNemar p≈.01);但 z55 更大反降 .400 → <strong>甜点 ≈ 1/3,别撑满</strong>。probe3:固定 z70 遮掉上半的路,action 仍 .600 → <strong>远处的路无关</strong>(早前"上下文重要"多是尺寸的确认偏差)。</div>
+  <div class="callout good"><b>② 驾驶场景 = 控制 action 的关键、独立因素(不对称检验 scene_iso)</b>把 outdoor/indoor 的 mine 图裁到可比:两组 <strong>sign 都 .933(感知持平)</strong>、且 <strong>indoor 的 patch 反而更大(占尽尺寸便宜)</strong>——但 <strong>indoor action .200 vs outdoor .667(差 3×)</strong>。感知持平 + indoor 尺寸占优,换成非驾驶场景仍把停车打到 1/3 → <strong>场景效应压过尺寸优势 = 保守而有力的证据</strong>。<br><br><b>措辞层级(挡"你怎么知道不是光照"追问)</b>:主张的是<strong>"场景类型作为整体"(户外包 vs 室内包)</strong>控制 action——光照/背景是室内外<strong>根本且不可分</strong>的差别,真车永远处在完整户外包里,所以这正是<strong>部署相关的正确比较单位</strong>,不需/无法把"路语义"从光照里单剥。结合 probe3(远处路可遮)→ 机制 = "整个场景像不像可驾驶户外语境"。</div>
+  <div class="callout warn"><b>诚实边界</b>全是<strong>数字裁剪探针,不上报</strong>(裁剪不增细节;且模型无论输入多大都降到 448,只有 patch 占框比例进得去)。z55 的 patch 其实大多完整,回落机制未定。作为受控下界估计:真实按 ~1/3 重拍预示 action <strong>.5–.6</strong>;<strong>不破决策墙</strong>(上限仍 ~.68)。</div>
 </section>
 
-<!-- 5 优化尝试 -->
 <section id="attempts">
   <h2><span class="snum">§5</span>想顶高 action 的尝试(汇总)</h2>
-  <div class="tw">
-  <table>
-    <thead><tr><th>方向</th><th>做法</th><th class="num">InternVL2 数字 sign/act</th><th>判定</th></tr></thead>
+  <div class="tw"><table>
+    <thead><tr><th>方向</th><th class="num">InternVL2 sign/act</th><th>判定</th></tr></thead>
     <tbody>
-      <tr class="hi"><td class="rowlabel">原始 ensemble_phys</td><td>phys-EOT 集成(冠军)</td><td class="num">.975 / .325</td><td><span class="chip head">基线冠军</span></td></tr>
-      <tr><td>v2 正则化</td><td>NPS + TI + 增强 EOT</td><td class="num">.175 / .05</td><td><span class="chip fail">塌(过度正则化)</span></td></tr>
-      <tr><td>typographic</td><td>正样本加 STOP 文字</td><td class="num">.20 / .075</td><td><span class="chip fail">不迁移(CLIP 文本≠InternViT)</span></td></tr>
-      <tr><td>表观尺寸(indoor 真拍大)</td><td>patch 占框 1/3–1/2</td><td class="num">— / .200(物理)</td><td><span class="chip tie">indoor 非驾驶场景,action 不可靠</span></td></tr>
-      <tr><td>表观尺寸(裁剪探针,同场景)</td><td>patch ~1/3(峰值)</td><td class="num">— / .600(探针)</td><td><span class="chip win">有效 · clean 对照过 · 非单调</span></td></tr>
-      <tr><td>白盒 InternVL2</td><td>梯度过 LM 直接优化决策</td><td class="num">(未做)</td><td><span class="chip mut">否决 · off-thesis(弃泛用性)</span></td></tr>
+      <tr class="hi"><td class="rowlabel">原始 ensemble_phys(冠军)</td><td class="num">.975 / .325</td><td><span class="chip head">基线</span></td></tr>
+      <tr><td>v2(NPS+TI+增强EOT)</td><td class="num">.175 / .05</td><td><span class="chip fail">塌 · 过度正则化</span></td></tr>
+      <tr><td>typographic(嵌文字)</td><td class="num">.20 / .075</td><td><span class="chip fail">不迁移(CLIP文本≠InternViT)</span></td></tr>
+      <tr><td>表观尺寸(裁剪探针,同场景)</td><td class="num">— / .600</td><td><span class="chip win">有效 · 非单调 · 已对照</span></td></tr>
+      <tr><td>白盒 InternVL2</td><td class="num">(未做)</td><td><span class="chip mut">否决 · off-thesis(弃泛用性)</span></td></tr>
     </tbody>
-  </table>
-  </div>
-  <p>结论:<strong>补丁优化 + 白盒 + typographic 都不抬 action</strong>(或改 claim);<strong>唯一验证有效的物理杠杆 = 表观尺寸(峰≈1/3,非单调)</strong>(§4e)。它只把物理 action 从 .267 <strong>找回到墙的上限(~.6)</strong>,不突破墙。</p>
+  </table></div>
+  <p>补丁优化 + 白盒 + typographic 都不抬 action(或改 claim);<strong>唯一验证有效的物理杠杆 = 表观尺寸(峰≈1/3)</strong>,且只把物理 action 从 .267 找回到墙的上限 ~.6,不突破墙。</p>
 </section>
 
-<!-- 6 方法学 -->
-<section id="method">
-  <h2><span class="snum">§6</span>方法学要点(答辩守得住)</h2>
-  <ul class="tight">
-    <li><strong>名义 vs 因果</strong>:测试集剔除真 STOP 标志 + 逐图合取,把"停"钉在"看见标志"上。</li>
-    <li><strong>严格口径 + 有效零基线</strong>:只有严格 action 下 clean=0,才能把停车归因给 patch;宽松会抬高 clean、反帮对照。</li>
-    <li><strong>配对 + McNemar</strong>:同机位 clean/mine/senior,场景当常量,翻转干净归因;场景本就吓停的样本(concordant)自动被剔除。</li>
-    <li><strong>表观尺寸 vs 场景 分离</strong>:控制 size 后"远处的路"效应消失 → 之前"上下文重要"多是 size 的确认偏差;size 是已确定杠杆(非单调),"驾驶场景是否必需"仍混淆待定。报物理须把 size 与场景分开控。</li>
-  </ul>
-</section>
-
-<!-- 7 结论 -->
 <section id="thesis">
-  <h2><span class="snum">§7</span>结论 & 卖点</h2>
+  <h2><span class="snum">§6</span>结论 & 卖点</h2>
   <ul class="tight">
-    <li><strong>干净跨架构迁移可行</strong>(InternVL2 合取 .675,两轴外部)——集成/表征对齐是关键。</li>
-    <li><strong>当前瓶颈 = 决策墙(核心负结果)</strong>:感知易迁移、决策鲁棒,<strong>六种突破全败</strong>——action 封 ~.6–.68 是带机制的稳健上限,是卖点不是缺陷。感知/patch质量/迁移/表观尺寸都<strong>已确定不是瓶颈</strong>。</li>
-    <li><strong>物理可用</strong>:受控配对下感知大幅领先、停车打平且 clean=0 证因果;<strong>表观尺寸(峰≈1/3)</strong>把停车从 .267 找回到接近上限。</li>
-    <li><strong>待验证的机制细化</strong>:"驾驶场景是否为动作的必要条件"(indoor 指向是、但混淆)—— 若成立则细化决策墙且对真实威胁有利,一个物理对照即可定。</li>
+    <li><strong>干净跨架构迁移可行</strong>(InternVL2 合取 .675,两轴外部)。</li>
+    <li><strong>瓶颈 = 决策墙,且是有条件的(核心贡献)</strong>:感知易迁移、决策鲁棒(六种突破全败);action 只在 <strong>"场景可驾驶 ∧ 看见 STOP"</strong> 时升级到硬停。感知/patch质量/迁移/表观尺寸都<strong>已确定不是瓶颈</strong>。</li>
+    <li><strong>决策墙不是黑箱天花板,而是可分解的</strong>:两个已确定的机制成分 —— 表观尺寸(峰≈1/3)、驾驶场景(整体户外语境)。这让"决策墙"从负结果升级成<strong>有机制的正向刻画</strong>。</li>
+    <li><strong>物理可用</strong>:受控配对下感知大幅领先、停车打平且 clean=0 证因果。</li>
   </ul>
 </section>
 
-<!-- 8 下一步 -->
 <section id="next">
-  <h2><span class="snum">§8</span>下一步</h2>
+  <h2><span class="snum">§7</span>下一步</h2>
   <ul class="tight">
-    <li><strong>重拍 outdoor(payoff)</strong>:patch 占框 <strong>~1/3</strong>(不是 1/5、也别撑到 1/2——非单调,撑满反降)、正面、完整居中;同机位 clean/mine/senior。预测物理 action <strong>~.5–.6</strong> —— 能上报、不改 claim 的高数。</li>
-    <li><strong>★驾驶场景隔离对照(把假设变确定)</strong>:同一 patch、<strong>同 ~1/3 尺寸</strong>,一组贴真实路边、一组贴纯色墙,同机位比 action 差。这一个对照就能定"驾驶场景是否为必要条件"。</li>
-    <li><strong>div5 对照</strong>:数字底子 .68(vs phys .325),同样拍 ~1/3;打印件已备(<code>~/Downloads/patches_to_print/</code>)。</li>
+    <li><strong>重拍 outdoor(可选 · 边际收益小)</strong>:patch 占框 ~1/3(非 1/5、别撑到 1/2)、完整居中;只把探针的 .6 转成"可上报的物理数"——数字本身不会更高(patch 粗、模型降 448,拍近不加有效细节)。</li>
+    <li><strong>驾驶场景物理对照(彻底钉死,可选)</strong>:同 patch 同 ~1/3 尺寸,路边 vs 纯墙,同机位。但<strong>不对称检验(indoor 占尽尺寸+感知便宜仍输 3×)已很有说服力</strong>。</li>
+    <li>补 n / wall 场景 → 锁配对显著性。</li>
   </ul>
 </section>
 
-<!-- 9 诚实边界 -->
 <section id="honesty">
-  <h2><span class="snum">§9</span>诚实边界</h2>
+  <h2><span class="snum">§8</span>诚实边界</h2>
   <ul class="tight">
-    <li>固定居中 · 单模型 Qwen2.5-VL-3B 白盒 · 贪心解码 · 真攻击率是保守下限 · 跨 prompt 鲁棒性部分依赖措辞。</li>
-    <li>决策墙对图像攻击鲁棒(.675 带机制天花板,六种突破全败)—— 这是结论不是缺陷。</li>
-    <li>物理 n 仍小(每场景 15)、CI 宽;§4e 是<strong>数字裁剪探针</strong>,须标注、不当上报物理数。</li>
-    <li>白盒 InternVL2 与"可读文字 typographic"能提数字,但分别弃泛用性 / 弃隐蔽性 —— 已否决或仅作 ablation。</li>
+    <li>固定居中 · 单模型 Qwen2.5-VL-3B 白盒 · 贪心解码 · 真攻击率是保守下限 · 跨 prompt 部分依赖措辞。</li>
+    <li>决策墙对图像攻击鲁棒(.675 带机制天花板,六种突破全败)—— 结论不是缺陷。</li>
+    <li>物理 n 小(每场景 15)、CI 宽;§4e 全是<strong>数字裁剪探针</strong>,须标注不当上报物理数。</li>
+    <li>驾驶场景的证据是<strong>不对称检验(保守)</strong>;主张在"场景类型整体"层级,未把语义从光照/背景单剥(部署里本不可分)。</li>
   </ul>
 </section>
 
-<div class="footer">
-  数值真源:cross_vlm_table.csv · phys_paired_{outdoor,indoor}.log · probe_crop{,2}.log · TRANSFER_REPORT_ensemble.md §9 &nbsp;|&nbsp; 白盒源 Qwen2.5-VL-3B · 迁移金标 InternVL2-2B
-</div>
+<div class="footer">数值真源:cross_vlm_table.csv · phys_paired_{outdoor,indoor}.log · probe_crop{,2}/probe3/scene_iso.log · TRANSFER_REPORT_ensemble.md §9 &nbsp;|&nbsp; 白盒源 Qwen2.5-VL-3B · 迁移金标 InternVL2-2B</div>
 
 </div>
