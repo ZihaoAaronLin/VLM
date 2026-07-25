@@ -193,6 +193,7 @@
   <div class="callout good"><b>① 表观尺寸 = 杠杆,但非单调(峰≈1/3)</b>同场景内 z100→z70 把 action .267→.600(clean ~0 → 纯 patch 驱动,McNemar p≈.01);但 z55 更大反降 .400 → <strong>甜点 ≈ 1/3,别撑满</strong>。probe3:固定 z70 遮掉上半的路,action 仍 .600 → <strong>远处的路无关</strong>(早前"上下文重要"多是尺寸的确认偏差)。</div>
   <div class="callout good"><b>② 驾驶场景 = 控制 action 的关键、独立因素(不对称检验 scene_iso)</b>把 outdoor/indoor 的 mine 图裁到可比:两组 <strong>sign 都 .933(感知持平)</strong>、且 <strong>indoor 的 patch 反而更大(占尽尺寸便宜)</strong>——但 <strong>indoor action .200 vs outdoor .667(差 3×)</strong>。感知持平 + indoor 尺寸占优,换成非驾驶场景仍把停车打到 1/3 → <strong>场景效应压过尺寸优势 = 保守而有力的证据</strong>。<br><br><b>措辞层级(挡"你怎么知道不是光照"追问)</b>:主张的是<strong>"场景类型作为整体"(户外包 vs 室内包)</strong>控制 action——光照/背景是室内外<strong>根本且不可分</strong>的差别,真车永远处在完整户外包里,所以这正是<strong>部署相关的正确比较单位</strong>,不需/无法把"路语义"从光照里单剥。结合 probe3(远处路可遮)→ 机制 = "整个场景像不像可驾驶户外语境"。</div>
   <div class="callout warn"><b>诚实边界</b>全是<strong>数字裁剪探针,不上报</strong>(裁剪不增细节;且模型无论输入多大都降到 448,只有 patch 占框比例进得去)。z55 的 patch 其实大多完整,回落机制未定。作为受控下界估计:真实按 ~1/3 重拍预示 action <strong>.5–.6</strong>;<strong>不破决策墙</strong>(上限仍 ~.68)。</div>
+  <div class="callout good"><b>交叉验证(现有数据能验的都验完 · 全过)</b><strong>① 分类器</strong>:~44 条原始回答人工核 vs 分类器 = <strong>100% 一致</strong>(地基稳)。<strong>② clean 双场景对照</strong>:clean_outdoor / clean_indoor 同裁法 action 都 <strong>~0(.067)</strong> → 户外场景本身不停车、是<strong>门控 patch 效应</strong>,加固"驾驶场景是独立因素"。<strong>③ 尺寸曲线</strong>:sz100/85/70/60 = <strong>.267/.333/.600/.333</strong> → 倒 U、<strong>峰≈1/3 坐实</strong>。剩余洞(跨架构 n=1、物理功效、决策墙跨 VLM 普适)= 要新资源的 limitation。</div>
 </section>
 
 <section id="attempts">
