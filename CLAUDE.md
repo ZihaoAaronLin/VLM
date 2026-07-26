@@ -34,7 +34,8 @@ Repo: `github.com/ZihaoAaronLin/VLM` ｜ 工作分支: `cuda-repro`
 ## 白盒可微管线（核心工程贡献，不变）
 
 - **逐位复刻 Qwen 归一化 + patchify，`max|diff|=0`** → 梯度精确回传到补丁像素；冻结权重只训补丁；异常梯度清零+裁剪+固定种子。
-- 效果: 1 epoch → 40/40 STOP；感知 100% / 真攻击 ~72% in-sample、~63% held-out。
+- 效果: 1 epoch → 40/40 STOP；感知 100%。真攻击 **whitebox .725 / heldout(泛化) .625**。
+  > ⚠️ **命名坑（易误读）**: `.725`/`.625` 是**两块不同补丁**(`qwen_stop_patch.png` / `qwen_heldout_patch.png`),在 `eval_attr_full.py`→`attribution.csv` 里**都评在同一批 40 张留出 manifest 图上**(各 40 行)。**"in-sample" 只是补丁名、不是评测集**——**不是**"一块补丁 train vs test",也**不是**"在训练图上评"。同批比:whitebox `.725` > 泛化 `.625`(主补丁自己在留出图上就泛化更好,专训泛化补丁收益存疑)。
 - 脚本: `train_qwen_perception_patch.py` / `train_qwen_decision_patch.py` / `train_qwen_heldout.py`。
 
 ---
