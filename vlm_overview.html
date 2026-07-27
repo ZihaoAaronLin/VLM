@@ -115,7 +115,8 @@
 <section id="whitebox">
   <h2><span class="snum">§1</span>白盒源(Qwen2.5-VL-3B)</h2>
   <p class="lead">逐位复刻归一化 + patchify(<code>max|diff|=0</code>),梯度精确回补丁像素,冻结权重只训补丁。</p>
-  <div class="pill-row"><span class="chip win">感知 100%</span><span class="chip mut">真攻击 ~72% in-sample</span><span class="chip mut">~63% held-out</span></div>
+  <div class="pill-row"><span class="chip win">感知 100%</span><span class="chip mut">真攻击:白盒补丁 .725</span><span class="chip mut">泛化补丁 .625</span></div>
+  <div class="callout warn"><b>⚠️ 命名口径(与 README/CLAUDE 统一)</b>.725 / .625 是<strong>两块不同补丁</strong>(<code>qwen_stop_patch.png</code> / <code>qwen_heldout_patch.png</code>),归因评测里<strong>都评在同一批 40 张留出图上</strong>——旧标签 "in-sample" 指<strong>补丁身份,不是"在训练图上评"</strong>,别读成训练集内成绩。<br>另注:"whitebox/heldout" 在<strong>迁移 CSV</strong>(outputs_internvl2_*)里义完全不同——<code>whitebox_center</code>=集成攻击补丁、<code>heldout_center</code>=Qwen 单模型基线(即同一块 <code>qwen_stop_patch</code> 在那里当基线)。**词同义不同,勿混。**</div>
 </section>
 
 <section id="transfer">
