@@ -50,8 +50,8 @@
 > 专门训一块"泛化补丁"的收益存疑。（决策 STOP 率两者都 1.000；`.725/.625` 是归因后的因果率。）
 
 ## 三、跨 prompt 适用边界（硬-prompt 实验）
-逐 prompt 翻转数（40 张；目标 Qwen2.5-VL-3B；项目原版中文 prompt）：
-| Prompt                      | clean | in-sample        | held-out（泛化）        |
+逐 prompt 翻转数（40 张，**两列都评在 data/test 留出图上**；目标 Qwen2.5-VL-3B；项目原版中文 prompt）：
+| Prompt                      | clean | 白盒patch（主）  | 泛化patch（heldout）    |
 |-----------------------------|-------|------------------|-------------------------|
 | decision_stop_or_go（二选一）| 0/40  | 39/40            | 40/40                   |
 | decision_risk（信号/风险）   | 10/40 | 40/40            | 39/40                   |
@@ -61,6 +61,12 @@
 | 汇总 action_asr             | 0.10  | 1.00             | 1.00                    |
 | 汇总 risk_asr               | 0.25  | 1.00             | 0.975                   |
 | 汇总 sign_asr               | 0.025 | 1.00             | 0.225                   |
+
+> ⚠️ **同二节的命名坑**：这两列是**两块不同补丁**（`qwen_stop_patch.png` / `qwen_heldout_patch.png`），
+> `eval_qwen_multprompt_patch.py` **只吃 `qwen_eval_manifest.json` = data/test**，所以**两列都评在留出 40 张上**
+> （已核：所有 multprompt 结果 CSV 共 4832 行全是 `data/test`）。旧列名 "in-sample" 是**补丁身份、不是训练集内评测**。
+> 另注：**"whitebox/heldout" 在本项目有两套义**——此处（Qwen 文档）指"主补丁/泛化补丁"；而迁移评测 CSV 里
+> `whitebox_center`=集成攻击、`heldout_center`=Qwen 单模型基线，**词同义不同，勿混**。
 
 读法：
 - 决策层：两张白盒补丁在"未见图 + 多种 prompt 框架"下都稳（action_asr=1.0，各决策 prompt ≥85%）；
